@@ -1,0 +1,27 @@
+"level12.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/anthygo.mod"
+SKY 0.4,0.7,1.0
+TUX 20.0,0.0,0.0
+BLACKHOLE
+LIFE 20,-5.0
+#
+# The End!!
+#
+EXIT -23.0,0,9998
+#
+#
+#
+"jump_pad.ac"  10,0,2,0,0,0
+SHERRING 10,0
+"jump_pad.ac"   0,0,5,0,0,0
+LIFE 0,0
+"tumbling_jump_pad.ac"  0,10,8,0,0,0
+"jump_pad.ac"  0,20,11,0,0,0
+YHERRING 0,20
+"jump_pad.ac" -10,20,8,0,0,0
+LIFE -10,20
+"jump_pad.ac" -10,10,5,0,0,0
+YHERRING -10,10
+"jump_pad.ac" -10,0,2,0,0,0
+"sliding_jump_pad.ac" 0,0,1.5,0,0,0
+SHERRING -10,0

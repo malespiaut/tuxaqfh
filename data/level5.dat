@@ -1,0 +1,82 @@
+"level5_new.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/bach.mod"
+OCEAN
+SKY 0.4,0.7,1.0
+TUX 126,-24,-90.0
+WHALE 0,115,-1.0
+#
+# Don't move these two lines
+#
+YHERRING -22.0,-110.0
+YHERRING -16.0,126.0
+#
+# Race stuff.
+#
+"startline.ac" 124,-20
+"finishline.ac" -34,-100
+"showcase.ac" -22.0,-110.1
+RACE 60.0,2
+#
+"big_arrow.ac" 125,-3,316,0,0,0
+"big_arrow.ac" 118,109,297.9,0,0,0
+"big_arrow.ac" -112,195.9,0,180.0,0,0
+"big_arrow.ac" -80,-57.7,6.45,-130.0,0,0
+"big_arrow.ac" -51.4,-90,5.1,-100.0,0,0
+#
+"snowman.ac" 106.6,169.8
+"snowman.ac" 126.6,258.2
+"candycane.ac" 106.6,300.2
+"candycane.ac" -80.6,300.2
+"xmastree.ac" 106.6,160.2
+"xmastree.ac" 100.6,180.2
+"xmastree.ac" 117,176
+"xmastree.ac" 119,210
+"candycane.ac" 119,224
+"xmastree.ac" 84,302
+"xmastree.ac" 79,337
+"xmastree.ac" 63,387
+"xmastree.ac" 8,430
+"xmastree.ac" -33,408
+"candycane.ac" -55,378
+"xmastree.ac" -83,342
+#
+#"sproingpad.ac" -79,133.6
+#
+TELEPORTER 122.0,-94.0
+TELEPORTER -22.0,-120.0
+#
+EXIT 144.0,-136.0,9999
+#
+"electricfence.ac" 137,42,316.14,45,0,0
+"electricfence.ac" 129,34,316.14,45,0,0
+"electricfence.ac" 116,26,316.14,45,0,0
+"electricfence.ac" 108,18,316.14,45,0,0
+"wedgie.ac" 119.5,39,319.0,0,0,0
+#
+SHERRING 122.5,10.0
+SHERRING 122.5,20.0
+SHERRING 122.5,30.0
+GHERRING 122.5,40.0
+SHERRING 122.5,50.0
+#"jennifers_alien.ac" 119.5,70.0
+RHERRING 122.5,90.0,BOWTIE
+#
+"waterfall2.ac" -142,115,0,180,0,0
+#
+# Trees
+#
+"tree.ac" 126.0,10.0
+"tree.ac" 127.0,50.0
+"tree.ac" 145.0,70.0
+"tree.ac" 146.5,90.0
+#
+"tree.ac" 107.0,10.0
+"tree.ac" 108.0,50.0
+"tree.ac" 106.0,70.0
+"tree.ac" 105.5,90.0
+#
+"tree.ac" 100.0,145.0
+"tree.ac" 110.5,142.0
+"tree.ac" 120.0,143.0
+"tree.ac" 130.0,144.0
+"tree.ac" 140.5,141.0

@@ -1,0 +1,537 @@
+<TITLE>Tuxedo T. Penguin: A Quest for Herring.</TITLE>
+<TABLE>
+<TR>
+<TD>
+<br><FONT SIZE=+7><b>T</b></FONT SIZE><b>UXEDO</b>
+    <FONT SIZE=+7><b>T. P</b></FONT SIZE><b>ENGUIN:</b>
+    <FONT SIZE=+7><b>A</b></FONT SIZE><b></b>
+    <FONT SIZE=+7><b>Q</b></FONT SIZE><b>UEST FOR</b>
+    <FONT SIZE=+7><b>H</b></FONT SIZE><b>ERRING.</b>
+<br>
+<center>by Steve and Oliver Baker</center>
+<br>
+</TD>
+<TD>
+<IMG SRC="snap5tb.gif">
+</TD>
+</TABLE>
+<H1>A Guide To Writing New Levels for Tux.</H1>
+The steps involved in building a new level for the
+Tux game are rather involved, so let's take you through
+the steps one at a time:
+<H1>What's in a Level?</H1>
+There are the components that every level needs:
+<ul>
+<li>A text file in the <code>data</code> directory
+    named <code>level<b>N</b>.dat</code> where 'N'
+    is the number of the level.  Level Zero is reserved
+    for the "Training Level", Levels 1 through 7
+    are 'special' because they can be reached from
+    the 'anteroom' whilst levels 8 though 9997 can
+    only be reached via earlier levels. The 'levelN.dat'
+    file contains the names of all the other files that
+    make up the level.
+<li>A '.MOD' format music file for the sound track
+    for the level.
+<li>A file describing the geometry for the level. At
+    time of writing, this has to be in AC3D format.
+    Eventually, other formats will be possible.
+<li>One or more geometry files describing features that
+    are included in this level - and possibly shared with
+    other levels.
+<li>Some texture maps.
+<li>Files that are used to script the behaviour of other
+    creatures in the level.
+</ul>
+<H1>Coordinates.</H1>
+3D coordinate are in the same units throughout the
+game - with the scale set such that Tux is just under
+two units high.  You can think of this as one foot
+per unit if you imagine Tux to be about two feet high
+- which is probably about right for a Penguin.
+<p>
+I'm from a flight simulation background, so I think
+of X and Y being "East" and "North" respectively
+with Z being "Up".  However, some modellers (such
+as AC3D) treat Z as "North" and Y as "Up"...the
+AC3D loader switches them around for you, so treat
+Y as "up" when you are building things in AC3D.
+<H1>The <code>data/levelN.dat</code> file.</H1>
+Each level of the game is defined by a 'level' file.
+The level files are stored in the 'data' directory
+and are named 'levelN.dat' where 'N' is the level
+number.
+<p>
+The 'level' files are ASCII text with each line
+of text being a record.  Records that start with '#'
+are comments and will be ignored.
+<p>
+Some lines in the file will change the behaviour
+of the game, others will cause 3D objects to be
+loaded into the scene.
+<H2>Coordinates</H2>
+In many cases, the 'level' file only requires you
+to input an X and Y coordinate - in those cases,
+the Z coordinate (height) is determined from the
+highest point in the scenery loaded up to that point.
+<p>
+This makes it important to keep the lines in the
+level files in the right order. If you want a
+golden herring on top of a box, you must list
+the 3D model containing the box BEFORE the herring,
+and the herring will be placed on top of the box.
+<H2>Behaviour Records.</H2>
+<pre>
+
+  CAMERA &lt;pan&gt;,&lt;elevation&gt;,&lt;range&gt;,&lt;follow&gt;
+
+</pre>
+This sets the initial camera position relative to Tux.
+pan and elevation are in degrees, range is in the
+same units as the rest of the database with is in units
+that are about half the height of Tux. The 'follow'
+flag is '1' if the camera should initially follow Tux,
+'0' if it should not.
+<pre>
+
+  SKY &lt;red&gt;,&lt;green&gt;,&lt;blue&gt;
+
+</pre>
+Sets the sky colour (actually, the clear-screen colour) - each
+colour component is in the range 0..1.
+<pre>
+
+  OCEAN
+  ICE
+  LAVA
+  BLACKHOLE
+
+</pre>
+Puts in a layer of translucent water, ice or opaque lava at zero
+altitude throughout the scene. The BLACKHOLE setting puts a black
+surface 20 units below zero altitude - and arranges that Tux will die
+if he falls that far. You don't have to include any of those options,
+but then it'll be your responsability to ensure that there are no
+holes in the scenery through which Tux could fall. If you did that,
+Tux would continue to fall forever and the game would effectively
+be locked up.
+<pre>
+
+  MESSAGE &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;radius&gt;,&lt;line1&gt; &lt;line2&gt;
+
+</pre>
+This causes a message to pop up whenever you get within
+the specified radius of the specified coordinate. The
+altitude of the test point is set at the height of the
+terrain at the point. The text of the (two-line) message
+is set in line1 and line2. Replace spaces in the message
+with underscores.  eg:
+<code>MESSAGE  10,20,5,Tux_the_Penguin A_Quest_for_Herring</code>
+Messages have to be fairly short in order to fit into the
+limited space available on-screen. Since Tux uses a proportionally
+spaced font, it'll take some experimenting to see what the
+longest possible message is.
+<pre>
+
+  LIFE &lt;xcoord&gt;,&lt;ycoord&gt;
+
+</pre>
+Puts an extra 'life' for Tux at the specified coordinate at an
+altitude measured from the highest point on the terrain.
+<pre>
+
+  YHERRING &lt;xcoord&gt;,&lt;ycoord&gt;
+  GHERRING &lt;xcoord&gt;,&lt;ycoord&gt;
+  SHERRING &lt;xcoord&gt;,&lt;ycoord&gt;
+  RHERRING &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;type&gt;
+
+</pre>
+Places a yellow (Gold), green, silver or red herring at the specified
+coordinate. The 'type' field <b>could</b> be applied to any colour
+of herring - but conventionally is only applied to Red herrings.
+<p>
+Type is one of:
+<pre>
+
+  SUPERTUX -- Turn Tux into 'Super Tux'
+  ROCKET   -- Give Tux a rocket pack.
+  GUN      -- Give Tux a rocket pack with a laser gun.
+  PARTYHAT -- Give Tux a Party-Hat
+  BOWTIE   -- Give Tux a BowTie
+  SHADES   -- Give Tux a cool pair of shades.
+
+</pre>
+Other types will be added over time.  There must NEVER be more
+than two gold herring within a single level. I think there
+should probably never be just one either since the player will
+be expecting to find two and it would be unfair to force him to
+search for something he'll never find.
+<pre>
+
+  TELEPORTER &lt;xcoord&gt;,&lt;ycoord&gt;
+
+</pre>
+Places a teleporter at the specified coordinates.
+Each teleporter sends Tux to the next one in the
+level file - and the last one sends him back to
+the first.
+<pre>
+
+  WHALE &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;heading&gt;
+
+</pre>
+Places 'Freeware Willy' - the killer whale at the specified
+coordinate - just below zero height - pointing in the
+direction specified by 'heading'. This had better be in
+some nice deep water!
+<pre>
+
+  TUX &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;heading&gt;
+  TUX &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;zcoord&gt;,&lt;heading&gt;,&lt;pitch&gt;,&lt;roll&gt;
+
+</pre>
+Places Tux at the specified location - facing towards the
+specified heading.
+<pre>
+
+  RACE &lt;time_limit&gt;,&lt;prize_handle&gt;
+
+</pre>
+This is for 'race' levels. To win the race, you have to
+reach the finish line before 'time_limit' is reached. If
+you succeed then &lt;prize_handle&gt; is turned OFF (which removes
+the glass case around the gold-herring prize).
+<pre>
+
+  EXIT &lt;xcoord&gt;,&lt;ycoord&gt;,&lt;where&gt;
+
+</pre>
+Creates an exit building (models/folly.ac) at the specified
+location. 'where' is either the number of another level, or
+9999 to take you back to the start room. The 'magic' value
+-1 is reserved for the start room and has a very special
+meaning associated with that room.  The game ends if Tux hits
+an exit to a level that does not exist. Please use '9998'
+for that 'game over' level.
+<pre>
+
+  HEAT &lt;temp&gt;
+
+</pre>
+Sets the rate at which Tux heats up just by
+being in this level. Most levels will be zero
+(which is the default), the hottest level so
+far is set to 0.04 degrees C per frame.
+<pre>
+
+  SPACE_HELMET
+
+</pre>
+Tux appears wearing a space helmet.
+<pre>
+
+  NO_AIR
+
+</pre>
+Indicates that this level has no breathable
+atmosphere. (eg Underwater or Outerspace)
+<pre>
+
+  SQUISH_PAIN &lt;pain&gt;
+
+</pre>
+Sets the amount of pain Tux suffers when he is squashed
+flat. The default is three units. This is used to
+make Tux die when squished in the Frogger level.
+<pre>
+
+  MUSIC "mods/filename.mod"
+
+</pre>
+Selects the music to play during this level.
+If no music is selected then whatever music was
+playing before will continue to play. You can
+set the filename to the empty string "" and the
+music will be turned off for that level.
+<pre>
+
+  "filename" &lt;x&gt;,&lt;y&gt;,&lt;z&gt;,&lt;h&gt;,&lt;p&gt;,&lt;r&gt;
+  "filename" &lt;x&gt;,&lt;y&gt;,&lt;h&gt;
+  "filename" &lt;x&gt;,&lt;y&gt;
+
+</pre>
+Places the 3D object specified by 'filename' (which should be
+stored in the 'models' directory) at the specified position
+and optional orientation.
+<H2>Example 'levelN.dat' file:</H2>
+Here is the level file for the Lava level. I have added a bunch of
+extra comments to explain what each line does:
+<pre>
+
+# 'models/level3.ac' is the basic terrain for this
+# level - position it at (0,0,0) with no rotation:
+
+"level3.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+
+# Specify 'mods/theme.mod' as the music for this level.
+
+MUSIC "mods/theme.mod"
+
+# Throughout the level, there is lava at Z==0.
+
+LAVA
+
+# Whenever Tux isn't standing on some snow - or in a
+# refigerator or some nice cool water, he'll get hotter
+# by 0.04 degrees Centigrade per frame.
+
+HEAT 0.04
+
+# Reddish-brown sky.
+
+SKY 0.6,0.2,0.1
+
+# Tux starts at the origin facing North.
+
+TUX 0.0,0.0,0.0
+
+# The exit for this level is at -92,-225 and
+# when you exit, you'll go to level 9999 (which
+# is the 'anteroom'.
+
+EXIT -92.0,-225.0,9999
+
+# Place some refrigerators around the level.
+
+"refrigerator.ac" -4.5,1.0,7.8,90,0,0
+"refrigerator.ac" -33,21
+"refrigerator.ac" -79.3,70.0,33.6,90,0,0
+"refrigerator.ac" -13.0,-8.0,47.1,200,0,0
+
+# Set the initial position for some nasty
+# spikes.
+
+"spiky.ac" -45.6,70.0,25.0,0.0,0.0,0.0
+"spiky2.ac" -40.6,90.0,23.0,0.0,0.0,0.0
+
+# Position some electric fences.
+
+"electricfence.ac" 0.0,15.0
+"electricfence2.ac" -41.9,55.96,65.95,90,0,0
+"electricfence.ac" -56.2,10.0,81.8,120.0,0,0
+"electricfence.ac" -66.1,4.45,81.8,120.0,0,0
+"ringoflightning.ac" 0.5,55.0
+
+# ...and some lava-bombs.
+
+"lavaball.ac" -15.5,24.0,62.0,0,0,0
+"lavaball.ac" -16.5,26.0,73.0,0,0,0
+"lavaball.ac" -16.5,27.0,67.0,0,0,0
+
+# Herring
+
+# Silver
+SHERRING   0.0,20.0
+SHERRING   0.0,30.0
+SHERRING   0.0,40.5
+SHERRING   0.0,50.5
+SHERRING   0.0,60.5
+
+# Gold (Yellow)
+YHERRING  -90.0,67.0
+YHERRING  -76.8,14.6
+
+# Green
+GHERRING -18.0,68.1
+GHERRING -18.0,69.2
+GHERRING -18.0,70.3
+GHERRING -18.0,71.4
+GHERRING -18.0,72.5
+
+# Extra Lives for Tux to collect
+LIFE       0.0,65.0
+LIFE     -68.9,73.1
+LIFE     -34.5,21.0
+
+</pre>
+<H1>Model Files</H1>
+Model files will eventually be loadable from a variety of file formats -
+but right now, the only format I support is that of the 'AC3D' modeller.
+(Files have the '.ac' extension).
+<p>
+Since AC3D files are quite limited in what they can express, I have
+extended the file format by making use of comment fields.
+<p>
+Since it's quite useful to put real comments into a model, the game
+only recognises comments that start with an AT ('@') sign. eg:
+<pre>
+
+  @invisible
+
+</pre>
+Some objects have 'handle' numbers associated with them, these
+are also encoded into comment fields:
+<pre>
+
+  @123
+
+</pre>
+You can have both a handle number AND an at-comment:
+<pre>
+
+  @123@invisible
+
+</pre>
+Here are all the at-comments and what they do. In the description
+below, square brackets ('[]') are used to indicate optional
+syntax - don't type them into the comment field! Angle
+brackets ('&lt;&gt;') indicate a variable field...don't type the
+angle brackets either.
+<ul>
+<p>
+<li>AUTODCS's:<pre>
+    @autodcs [H=&lt;heading_rate&gt;][P=&lt;pitch_rate&gt;]
+             [R=&lt;roll_rate&gt;][X=&lt;x_rate&gt;]
+             [Y=&lt;y_rate&gt;][Z=&lt;z_rate&gt;]
+             [C=&lt;cycle&gt;] [O=&lt;phase&gt;]
+             [M=&lt;mode&gt;]
+</pre>
+This sets up an automatically moving object (A 'dynamic coordinate
+system' to use an obscure flight simulation term). It is useful for
+things that spin, move in a straight line, swing, etc. H,P,R,X,Y and Z
+set the rate at which the object moves (in degrees/units per frame).
+Any rates that are omitted will default to zero.
+<p>
+The 'cycle' term is the number of frames over which the animation
+will cycle before it is returned to the starting point (in some
+modes). If omitted, cycle defaults to zero - which causes the object
+to continue indefinitely without resetting. 'mode' is a number in the
+range 1 to 4 with the following meaning:
+<ul>
+<li>M=1 -- FORWARD: (The default) Add the specified rate terms to
+           the object's coordinates every frame.
+<li>M=2 -- CYCLE: Add the specified rate terms to the object's coordinates
+           every frame until 'cycle' frames have elapsed - then reset
+           to (0,0,0),(0,0,0). If 'cycle' is zero then this is the same
+           as M=1.
+<li>M=3 -- SHUTTLE: Same as M=2 except that the motion reverses after
+           'cycle/2' frames so the motion runs back and forth.
+<li>M=4 -- SINESHUTTLE: Same as M=3 except that the motion is
+           sinusoidal - like the motion of a pendulum for example.
+</ul>
+When you have several animations running with the same cycle time,
+you sometimes want them to run together in perfect sync - and in
+other cases, you want them to run out of sync. The 'phase' value
+(which defaults to zero) is added to the start frame number of the
+animation.
+<p>
+Example: For a pendulum swinging over 240 frames:
+<pre>
+  @autodcs p=0.25 c=240 m=4
+</pre>
+<p>
+<li>AUTOTEXtures:<pre>
+    @autotex [H=&lt;heading_rate&gt;][P=&lt;pitch_rate&gt;]
+             [R=&lt;roll_rate&gt;][X=&lt;x_rate&gt;]
+             [Y=&lt;y_rate&gt;][Z=&lt;z_rate&gt;]
+             [C=&lt;cycle&gt;] [O=&lt;phase&gt;]
+             [M=&lt;mode&gt;]
+</pre>
+This does exactly the same thing as autodcs - except that instead of
+the model itself moving, just the texture map moves. This is useful
+for rendering things like waterfalls, slowly moving lava flows,
+sparking or swirling effects.  The units of x_rate and y_rate are
+texture map repeats in the S and T directions.  z_rate is rather
+irrelevent (unless we ever get efficient 3D texture maps on affordable
+hardware).
+<p>
+<li>BILLBOARDs:<pre>
+    @billboard
+</pre>
+This causes the object to rotate to remain vertical - but turn to
+face the 'camera'. This can be used to make trees and other complex
+objects with approximate radial symmetry using just a single
+polygon and an appropriate texture map.
+<p>
+<li>INVISIBLE objects:<pre>
+    @invisible
+</pre>
+The object will never be drawn - but will be used for collision
+detection. This is most often used to create invisible walls to
+prevent Tux from falling off the edge of the 'world'.
+<p>
+<li>ANIMATE nodes:<pre>
+    @animate &lt;start&gt; &lt;end&gt; &lt;time&gt; &lt;mode&gt;
+</pre>
+In this case, the object should have a number of daughter objects.
+This command tells the renderer to render only one of those daughter
+objects at a time. The renderer starts with object number 'start',
+and ends with the object numbered 'end' - displaying each object
+for 'time' number of frames. 'mode' is a single character:
+<ul>
+<li> O -- ONESHOT: The object cycles from 'start' to 'end' and then
+          stops. The 'end' object is displayed continuously from
+          then on.
+<li> S -- SWING: The object runs from 'start' to 'end' and then
+          reverses and runs from 'end' back to 'start' again...forever.
+<li> C -- CYCLE: The object runs from 'start' to 'end' and then
+          jumps back to 'start' and does it all over again...forever.
+</ul>
+<p>
+<li>SWITCH nodes<pre>
+    @switchoff &lt;handle&gt;
+    @switchon  &lt;handle&gt;
+</pre>
+When Tux or Gown touches this object, it turns on or off another unrelated
+object. When it is off, it is neither drawn no collided with in future.  This
+is used to implement 'switch boxes' to turn on and off electric fences and
+such.  The handle number has to be encoded into a comment in the
+'target' object - as described above.
+<p>
+<li>SNOWBALL rechargers:<pre>
+    @snowballs
+</pre>
+If Tux of Gown bumps into this object, their supply of snowballs will
+be re-charged.
+<p>
+<li>SLAM-scripted objects:<pre>
+    @slamdcs "filename" [&lt;arg&gt;]...
+</pre>
+This is still a somewhat experimental feature - but one with great
+power for the level designer. The object containing this comment
+will be moved around according to the commands in a 'SLAM' script
+pointed to by the 'filename'. SLAM stands for Simple Language for
+Animating Models - and it's a very simple C subset. (VERY - VERY
+SIMPLE - No complaints about exactly how simple - OK?). The
+optional "command line" can contain up to sixteen numerical
+arguments that can be queried from within the SLAM-script. Check
+out the <A HREF="slam.html">SLAM manual</A> for further details.
+</ul>
+<H1>The Terrain</H1>
+In all the levels I have built, this is a single AC3D file that contains
+the basic "Terrain" for the level.  There isn't really a reason why it
+should all be in one big file like that - but I find it easier to
+manage that way.
+<p>
+For most of the levels, I built about a 10x10 polygon 'grid' using
+the AC3D grid tool, made it really big - at least a few hundred
+'units' across. Then I recoloured it white and textured it with
+an appropriate map - allowing a dozen or so map repeats across
+the grid. It's your call though - there are plenty of other ways
+to get started.
+<p>
+Now you can 'pull' the vertices of the grid around to make undulating
+terrain, sharp dropoffs, etc.
+<p>
+For some levels, it's necessary to delineate "the edge of the world"
+so that Tux won't fall off the edge - for others, an infinite sea
+of lava or a deadly drop is sufficient. On levels where I do need
+to make an artificial "edge", I build an invisible cube around the
+world (any shape would do) and mark it with an '@invisible' comment
+to prevent it being drawn yet still permit collision detection
+to function.
+<p>
+You can model features directly onto the terrain - or add them
+via the levelXX.dat file.  Make sure you place a 'folly' somewhere
+in the level - or you will be unable to leave it.
+

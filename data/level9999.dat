@@ -1,0 +1,48 @@
+"antechamber2.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+"pyramid.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+"flag.ac"    0.1,0.0,13
+"BSOD.ac" 50.0,50.0
+MUSIC "mods/bach.mod"
+SKY 0.0,0.0,0.0
+TUX 2.0,0.0,0.0
+SQUISH_PAIN 0
+#
+# Follies and signboards.
+#
+EXIT           100.0,   0.0,-1
+"signboard.ac"  75.0,   0.0, 90.0
+MESSAGE         75.0,   0.0,6.0,Level_0 Training
+EXIT            80.0,  80.0,-1
+"signboard.ac"  60.0,  60.0, 135.0
+MESSAGE         60.0,  60.0,6.0,Level_One A_Walk_in_the_Park
+EXIT             0.0, 100.0,-1
+"signboard.ac"   0.0,  75.0, 180.0
+MESSAGE          0.0,  75.0,6.0,Level_Two Penguin_Heaven
+EXIT           -80.0,  80.0,-1
+"signboard.ac" -60.0,  60.0, -135.0
+MESSAGE        -60.0,  60.0,6.0,Level_Three Penguin_Hell
+EXIT           -100.0,  0.0,-1
+"signboard.ac"  -75.0,  0.0, -90.0
+MESSAGE         -75.0,  0.0,6.0,Level_Four Tuxxer
+EXIT           -80.0, -80.0,-1
+"signboard.ac" -60.0, -60.0, -45.0
+MESSAGE        -60.0, -60.0,6.0,Level_Five Lets_Race!
+EXIT             0.0,-100.0,-1
+"signboard.ac"   0.0, -75.0, 0.0
+MESSAGE          0.0, -75.0,6.0,Level_Six Tuxedo_Kanivel
+EXIT            80.0, -80.0,-1
+"signboard.ac"  60.0, -60.0, 45.0
+MESSAGE         60.0, -60.0,6.0,Level_Seven Lo-Gee
+SHERRING  12.0, 12.0
+SHERRING  12.0,-12.0
+SHERRING -12.0,-12.0
+SHERRING -12.0, 12.0
+SHERRING  12.0,  0.0
+SHERRING -12.0,  0.0
+SHERRING   0.0, 12.0
+SHERRING   0.0,-12.0
+"starwing.ac" 5.0,3.0,1.0,0.0,0.0,0.0
+"starwing.ac" 6.0,3.0,1.0,0.0,0.0,0.0
+"starwing.ac" 7.0,3.0,1.0,0.0,0.0,0.0
+"starwing.ac" 8.0,3.0,1.0,0.0,0.0,0.0
+

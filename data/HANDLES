@@ -1,0 +1,11 @@
+
+Handle numbers used in various levels:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(Valid numbers are currently 1..100)
+
+ 1  : The electricity surrounding the
+      building on the moon level (moon_building.ac),
+      which is disabled using the switch box (switchbox.ac)
+ 2  : The glass box in the race level (showcase.ac) which
+      is disabled by winning the race.
+

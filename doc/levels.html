@@ -1,0 +1,211 @@
+<TITLE>The Level File Format.</TITLE>
+<H1>The Level File Format.</H1>
+
+Each level of the game is defined by a 'level' file.
+The level files are stored in the 'data' directory
+and are named 'levelN.dat' where 'N' is the level
+number.
+<p>
+Levels must be consecutively numbered without gaps
+starting at zero. Level zero is the 'training' level,
+so the game normally starts for real at level 1.
+<p>
+There is one special level file called "the_end.dat"
+that is loaded in place of any missing level and is
+supposed to be the end of the game.
+<p>
+The 'level' files are ASCII text with each line
+of text being a record.  Records that start with '#'
+are comments and will be ignored.
+<p>
+Some lines in the file will change the behaviour
+of the game, others will cause 3D objects to be
+loaded into the scene.
+<H2>Coordinates.</H2>
+Coordinates are in the same units as the models,
+which is nominally one meter per unit. That's
+only an abstract idea of a unit since this would
+make Tux be about the same size as a normal human
+(which is definitely on the large side for a Penguin).
+<p>
+In many cases, the 'level' file only requires you
+to input an X and Y coordinate - in those cases,
+the Z coordinate (height) is determined from the
+highest point in the scenery loaded by that point.
+<p>
+This makes it important to keep the lines in the
+level files in the right order. If you want a
+golden herring on top of a box, you must list
+the 3D model containing the box BEFORE the herring,
+and the herring will be placed on top of the box.
+<H2>Behaviour Records.</H2>
+<pre>
+
+  CAMERA <pan>,<elevation>,<range>,<follow>
+
+</pre>
+This sets the initial camera position relative to Tux.
+pan and elevation are in degrees, range is in the
+same units as the rest of the database with is in units
+that are about half the height of Tux. The 'follow'
+flag is '1' if the camera should follow Tux, '0' if
+it should not.
+<pre>
+
+  SKY <red>,<green>,<blue>
+
+</pre>
+Sets the sky colour - each colour component is in the range 0..1.
+<pre>
+
+  OCEAN
+  ICE
+  LAVA
+  BLACKHOLE
+
+</pre>
+Puts in a layer of water, ice or lava at zero altitude throughout the
+scene. The BLACKHOLE setting puts a black surface 20 units
+below zero altitude - and arranges that Tux will die
+if he falls that far.
+<pre>
+
+  MESSAGE <xcoord>,<ycoord>,<radius>,<line1> <line2>
+
+</pre>
+This causes a message to pop up whenever you get within
+the specified radius of the specified coordinate. The
+altitude of the test point is set at the height of the
+terrain at the point. The text of the (two-line) message
+is set in line1 and line2. Replace spaces in the message
+with underscores.  eg:
+<code>MESSAGE  10,20,5,Tux_the_Penguin A_Quest_for_Herring</code>
+Messages have to be fairly short in order to fit into the
+limited space available on-screen.
+<pre>
+
+  LIFE <xcoord>,<ycoord>
+
+</pre>
+Puts an extra 'life' for Tux at the specified coordinate at an
+altitude measured from the highest point on the terrain.
+<pre>
+
+  YHERRING <xcoord>,<ycoord>
+  GHERRING <xcoord>,<ycoord>
+  SHERRING <xcoord>,<ycoord>
+  RHERRING <xcoord>,<ycoord>,<type>
+
+</pre>
+Places a yellow (Gold), green, silver or red herring at the specified
+coordinate. The 'type' field <b>could</b> be applied to any colour
+of herring - but conventionally is only applied to Red herrings.
+<p>
+Type is one of:
+<pre>
+
+  SUPERTUX -- Turn Tux into 'Super Tux'
+  ROCKET   -- Give Tux a rocket pack.
+  GUN      -- Give Tux a rocket pack with a laser gun.
+  PARTYHAT -- Give Tux a Party-Hat
+  BOWTIE   -- Give Tux a BowTie
+  SHADES   -- Give Tux a cool pair of shades.
+
+</pre>
+Other types will be added over time.
+<pre>
+
+  TELEPORTER <xcoord>,<ycoord>
+
+</pre>
+Places a teleporter at the specified coordinates.
+Each teleporter sends Tux to the next one in the
+level file - and the last one sends him back to
+the first.
+<pre>
+
+  WHALE <xcoord>,<ycoord>,<heading>
+
+</pre>
+Places 'Freeware Willy' - the killer whale at the specified
+coordinate - just below zero height - pointing in the
+direction specified by 'heading'. This had better be in
+some nice deep water!
+<pre>
+
+  TUX <xcoord>,<ycoord>,<heading>
+  TUX <xcoord>,<ycoord>,<zcoord>,<heading>,<pitch>,<roll>
+
+</pre>
+Places Tux at the specified location - facing towards the
+specified heading.
+<pre>
+
+  RACE <time_limit>,<prize_handle>
+
+</pre>
+This is for 'race' levels. To win the race, you have to
+reach the finish line before 'time_limit' is reached. If
+you succeed then <prize_handle> is turned OFF (which removes
+the glass case around the gold-herring prize).
+<pre>
+
+  EXIT <xcoord>,<ycoord>,<where>
+
+</pre>
+Creates an exit building (models/folly.ac) at the specified
+location. 'where' is either the number of another level, or
+9999 to take you back to the start room. The 'magic' value
+-1 is reserved for the start room and has a very special
+meaning associated with that room.  The game ends if Tux hits
+an exit to a level that does not exist. Please use '9998'
+for that 'game over' level.
+<pre>
+
+  HEAT <temp>
+
+</pre>
+Sets the rate at which Tux heats up just by
+being in this level. Most levels will be zero
+(which is the default), the hottest level so
+far is set to 0.04 degrees C per frame.
+<pre>
+
+  SPACE_HELMET
+
+</pre>
+Tux appears wearing a space helmet.
+<pre>
+
+  NO_AIR
+
+</pre>
+Indicates that this level has no breathable
+atmosphere. (eg Underwater or Outerspace)
+<pre>
+
+  SQUISH_PAIN <pain>
+
+</pre>
+Sets the amount of pain Tux suffers when he is squashed
+flat. The default is three units. This is used to
+make Tux die when squished in the Frogger level.
+<pre>
+
+  MUSIC "mods/<filename>.mod"
+
+</pre>
+Selects the music to play during this level.
+If no music is selected then whatever music was
+playing before will continue to play.
+<pre>
+
+  "filename" <x>,<y>,<z>,<h>,<p>,<r>
+  "filename" <x>,<y>,<h>
+  "filename" <x>,<y>
+
+</pre>
+Places the 3D object specified by 'filename' (which should be
+placed into the 'models' directory) at the specified position
+and optional orientation.
+

@@ -1,0 +1,19 @@
+
+These files are the levels of the game.
+
+Level 0 is the training level.
+Level 1 is nothing special - the first level I built actually.
+Level 2 is the same as level 1 but in winter.
+Level 3 is the Volcano level - it's a 'real' level and it's quite
+           hard.
+Level 4 is a 'Frogger' clone.
+Level 5 is a race. Walk *though* the stripey start line to start
+           the clock. Follow the purple arrows and get across the
+           finish line as fast as possible.
+           The record is a shade under 50 seconds.
+Level 6 is something we put together after watching a stunt biker
+           jump from one rooftop to another.
+Level 7 is an outer space level. Low gravity, that kind of thing.
+
+The_End is where you go if you get past the highest numbered level.
+

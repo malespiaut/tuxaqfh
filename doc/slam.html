@@ -1,0 +1,234 @@
+<TITLE>Tux_AQFH : Animation Language.</TITLE>
+<H1>Tux_AQFH : The SLAM Animation Language.</H1>
+<center>by Steve Baker</center>
+
+<H1>Introduction.</H1>
+SLAM stands for Simple Language for Animating Models.
+<p>
+When you want a creature to move around in the world of Tux_AQFH,
+or perhaps construct a moving platform or a complicated trap, it's
+painful to have to add that code into the main Tux software.
+<p>
+Hence, there is a VERY simple interpretive language embedded
+in the game. SLAM programs look a lot like very simple C
+programs that run in parallel on 'virtual machines' - one
+per object being animated.
+<p>
+SLAM programs are compiled into a simple machine code for
+the SLAM virtual machine - which runs fairly efficiently.
+Please don't suggest I use PERL or PYTHON any of those other
+interpetive languages, they are all far slower than SLAM
+and/or don't offer the features I need.
+<H2>Attaching SLAM Programs to Models</H2>
+You can attach a SLAM program to a model by adding the
+following comment the node that you wish to have animated.
+<pre>
+
+    @slamdcs "&lt;filename.slam&gt;" &lt;arg0&gt; &lt;arg1&gt; &lt;arg2&gt; ...
+
+</pre>
+Arguments are passed to the SLAM program via the 'getarg' command
+(see below) and they must be simple floating point numbers.
+
+<H2>Statements</H2>
+The only statements in SLAM are:
+<pre>
+
+    pause ;
+
+    while ( &lt;condition&gt; )
+      &lt;statement&gt; ;
+
+    if ( &lt;condition&gt; )
+      &lt;statement&gt; ;
+
+    if ( &lt;condition&gt; )
+      &lt;statement&gt; ;
+    else
+      &lt;statement&gt; ;
+
+    &lt;variable&gt; = &lt;expression&gt; ;
+
+    &lt;function&gt; ( &lt;expression_list&gt; ) ;
+
+    { &lt;statement_list&gt; }
+
+</pre>
+There are no functions (except builtin ones), no 'for' or 'do-while'
+loops, no 'switch/case', no 'goto' and no comments. There are no '#'
+directives and no strings. Also no 'return' statement.
+<p>
+All of the statements that ARE implemented work just like they
+would in C - except for the special 'pause' statement - which
+is described below.
+
+<H2>Expressions</H2>
+Expressions follow the usual C rules, although only the
+following operators are supported:
+<pre>
+
+   +, -, *, /, (), &lt;, &gt;, &lt;=, &gt;=, ==, !=
+
+</pre>
+Notice that the relational expressions return 1.0 for TRUE and
+0.0 for FALSE. Operator precedence is as in C.
+
+<H2>Constants</H2>
+Constants are always treated as 'float' and are accepted in
+any form that the C++ 'atof' function can accept.
+
+<H2>Variables</H2>
+You can have up to 16 variables per program - but you can pick
+any variable name. Variables are all of type 'float' but you
+do not declare variables. There are no arrays or structures.
+
+<H2>Running</H2>
+Each frame of animation, the interpreter will run the SLAM
+program until it hits a 'pause' statement, at which point
+the program will freeze until next frame and then continue
+running until the next 'pause'.
+<p>
+Be careful not to get your SLAM programs stuck in infinite
+loops because the game WILL continue running the program
+until it either ends or hits a 'pause'.
+
+<H2>Builtin Functions</H2>
+The list of builtin functions (provided by the Tux game)
+is likely to change over time - here is the current list:
+
+<H3>Math functions: sin, cos, tan, atan2, sqrt </H3>
+Same as in C except that all angles are in degrees.
+
+<H3>I/O functions: print</H3>
+Prints a list of float's to stdout (presumably for debug).
+<pre>
+eg
+     print ( a, b, 1234.567 ) ;
+
+</pre>
+
+<H3>Motion: setpos, settrans</H3>
+Move the object to which this program is attached.
+<pre>
+eg
+    setpos   ( x, y, z ) ;
+    settrans ( x, y, z, h, p, r ) ;
+
+</pre>
+Most of the time, you'll want to make one setpos or
+settrans per frame - usually just before the 'pause' command.
+
+<H3>Command Arguments: getarg</H3>
+Gets the N'th command line argument.
+<pre>
+eg
+    start_position = getarg ( 2 ) ;
+
+</pre>
+Returns the third command line argument (they are numbered from
+zero).
+
+<H3>SLAM shared memory: getglobal/setglobal</H3>
+There are 1024 memory locations that are shared
+between SLAM programs. They are accessed via
+a pair of function calls:
+<pre>
+eg
+    setglobal ( 10, 123.456 ) ;
+    x = getglobal ( 10 ) ;
+
+</pre>
+(This would set 'x' equal to 123.456 via global number 10). Notice
+that you can call a setglobal in one SLAM program and a getglobal
+in another in order to pass information from one program to
+another.  This could be used to make two monsters coordinate
+their attacks on Tux.
+<p>
+It is not defined when changes to a global are seen by other
+programs - but it will never be before the next 'pause'
+statement. Also, all the setglobal and getglobal calls
+between a pair of 'pause' statements will always be
+'atomic'.
+
+<H2>Example Program.</H2>
+Place this comment in a model file:
+<pre>
+
+   @slamdcs "slamcode/square.slam" 100
+
+</pre>
+Then place this code into <code>"slamcode/square.slam"</code> in the
+main Tux_AQFH directory:
+<pre>
+
+x = 0 ; y = 0 ; z = 0 ;
+
+while ( 1 )
+{
+  while ( x <  getarg(0) ) { x = x+0.05 ; setpos (x,y,z) ; pause ; }
+  while ( y <  getarg(0) ) { y = y+0.05 ; setpos (x,y,z) ; pause ; }
+  while ( x > -getarg(0) ) { x = x-0.05 ; setpos (x,y,z) ; pause ; }
+  while ( y > -getarg(0) ) { y = y-0.05 ; setpos (x,y,z) ; pause ; }
+}
+
+</pre>
+This will make the model move around in a square pattern 100 units
+across at a speed of 0.05 units per 30th second.
+<H2>When SLAM programs get too complex.</H2>
+Most SLAM programs are quite long but execute very little code
+each frame. If your SLAM code starts to get too complex, it
+may be time to rewrite the guts of the code in C++ and making
+a new builtin function that can be called in a much simpler
+SLAM program.
+<p>
+To do this, you'll have to add your function to the table in
+src/hooks.cxx :
+<pre>
+
+  SLAM_Extension extensions[] =
+  {
+     ...
+
+     { "my_function", 3, my_function },
+
+     ...
+  } ;
+
+</pre>
+The first item in the entry is the name the function will have
+in SLAM programs, the second is the number of parameters it
+should have and the final entry is the address of the C++
+function that implements it.
+<p>
+In this case, SLAM programs will call your function as:
+<pre>
+
+   result = my_function ( a, b, c ) ;
+
+</pre>
+or simply:
+<pre>
+
+   my_function ( a, b, c ) ;
+
+</pre>
+...but C++ code for 'my_function' will look like this:
+<pre>
+
+   float my_function ( int argc, float *argv )
+   {
+     float a = argv [ 0 ] ;
+     float b = argv [ 1 ] ;
+     float c = argv [ 2 ] ;
+      ...
+     return result ;
+   }
+
+</pre>
+If the number of arguments in the SLAM_Extension array is
+-1 then SLAM will not check the number of arguments and
+your own code can accept an arbitary number of arguments.
+<p>
+All builtins return a result - which the SLAM program is
+at liberty to ignore or incorporate into an expression.
+

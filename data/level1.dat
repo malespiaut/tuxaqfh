@@ -1,0 +1,76 @@
+"level1.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/007.mod"
+OCEAN
+SKY 0.4,0.7,1.0
+TUX 116.6,224.0,0.0
+#
+# Trees
+#
+"tree.ac" 5.0,100.0
+"tree.ac" 114.0,224.0
+"tree.ac" 15.0,60.0
+"tree.ac" 225.0,162.0
+"tree.ac" 35.0,207.0
+"tree.ac" 49.0,139.0
+"tree.ac" 355.0,51.0
+"tree.ac" 60.0,90.0
+"tree.ac" 70.0,210.0
+"tree.ac" 70.0,163.0
+"tree.ac" 155.0,194.0
+"tree.ac" 160.0,93.0
+#
+# Herring
+# Y==Yellow (ie Gold)
+# R==Red
+# S==Silver
+# G==Green
+#
+# Herring effects suffixes are:
+#   ROCKET,GUN,SUPERTUX,PARTYHAT,BOWTIE,SHADES
+#
+SHERRING 45.0,50.0
+SHERRING 50.0,45.0
+SHERRING 55.0,50.0
+SHERRING 50.0,55.0
+#
+YHERRING 210.0,150.0
+YHERRING 46.0,283.0
+#
+RHERRING 290.0,250.0,ROCKET
+RHERRING 400.0,100.0,GUN
+RHERRING 300.0,410.0,SUPERTUX
+RHERRING  50.0,100.0,PARTYHAT
+RHERRING  55.0,100.0,BOWTIE
+RHERRING  65.0,100.0,SHADES
+#
+GHERRING 85.0,85.0
+SHERRING 170.0,120.0
+SHERRING 110.0,130.0
+SHERRING 130.0,140.0
+SHERRING 140.0,160.0
+SHERRING 150.0,110.0
+SHERRING 120.0,190.0
+#
+GHERRING 375.0,85.0
+SHERRING 470.0,20.0
+SHERRING 410.0,130.0
+SHERRING 430.0,40.0
+SHERRING 440.0,160.0
+SHERRING 490.0,210.0
+SHERRING 420.0,90.0
+#
+TELEPORTER 50.0,50.0
+TELEPORTER 339.0,128.0
+TELEPORTER 425.0,400.0
+#
+WHALE 250.0,100.0,44.0
+#"maze.ac" 368.0,117.0
+EXIT 450.0,400.0,9999
+#"dog3.ac" 410.0,400.0
+#"steps.ac" 85.0,224.0
+"diving_ring.ac" 75.0,310.0,-11.0,0.0,0.0,90.0
+"diving_ring.ac" 83.0,300.0,-16.0,-90.0,0.0,0.0
+"diving_ring.ac" 83.0,310.0,-6.0,0.0,0.0,45.0
+"spinning_diving_ring.ac" 75.0,340.0,-18.0,12.5,45.0,78.0
+#"tuxcopter.ac" 135.0,235.0,13.5,0.0,0.0,0.0
+"swinging_platform.ac" 100.0,250.0,8.0,0.0,0.0,0.0

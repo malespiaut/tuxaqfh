@@ -1,0 +1,50 @@
+"level3.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/theme.mod"
+LAVA
+HEAT 0.04
+SKY 0.6,0.2,0.1
+TUX 0.0,0.0,0.0
+EXIT -92.0,-225.0,9999
+"refrigerator.ac" -4.5,1.0,7.8,90,0,0
+"refrigerator.ac" -33,21
+"spiky.ac" -45.6,70.0,25.0,0.0,0.0,0.0
+"spiky2.ac" -40.6,90.0,23.0,0.0,0.0,0.0
+"refrigerator.ac" -79.3,70.0,33.6,90,0,0
+"electricfence.ac" 0.0,15.0
+"electricfence2.ac" -41.9,55.96,65.95,90,0,0
+"ringoflightning.ac" 0.5,55.0
+"electricfence.ac" -56.2,10.0,81.8,120.0,0,0
+"electricfence.ac" -66.1,4.45,81.8,120.0,0,0
+"refrigerator.ac" -13.0,-8.0,47.1,200,0,0
+"lavaball.ac" -15.5,24.0,62.0,0,0,0
+"lavaball.ac" -16.5,26.0,73.0,0,0,0
+"lavaball.ac" -16.5,27.0,67.0,0,0,0
+#
+# Herring
+# Y==Yellow (ie Gold)
+# R==Red
+# S==Silver
+# G==Green
+#
+# Herring effects suffixes are:
+#   ROCKET,GUN,SUPERTUX,PARTYHAT,BOWTIE,SHADES
+#
+SHERRING   0.0,20.0
+SHERRING   0.0,30.0
+SHERRING   0.0,40.5
+SHERRING   0.0,50.5
+SHERRING   0.0,60.5
+#
+YHERRING  -90.0,67.0
+YHERRING  -76.8,14.6
+#
+LIFE       0.0,65.0
+LIFE     -68.9,73.1
+LIFE     -34.5,21.0
+#
+GHERRING -18.0,68.1
+GHERRING -18.0,69.2
+GHERRING -18.0,70.3
+GHERRING -18.0,71.4
+GHERRING -18.0,72.5
+

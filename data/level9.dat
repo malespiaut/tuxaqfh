@@ -1,0 +1,25 @@
+"planetscape.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+"moonscape.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC ""
+SKY 0,0,0
+TUX 134.0,174.0,400.0,-23.0,0.0,0.0
+NO_AIR
+SPACE_HELMET
+EXIT -95.5,-23.8,8
+"door.ac"  -95.50,0.0,21.86,0,0,0
+"door.ac"  -99.51,0.0,21.86,45,0,0
+"wall.ac"  -95.50,0.0,21.86,0,0,0
+"oxy_sponge.ac" 150.0,172.0
+"oxy_sponge.ac" 155.0,170.0
+"flying_saucer.ac" 62.0,100.0,30,0,0,0
+"venus_penguin_trap.ac" 100.0,100.0
+"oxy_sponge.ac" 120.0,120.0
+#
+# Moon building and assorted stuff.
+#
+"moon_building.ac" -95.5,100.8
+"switchoffbox.ac" 150.0,-23.0
+"switchonbox.ac" -80.0,80.0
+YHERRING -95.5,100.8,37.0
+"oxy_sponge.ac" -95.5,100.8,28.3,0,0,0
+

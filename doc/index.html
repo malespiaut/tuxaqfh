@@ -1,0 +1,265 @@
+<TITLE>Tuxedo T. Penguin: A Quest for Herring.</TITLE>
+<BODY BACKGROUND="Penguin.png">
+<br><FONT SIZE=+7><b>T</b></FONT SIZE><b>UXEDO</b>
+    <FONT SIZE=+7><b>T. P</b></FONT SIZE><b>ENGUIN:</b>
+    <FONT SIZE=+7><b>A</b></FONT SIZE><b></b>
+    <FONT SIZE=+7><b>Q</b></FONT SIZE><b>UEST FOR</b>
+    <FONT SIZE=+7><b>H</b></FONT SIZE><b>ERRING.</b>
+<br>
+<center>by Steve and Oliver Baker</center>
+<br>
+<H1>Introduction.</H1>
+Here is an early release of my OpenSource game
+starring your Favorite Hero: Tux, the Linux Penguin.
+<ul>
+Ob.thanks go to Larry Ewing who painted the original (2D) Tux
+image as the Linux Mascot. If you are curious, I have
+put together <A HREF="doc/index.html">a short history of Tux.</A>
+</ul>
+It's taken about a year of hacking in odd evenings to get this far,
+and quite a lot of stuff works. Tux's virtual world "works" - he
+can walk, swim, fly, ride platforms, teleport, eat herring, throw
+snowballs and so on. We are lacking the puzzles and things that
+turn it into an enjoyable game - but I don't think those will
+be hard to add.  So, before you download, note that this is not
+yet a finished game.
+<p>
+I'm always looking for collaborators - Artists, Programmers, Musicians,
+Level Designers.
+<p>
+<hr>
+<p>
+<H2>The Story.</H2>
+Once upon a time, the world was full of herring and it was a happy time
+for Penguins everywhere.
+<p>
+But one dark, stormy night, the Killer Whales and the Leopard Seals
+(both long-time enemies of the peace-loving Penguins) decided to join
+forces and hide all the herring in places far from where Penguins live.
+<p>
+Soon, Penguins everywhere were starving and a great cry went up
+for a hero to come forward and find the hidden herring. But who
+could stand up against the Whales and the Seals?  Penguins are not
+known for their adventurous nature after all.
+<p>
+Very soon, news of the missing Herring appeared on Slashdot and our
+heroes Tux and Gown immediately set out for the South Pole, leaving
+their duties as Linux mascots to help out their wild cousins.
+<p>
+<TABLE>
+  <TR>
+    <TD>
+      <A HREF="http://www.woodsoup.org/~sbaker/tux/snap5.png">
+	<center>
+	  <IMG SRC="snap5tb.png">
+	  <br>
+	      Our Hero!
+	  <br>
+	</center>
+      </A>
+    </TD>
+    <TD>
+      <A HREF="http://www.woodsoup.org/~sbaker/tux/snap3.png">
+        <center>
+          <IMG SRC="snap3tb.png">
+          <br>
+            The South Pole.
+        </center>
+      </A>
+    </TD>
+  </TR>
+</TABLE>
+<p>
+Fortunately, help was at hand.  OpenSource hackers worked day and night
+to create teleportation devices to whisk Tux and Gown to the places where
+the herring had been hidden.  These teleporters are powered by the rare
+and valuable Golden Herring which our heroes must find to progress in
+their quest.
+<p>
+This angered the Seals and the Whales who thought their plan would
+be foolproof and Penguins everywhere would go the way of the Dodo.
+They divised a second devious plan and as our starstruck young birds
+travelled to the South Pole, one of them was captured by marauding
+mammals.
+<p>
+Can our remaining heroic Penguin find the missing Herring?  Will our
+feathered friends be reunited in the final reel?  Their fate is in
+your hands.
+<TABLE>
+<TR>
+  <TD>
+      <A HREF="http://www.woodsoup.org/~sbaker/tux/snap6.png">
+	<center>
+	  <IMG SRC="snap6tb.png">
+	  <br>
+            Penguin Training Camp.
+	  <br>
+	</center>
+      </A>
+  </TD>
+  <TD>
+    <A HREF="http://www.woodsoup.org/~sbaker/tux/snap2.png">
+      <center>
+        <IMG SRC="snap2tb.png">
+        <br>
+          The Tuxocopter. 
+        <br>
+      </center>
+    </A>
+  </TD>
+</TR>
+<TR>
+  <TD>
+    <A HREF="http://www.woodsoup.org/~sbaker/tux/snap4.png">
+      <center>
+        <IMG SRC="snap4tb.png">
+        <br>
+          *NOT* good for Penguins
+        <br>
+      </center>
+    </A>
+  </TD>
+  <TD>
+   ...
+  </TD>
+</TR>
+</TABLE>
+<p>
+<hr>
+<p>
+<H2>Downloading and Installation.</H2>
+You can download an executable showing the current state of progress
+- for now, you'll need EITHER:
+<ul>
+ <li>A Pentium-based Linux box with a Mesa-supported 3D card...OR...
+ <li>A Pentium-based Windoze box with a 3D card that runs OpenGL...OR...
+ <li>You might well have success with other hardware-based OpenGL
+     implementations on MacOS or UNIX/Linux/Solaris/BSD.
+<p>
+...AND...
+<p>
+ <li>You really need a joystick with six or more buttons.
+     A basic two button stick works quite well - and even
+     just a mouse will work at a pinch...but a six button
+     gamepad is what I'm designing for.
+ <li>You ideally want a sound card - the game has
+     sound effects and can play background music.
+</ul>
+So far, there are only good build instructions for Linux - on
+anything else, you are in uncharted terratory.
+<p>
+Your machine has to have:
+<ul>
+<li> Mesa 3.0 or OpenGL 1.1 or later : It has to be a full OpenGL,
+     with hardware accelleration. Don't even try to run with a
+     'MiniGL' or 'QuakeGL' or with a software-only implementation.
+     Don't use a beta version of Mesa - I only test against the
+     most recent stable version.
+<li> GLUT 3.7 or later : You probably got a copy of GLUT (The
+     OpenGL Utility Toolkit) with Mesa or whatever OpenGL you
+     installed. If you didn't then you can get it from
+     <A HREF="http://www.opengl.org">www.opengl.org</A>.
+<li> PLIB : This is my portable games library. You can find that
+     <A HREF="../plib">here</A>. Compile and install it.
+     Run the SL, JS, FNT, PUI and SSG example programs to be
+     sure that all is well.
+<li> TUX : Yep - it's time to grab the game itself.
+     This is a large file, so beware.
+     <p>
+       <A HREF="dist/tux_aqfh-1.0.10.tar.gz">
+         Tux the Penguin: A Quest for Herring V1.0.10
+       </A>
+     <p>
+         WARNING: You need PLIB v1.1.11 or later for
+         this release of Tux_AQFH.
+     <p>
+     Gunzip/untar it and read the README file
+     ...and while you wait for the multi-megabyte tarball
+     to download, you could fetch the most excellent
+     <a href="http://www.ards.net/Andreas/gltron.html">
+     glTron game</a> and have some fun with it!
+</ul>
+When you actually come to RUN Tux,
+check <A HREF="running.html">this document.</A>
+<p>
+<hr>
+<p>
+<H2>Goals</H2>
+I want to end up with a game that's similar to some of the
+console games like Mario'64, Banjo-Kazooie, Gex or Spiro the
+dragon. I'd like more emphasis on search-and-explore and puzzle
+solving and less on violence and mass killing. Graphical quality
+is less important than game-play and fun.
+<p>
+I'd particularly like to end up with a setup where individuals
+can design levels and contribute them to the game so that we
+all wind up with endless numbers of new levels to play and
+enjoy.
+<p>
+I'd also like people to take the game engine and use it to
+build entirely new OpenSource games.
+<H2>Caveats.</H2>
+This is a beta release and before you start downloading everything,
+you should be aware of the current state of development. This is
+not yet a finished game - although it is 'playable'.
+<ul>
+<li> At present, there is a simple training level and a short
+     but hard/complex level. There is a timed 'race' level.
+     All the other levels are
+     partly complete or just put there to test aspects of the game
+     engine.
+<li> Non-player characters. Currently there is a killer whale. That's
+     it so far.
+<li> Puzzles. There are no puzzles yet - although many of the
+     mechanisms to BUILD puzzles ARE there.
+<li> Scoring...Kindof...Game Save...Kindof.
+<li> The game has now been tested on most 3dfx systems, NVIDIA
+     cards and the Matrox G200 running a variety of Linux and BSD
+     versions on a variety of CPU's. There seem to be some
+     problems with Alpha CPU's.  A mostly-working MacOS version
+     has been created and the Windoze version is reasonably
+     stable. Tux also runs on SGI hardware under IRIX.
+</ul>
+<H2>Mailing Lists</H2>
+Please do not send me personal mail in situations when one of
+the public mailing lists would be an appropriate forum - I hate
+it when people do that.
+<p>
+There are three TUX_AQFH mailing lists:
+<ul>
+<li>A very low traffic, read-only list where I'll announce new versions
+of tux_aqfh:
+&lt;tux_aqfh-announce@woodsoup.org&gt;
+<li>A list for tux_aqfh users - this would be the correct place
+to ask questions, report bugs and generally hang out with
+fellow sufferers:
+&lt;tux_aqfh-users@woodsoup.org&gt;
+<li>A list for people who wish to contribute to the development
+of tux_aqfh - this list will have a high technical content and we'll
+try to keep discussions there focussed and on-topic:
+&lt;tux_aqfh-devel@woodsoup.org&gt;
+</ul>
+To subscribe to any of these lists, send email to
+<A HREF="mailto:majordomo@woodsoup.org">
+majordomo@woodsoup.org</A> with the BODY of the message (NOT the
+subject line) containing:
+<pre>
+  subscribe tux_aqfh-{whatever}@woodsoup.org {your-email-address}
+  end
+</pre>
+Where {whatever} is announce, devel or users and {your-email-address}
+is something like joe@joes_diner.com (don't type the {}'s )!
+<p>
+If you wish to sign up to multiple lists, you can put multiple
+'subscribe' lines in the same email and finish it with just one 'end'
+command. Shortly after you email is delivered, you should get an
+automatic reply email asking you to confirm your request. Just do
+what it says and you'll be in touch.
+<hr>
+Steve Baker
+<br>
+<A HREF="mailto:sjbaker1@airmail.net">&lt;sjbaker1@airmail.net&gt;</A>
+<br>
+<A HREF="http://web2.airmail.net/sjbaker1">
+http://web2.airmail.net/sjbaker1</A>
+

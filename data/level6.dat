@@ -1,0 +1,46 @@
+"level6g.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/mfarmer.mod"
+SKY 1,0,1
+#TUX -10.0,-28.0,90.0
+TELEPORTER -100,-28
+"level6_skydome.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+#
+"towerblock2.ac" -200,300,0,45,0,0
+"towerblock2.ac" -100,300,0,17,0,0
+"towerblock.ac" 0,300,0,23,0,0
+"truck_jump.ac" 10,310
+TUX 10.0,310.0,90.0
+"towerblock2.ac" 100,300,0,-34,0,0
+"towerblock.ac" 200,300,0,-24,0,0
+#
+"towerblock.ac" -200,-300,0,45,0,0
+"towerblock2.ac" -100,-300,0,17,0,0
+"towerblock2.ac" 0,-300,0,23,0,0
+"towerblock2.ac" 100,-300,0,-34,0,0
+"towerblock.ac" 200,-300,0,-24,0,0
+#
+"towerblock.ac" 300,-200,0,45,0,0
+"towerblock2.ac" 300,-100,0,17,0,0
+"towerblock.ac" 300,0,0,23,0,0
+"towerblock2.ac" 300,100,0,-34,0,0
+"towerblock.ac" 300,200,0,-24,0,0
+#
+"towerblock2.ac" -300,-200,0,45,0,0
+"towerblock2.ac" -300,-100,0,17,0,0
+"towerblock.ac" -300,0,0,23,0,0
+"towerblock2.ac" -300,100,0,-34,0,0
+"towerblock2.ac" -300,200,0,-24,0,0
+#
+"towerblock.ac" 0,60
+EXIT 10,90,9999
+"towerblock.ac" 0,-100
+"skijump.ac" 0,-42.5
+"big_arrow.ac" 0,-160
+"venus_penguin_trap.ac" -95,-28
+"venus_penguin_trap.ac" -100,-24
+"venus_penguin_trap.ac" -108,-28
+"venus_penguin_trap.ac" -99,-32
+TELEPORTER 20,-160
+YHERRING 0,-155
+YHERRING 2,-155
+

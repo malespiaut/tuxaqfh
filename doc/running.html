@@ -1,0 +1,246 @@
+<TITLE>Tuxedo T. Penguin: A Quest for Herring.</TITLE>
+<BODY BACKGROUND="Penguin.gif">
+<br><FONT SIZE=+7><b>T</b></FONT SIZE><b>UXEDO</b>
+    <FONT SIZE=+7><b>T. P</b></FONT SIZE><b>ENGUIN:</b>
+    <FONT SIZE=+7><b>A</b></FONT SIZE><b></b>
+    <FONT SIZE=+7><b>Q</b></FONT SIZE><b>UEST FOR</b>
+    <FONT SIZE=+7><b>H</b></FONT SIZE><b>ERRING.</b>
+<br>
+<center>by Steve and Oliver Baker</center>
+<br>
+<T1>Prerequisites.</T1>
+For this initial beta release, you'll need the following hardware:
+<ul>
+<li>Pentium 266MHz or better for great performance, 100MHz
+might be bearable.
+<li>3D graphics card with OpenGL/Mesa support.
+<li>32Mb RAM for reasonable performance.
+<li>A sound card that Linux can support.
+<li>A joystick (even a cheap one will do just fine - but
+a 'game pad' with lots of buttons is best).
+</ul>
+The following software needs to be correctly installed:
+<ul>
+<li>GLIDE (for 3Dfx cards) - skip this if you
+    have a non-3Dfx 3D card.
+<li>Mesa - or some other hardware-accellerated OpenGL.
+    Don't expect a beta release of Mesa to work - pick
+    the latest full release. (Mesa 3.1 beta is known
+    not to work for example).
+<li>For Linux users: The standard Linux Joystick driver.
+<li>For Linux users: The standard Linux Audio driver.
+<li>The PLIB libraries from my web site at
+    <A HREF="http://www.woodsoup.org/~sbaker/plib">
+    http://www.woodsoup.org/~sbaker/plib</A>
+</ul>
+If you wish to develop more levels, or to improve the existing
+levels, you'll need a paint program (eg GIMP) and some kind of
+3D modeller. I currently use AC3D - which is a $40 shareware
+package.
+<T1>Playing Tux.</T1>
+If you have a 3Dfx card, then
+as usual with 3D games under Linux, you need to set
+some environment variables:
+<pre>
+
+   setenv MESA_GLX_FX           "fullscreen"
+   setenv FX_GLIDE_SWAPINTERVAL       1
+
+   setenv SST_GAMMA                   1.4
+   setenv SST_SCREENREFRESH           60
+   setenv SST_SWAP_EN_WAIT_IN_VSYNC   1
+
+   setenv SSTV2_GAMMA                 1.4
+   setenv SSTV2_SCREENREFRESH         60
+   setenv SSTV2_SWAP_EN_WAIT_IN_VSYNC 1
+
+</pre>
+If you do not have /dev/3dfx installed and setup correctly, you'll
+need to run as root. Either way, you need to be running Xfree86.
+<p>
+During this development phase, it's possible to start the game
+running at any level...clearly that has to change in time - but
+for now, it's *very* convenient.
+<pre>
+
+   tux_aqfh {-g|--gown|-t|--tux} {-h|--help} {-r|--reset}
+
+</pre>
+The first time you play the game, you need to specify whether you
+wish to play as Tux (the boy Penguin) or Gown (the girl Penguin).
+Do this by passing '--gown' (-g) or '--tux' (-t) on the command
+line. The first time you play, it'll create a save file in your
+home directory called '.tux_aqfh_rc'.  If you want to reset the
+game, either delete that file or start the game with '--reset' (-r)
+on the command line.  You never have to manually save the game, this
+happens automatically whenever Tux (or Gown) completes a level,
+<p>
+This release of the game comes with several levels - most of these are
+just tests for various features of the software rather than seriously
+playable levels.
+<p>
+The training level is designed to teach beginners the mechanics of
+the game without the need to read the manual.
+<T1>The .tux_aqfh_rc file.</T1>
+Tux saves the current game automatically in '~/.tux_aqfh_rc' by
+default. You can pick a different file to load/save by setting
+the full path in the environment variable 'TUX_AQFH_RC'.
+<T1>The Objective.</T1>
+Right now, the only objective is to get to the end - but to do
+that, you have to collect a certain unspecified number of Golden
+Herring.  Each level contains a temple-like building with a green
+swirling whirlpool in the middle. Jumping into the whirlpool takes
+you either on to the next level or back to a room called "The Antechamber"
+which gives you access to just those levels that you have enough Golden
+Herring to reach. The game is only saved when you return to the
+Antechamber.
+<p>
+Typically, you will have to collect items (Herring mostly) or
+gain special powers, or search very hard and manouver with dexterity
+in order to reach this level's temple and hence progress to the next
+level.
+<p>
+Other collectables include:
+<ul>
+<li> Silver Herring - which give you energy which is consumed in
+     short flying hops and perhaps for operating certain machinery.
+<li> Green Herring - which are disgusting and harm you.
+<li> Red Herrings - which can be used for any purpose by the level
+     designer - switching things on and off, giving special powers
+     or equipment to Tux, dressing him up in silly costumes for no
+     special reason, etc. The only rule is that each Red Herring should
+     always do the same thing. The effects of Red Herring should always
+     wear off by the end of the level.
+<li> Gold Herring - sometimes there are doors that cannot be passed
+     unless you have collected enough Golden herring. There are usually
+     only one or two Golden Herring on each level. Sometimes they will
+     be hidden very deviously, other times they will be in plain sight
+     but defended heavily.
+<li> Lives - these are little spinning Tux icons which add to your
+     'lives'.
+<li> Snowballs - these can be thrown as missiles against Tux's
+     enemies, smashing into a snowman increases Tux's supply.
+</ul>
+<T1>Controls.</T1>
+Tux is moved using the joystick, the 'trigger button' (or the 'A'
+button on game pads) causes him to jump if walking or swimming on
+the surface, to try to fly if he is already in freefall for some
+reason, or to swim faster if he's underwater. The 'other' button
+(or the 'B' button on game pads) causes him to throw snowballs if
+on land, or to dive if he's swimming on the surface. It doesn't
+currently have a function when falling or flying.
+<p>
+All of the camera controls are on the arrow keys, and
+Insert/Delete/Home/End/PgUp/PgDn.  The 'camera' can operate in two
+modes (Follow-behind-Tux and Move-freely-relative-to-Tux), you can
+toggle between the two modes using the End key. The Insert key
+toggles the field of view from wide-angle to normal. The Home
+key restores the camera to 'default settings'. PgUp and PgDn move
+the camera up and down and in height, the up and down arrows move
+it closer or further from Tux and the left and right arrows move
+the camera around Tux in a clockwise or anticlockwise direction.
+<p>
+If you have a game pad then 'L' and 'R' move the camera left and
+right, clicking both together toggles between follow-Tux and
+move-freely.  Holding the 'C' or 'D' buttons down and moving
+the joystick allows you to move the camera around instead of
+Tux.
+<p>
+Pressing 'C' and 'D' gamepad buttons together causes Tux to do
+a somersault. The 'r' key on the keyboard has the same effect.
+<p>
+The 'p' key pauses the game.
+<p>
+Most other functions are not needed in actual play and are operated
+from the menu bar. The space-bar toggles the menu bar on and off.
+<T1>Cheat Mode</T1>
+It's necessary to cheat quite a bit during development - all the
+cheat functions are mapped to the keyboard - but are only enabled
+after a password has been typed. Currently the password is 'Tuxedo'
+(case sensitive) - but it will be changed or even removed when we
+make a formal non-development release.
+<p>
+Cheat mode commands tend to come and go as needed, but the most
+useful (and most likely to survive) are:
+<ul>
+<li> f : Freeze (or unfreeze) the motion of all bad-guys.
+<li> c : Toggle an on-screen text/debug overlay.
+<li> ? : Display Tux's current X/Y/Z position and the direction
+         he's facing (only visible when the overlay is on).
+<li> + : Go on to the next level without having to find the
+         temple.
+<li> - : Go back to the previous level.
+<li> r : Restock. Gives Tux a full supply of lives, energy,
+         health, herrings and snowballs.
+<li> k : Keypad mode - the game logic is suspended and
+         Tux can be positioned directly using the numeric
+         keypad. It's best to have the camera in 'follow Tux'
+         mode when you do this. Hit 'k' again to return to
+         normal play. 
+<li> t : Toggle texture map rendering on and off.
+<li> w : Toggle wireframe rendering on and off.
+<li> x : Exit from cheat mode.
+</ul>
+<H2>What Works - What Doesn't?</H2>
+Well, the basic gameplay pretty much works, here are a number
+of things that aren't done yet...
+<ul>
+<li> Camera control is not perfect - it's quite easy to have it
+     buried underground - or off the edge of the level.
+<li> When Tux goes under an overhang, the camera doesn't always
+     succeed in following him.
+<li> Only the training level and level 3 are really playable.
+     You can wander around the others - but they don't have
+     objectives, etc. Some of the objects are 'interesting'
+     but don't do anything yet.
+<li> Music: Well, I am shipping 'MOD' music files from
+     fairly dubious sources - it's always hard to discover
+     whether music files out on public web sites are 'free'
+     or not.  These files appear to be free - but if anyone
+     knows any different, I'd like to hear about it.
+     If you want to add your own music, create
+     '.mod' files and edit the 'data/levelXXX.dat' file to
+     make it play your song instead of the default.
+<li> There are no 'bad guys' apart from the Killer Whale
+     (Freeware Willy) in level 1. Freeware Willie isn't fully
+     debugged yet - sometimes he gets 'stuck' in shallow water.
+<li> Control of Tux in flight isn't correct yet (check out the
+     rocket pack that you get in one of the Red Herring in
+     level 1).
+<li> There are multiple memory leaks - significant memory is
+     wasted whenever you change from one level to another. Since
+     there are so few levels, and you can't go back to a
+     previous level (except in cheat mode), this doesn't
+     really matter - YET!
+<li> If you play for a long time, switching levels frequently,
+     eventually something in the texture system breaks and
+     you see the odd texture map disappearing.
+<li> Snowballs can be thrown - but they don't do anything yet.
+</ul>
+<H2>Contributions.</H2>
+I'm still having a lot of fun writing Tux - but I'm coming to the
+point where it might be nice to have some help.  The main areas
+that I need help with will be building new levels (I'd like to have
+a LOT of levels) - and music (I'm musically hopeless).
+<p>
+I also need database loaders for file formats other than AC3D
+so that lots of other people can design objects.
+<p>
+Anyone who is itching to get on and hack things ought
+perhaps to take the code as it is today and use it to
+build another Tux game with levels, etc all of it's own.
+Call it something *somewhat* different:
+<pre>
+ eg
+
+   "Tuxedo T. Penguin: Death to Leopard-Seals!"
+   "Tuxedo T. Penguin: Killer Whales of Doom!"
+   "Tuxedo T. Penguin: The return of the Krill."
+
+</pre>
+That way, we'll have a number of games - each with
+a style of it's own - but the same basic theme.
+If the various game teams interchange code, models,
+music and ideas, I believe we could end up with
+a family of great games.
+

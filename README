@@ -1,0 +1,64 @@
+
+Tuxedo T. Penguin: A Quest for Herring.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                           by Steve Baker
+                           <sjbaker1@airmail.net>
+                           http://www.woodsoup.org/~sbaker
+
+INSTALLATION:
+
+Installation instructions are pretty basic,
+and are covered in the documentation directory 'doc'.
+
+First make sure that you have the following packages
+installed:
+
+   OpenGL (or Mesa) + GLIDE (if yuo have a 3Dfx card)
+   GLUT (the GL Utility Toolkit)
+   PLIB (which can be obtained from:
+     http://www.woodsoup.org/projs/plib
+
+Once that is done, it should be a simple matter of changing
+to the directory where all this stuff is unpacked and type:
+
+ ./configure
+ make
+ make install
+
+However, you might want to check the full documentation -
+especially if you need to install Mesa/GLIDE/GLUT before
+you can start.
+
+All documents are in HTML - so view them with your web browser.
+
+LICENSE:
+
+This software is released under the provisions of
+the GNU General Public License (GPL) which can be
+found in the file 'LICENSE' in the current directory.
+
+DIRECTORY STRUCTURE:
+
+src     -- Where the source code lives.
+
+data    -- This contains all kinds of miscellaneous data
+           files. Right now, this is limited to the level
+           description files.
+
+doc     -- Documentation - all in HTML
+
+images  -- Texture maps and other images needed by the
+           game. These are currently all in 'SGI' image
+           format.
+
+models  -- 3D models used in the game. These are currently
+           all in AC3D format - that decision may change
+           at some time in the future.
+
+penguin -- The images and 3D models that make up Tux
+           himself.
+
+wavs    -- Sound files - mostly sound effects.
+
+mods    -- MOD format music files.
+

@@ -1,0 +1,15 @@
+#!/bin/csh
+
+echo "Current Version..."
+grep "VERSION=" configure
+
+echo "Rebuilding..."
+/u/steve/scripts/wonder_make
+
+echo "Copying Documentation..."
+( cd doc ; tar cf - * ) | \
+    ( cd /u/steve/websites/woodsoup_mirror/tux_aqfh ; tar xvf - )
+
+echo "Copying Release..."
+mv tux_aqfh-*.tar.gz /u/steve/websites/woodsoup_mirror/tux_aqfh/dist
+

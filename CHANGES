@@ -1,0 +1,232 @@
+
+TUX-AQFH Change Log.
+====================
+
+TUX-AQFH v1.0.10 (Feb 11th 2000)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * The 1.0.9 release had some debug code left in it - that's
+    now been removed.
+
+  * The model for the Refrigerator in level 3 was broken.
+
+  * The 'moon' level had a whale in it (!) instead of having
+    no air.  Don't even *ask* how that happened!
+
+  * The trees and some electric fences were missing - that was
+    due to a bug in PLIB 1.1.10, so this release requires
+    PLIB 1.1.11
+
+TUX-AQFH v1.0.9 (Feb 10th 2000)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * This version of Tux_AQFH requires PLIB 1.1.10 or later.
+    Upgrading to the latest PLIB will fix a number of crashing
+    problems.
+
+  * Fixed a bug in the loader that caused Tux_AQFH to crash for
+    more recent PLIB Versions.
+
+  * Fixed MSVC++ v6 compilation error in tux.cxx (Thanks Keiji Kato!)
+
+TUX-AQFH v1.0.8 (Oct 3rd 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Removed magic fullscreen/windowed switch for Voodoo cards
+    because it doesn't compile for non-Voodoo cards and it won't
+    be needed under Mesa 3.1 *soon*.
+
+  * Fixed a path problem in one of the '.ac' files.
+
+  * Fixed a bug in level.cxx - I failed to fclose the level.dat
+    file.
+
+  * Got rid of a 'sleep' and provided my own string compare
+    routines so this stuff will compile under Windoze again.
+
+  * Thanks to Ingo Ruhnke, we now have a 'make install'
+    that works. It places the data files into:
+
+      /usr/local/share/games/tux_aqfh/*
+
+    ...and the executable into:
+
+      /usr/local/games/tux_aqfh
+
+  * Also thanks to Ingo, Tux will try to find the appropriate
+    datafiles no matter where it's run from. The rules
+    are:
+
+    + If the '-D path' option is set on the command line,
+      look there only...else...
+    + If the "TUX_AQFH_DATADIR" environment variable is
+      set, look there...else...
+    + If it looks like we are cd'ed to an appropriate
+      distribution directory - or one level down from
+      there, then use that...else...
+    + If the '-DTUX_AQFH_DATADIR={path}' option was
+      provided at compile time, look there. (You can
+      set this by providing the '--prefix={path}'
+      option when you run the './configure' script...
+      else...
+    + If all else fails, the hard-coded path:
+      /usr/local/share/games/tux_aqfh is used.
+
+  * The 'building_levels' document is now much
+    more complete.
+
+  * Changed '@switch' objects to '@switchon'
+    and '@switchoff'.
+
+  * Cleaned out unimplemented menu entries from GUI.
+
+  * Fixed problem in mouse interface that prevented
+    Help/About/Credits/History screens from showing up.
+
+TUX-AQFH v1.0.7 (Aug 4th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Couldn't resist adding an ASCII Tux to the
+    startup message.
+
+  * Removed ability to start game on any level.
+
+  * Implemented '-h' and '--help' command line
+    options.
+
+  * '--gown' and '--tux' are now synonyms for
+    '-g' and '-t' command line options.
+
+  * Game save/restore now implemented. The '-r' and
+    '--reset' command line options reset the game to
+    the beginning.
+
+  * Added '.tux_aqfh_rc' file support - you can setenv
+    TUX_AQFH_RC to some alternative name if you'd prefer.
+    This file is loaded on program start and rewritten
+    whenever you return to the Antechamber unless you just
+    died.
+
+  * Added a 'contrib' directory for assorted contributions
+    to Tux_AQFH. Currently it contains a script from
+    Andreas Umbach to setup for a 3Dfx card and then run
+    Tux.
+
+  * Created a central point from which the player
+    leaves to do a level...and (typically) will
+    return to when it's complete. I call this the
+    "Antechamber" - and it makes the game much
+    more convenient to use.
+
+  * Changed level files to allow 'EXIT' to arbitary
+    level.
+
+  * Moved all the Gold Herring so there are actually
+    two per level as advertized. put some of them
+    in more sneaky locations. You'll have to work
+    MUCH harder to get them now!
+
+  * Did a fair bit of other 'tidying up' in most of
+    the levels.
+
+  * The water in the 'Frogger' level is now lethal.
+
+  * There is a prize in the race level if you can do it
+    in under a minute.
+
+  * Lots of minor changes for MSVC.
+
+TUX-AQFH v1.0.6 (July 10th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Fixed a broken texture that screwed up the
+    flag in level zero.
+
+TUX-AQFH v1.0.5 (July 8th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Added a 'VERSIONS' entry to the menu so
+    it's easy to find which version you have
+    and which version of PLIB/MESA you are using.
+
+  * Added SLAM - a simple interpreted language
+    for specifying model movement.
+    Checkout doc/slam.html
+
+  * Tux now sticks to moving surfaces so he can
+    ride on platforms, etc.
+
+  * Gown now has a higher pitched voice than Tux.
+
+  * MOD format music added.
+
+  * Music can now be different for each level.
+
+  * Documented the LEVEL file format - check out
+    doc/levels.html
+
+  * Stopped the race timer from appearing in other
+    levels.
+
+  * Arranged for music to continue to play while
+    we switch levels.
+
+  * Prevented signon messages from cluttering the
+    display after a keypress or joystick button.
+ 
+TUX-AQFH v1.0.4 (June 3rd 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Added first cut at the 'Frogger' level (level 4)
+
+  * You can now play as 'Gown' (Tux's Girlfriend)
+    by passing the '-g' parameter on the command
+    line.
+
+  * All text and menu's now drawn using the 'fnt'
+    library.
+
+  * Fixed a problem where ssgInit was being called
+    before GLUT had opened the window.
+
+  * Fixed missing <time.h> for Windoze (that was
+    supposed to be in 1.0.3 - sorry!)
+
+  * Moved a lot of level-specific hacks out of the
+    code and into the levelXX.dat files where it
+    belongs. Check out doc/levels.html
+
+  * Can position camera initially for each level.
+
+  * Fixed a couple of problems with Tux consuming
+    more that one 'life' each time he dies.
+
+  * Reduced the distance that Tux can jump by
+    about x2.
+
+  * Try harder to work out if XMesa calls are available.
+
+TUX-AQFH v1.0.3 (May 9th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Changed a few things that MSVC complains about.
+
+TUX-AQFH v1.0.2 (May 8th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * New configure.in derived from the PLIB one
+    should work better for CygWin.
+
+  * Minor warnings from some compilers eliminated.
+
+TUX-AQFH v1.0.1 (April 17th 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * First public release.
+
+  * Swapped 'life' and 'energy' displays.
+
+  * Added support for Mouse controls
+
+  * Fixed a number of minor portability
+    issues so that TUX now runs on SGI machines
+    under IRIX.  This also showed up a couple
+    of latent bugs.
+
+  * Switched build mechanism to 'autoconf/automake'
+    which greatly simplifies the build instructions.
+
+TUX-AQFH v1.0 (April 1st 1999)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+  * First private release.
+

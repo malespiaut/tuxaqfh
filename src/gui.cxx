@@ -131,8 +131,10 @@ static puCallback help_submenu_cb [] = {   versions_cb,   credits_cb,   about_cb
 
 GUI::GUI ()
 {
+#ifdef SOME_BETTER_WAY_TO_DO_THIS
 #ifdef XMESA_FX_FULLSCREEN
   fullscreen = TRUE ;
+#endif
 #endif
   hidden = TRUE ;
   mouse_x = 320 ;
@@ -181,8 +183,10 @@ void GUI::show ()
   if ( mousetrap )
     glutWarpPointer ( 320, 240 ) ;
 
+#ifdef SOME_BETTER_WAY_TO_DO_THIS
 #ifdef XMESA_FX_FULLSCREEN
   puShowCursor () ;
+#endif
 #endif
   main_menu_bar -> reveal () ;
 }

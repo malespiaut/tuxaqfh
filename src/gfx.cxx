@@ -60,7 +60,19 @@ void initWindow ( int w, int h )
 
 GFX::GFX ()
 {
-  initWindow ( 640, 480 ) ;
+  int w = 0 ;
+  int h = 0 ;
+
+  if ( getenv ( "TUX_AQFH_WIDTH" ) != NULL ) 
+    w = atoi ( getenv ( "TUX_AQFH_WIDTH" ) ) ;
+
+  if ( getenv ( "TUX_AQFH_HEIGHT" ) != NULL ) 
+    h = atoi ( getenv ( "TUX_AQFH_HEIGHT" ) ) ;
+
+  if ( w < 1 ) w = 640 ;
+  if ( h < 1 ) h = 480 ;
+
+  initWindow ( w, h ) ;
 
   ssgInit  () ;
  

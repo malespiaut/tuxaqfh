@@ -98,6 +98,7 @@ void Material::install ( int index )
 {
   *gst = new ssgSimpleState ;
 
+  (*gst) -> ref () ;
   (*gst) -> setExternalPropertyIndex ( index ) ;
 
   if ( texture_map [ 0 ] != '\0' )

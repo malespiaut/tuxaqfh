@@ -17,15 +17,16 @@ components.o: components.cxx /usr/include/stdio.h \
  /usr/include/bits/mathcalls.h \
  /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/float.h \
  /usr/include/bits/mathinline.h /usr/include/plib/ssg.h \
- /usr/include/assert.h /usr/include/plib/sg.h \
+ /usr/include/plib/ul.h /usr/include/ctype.h /usr/include/assert.h \
+ /usr/include/dlfcn.h /usr/include/bits/dlfcn.h \
  /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/limits.h \
  /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/sys/param.h \
  /usr/include/linux/param.h /usr/include/asm/param.h \
- /usr/include/GL/gl.h /usr/include/GL/glu.h penguin.h \
- /usr/include/plib/ssgKeyFlier.h components.h
+ /usr/include/GL/gl.h /usr/include/GL/glu.h /usr/include/plib/sg.h \
+ penguin.h /usr/include/plib/ssgKeyFlier.h components.h
 components.cxx :
 /usr/include/stdio.h :
 /usr/include/features.h :
@@ -60,8 +61,11 @@ components.cxx :
 /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/float.h :
 /usr/include/bits/mathinline.h :
 /usr/include/plib/ssg.h :
+/usr/include/plib/ul.h :
+/usr/include/ctype.h :
 /usr/include/assert.h :
-/usr/include/plib/sg.h :
+/usr/include/dlfcn.h :
+/usr/include/bits/dlfcn.h :
 /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/limits.h :
 /usr/lib/gcc-lib/i486-suse-linux/2.95.2/include/syslimits.h :
 /usr/include/limits.h :
@@ -74,6 +78,7 @@ components.cxx :
 /usr/include/asm/param.h :
 /usr/include/GL/gl.h :
 /usr/include/GL/glu.h :
+/usr/include/plib/sg.h :
 penguin.h :
 /usr/include/plib/ssgKeyFlier.h :
 components.h :

@@ -2,6 +2,10 @@
 TUX-AQFH Change Log.
 ====================
 
+TUX-AQFH v1.0.11 (Jul 12th 2000)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Configure file fixed for PLIB 1.3
+
 TUX-AQFH v1.0.10 (Feb 11th 2000)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   * The 1.0.9 release had some debug code left in it - that's

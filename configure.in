@@ -26,7 +26,7 @@ if test "x$ac_cv_header_windows_h" = "xno" ; then
 
   AC_PATH_XTRA
 
-  x_suffix="$X_LIBS $X_PRE_LIBS -lX11 -lXi -lXext -lXmu $X_EXTRA_LIBS -lm"
+  x_suffix="$X_LIBS $X_PRE_LIBS -lpthread -lX11 -lXi -lXext -lXmu $X_EXTRA_LIBS -lm"
 
   dnl Reasonable stuff non-windoze variants ... :-)
 

@@ -72,15 +72,15 @@ bin_PROGRAMS = tux_aqfh
 
 tux_aqfh_SOURCES =         camera.cxx components.cxx fade_out.cxx feature.cxx        gfx.cxx globalstate.cxx gui.cxx hooks.cxx score.cxx        isect.cxx level.cxx material.cxx ocean.cxx        orca.cxx penguin.cxx rocket.cxx        sound.cxx starwing.cxx status.cxx        surf_rev.cxx tux.cxx tuxstate.cxx whale.cxx        slamRun.cxx slamCodeGen.cxx slamExpression.cxx slam.cxx        slamStatement.cxx slamSymbols.cxx slamToken.cxx        camera.h components.h fade_out.h feature.h        gfx.h globalstate.h gui.h hooks.h        isect.h joystick.h level.h material.h        ocean.h orca.h penguin.h rocket.h        sound.h starwing.h status.h        tux.h tuxstate.h whale.h slam.h
 
-mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+mkinstalldirs = $(SHELL) $(top_srcdir)/../mkinstalldirs
 CONFIG_CLEAN_FILES = 
 PROGRAMS =  $(bin_PROGRAMS)
 
 
-DEFS =  -DPACKAGE=\"tux_aqfh\" -DVERSION=\"1.0.10\" -DHAVE_LIBGL=1 -DHAVE_LIBGLU=1 -DHAVE_LIBGLUT=1 -DSTDC_HEADERS=1 -DHAVE_GL_GL_H=1 -DHAVE_GL_GLUT_H=1 -DLINUX_JOYSTICK_IS_PRESENT=1 -DTUX_AQFH_DATADIR=\"/usr/local/share/games/tux_aqfh\"  -I. -I$(srcdir) 
+DEFS =  -DPACKAGE=\"tux_aqfh\" -DVERSION=\"1.0.10\" -DHAVE_LIBPLIBUL=1 -DHAVE_LIBGL=1 -DHAVE_LIBGLU=1 -DHAVE_LIBGLUT=1 -DSTDC_HEADERS=1 -DHAVE_GL_GL_H=1 -DHAVE_GL_GLU_H=1 -DHAVE_GL_GLUT_H=1 -DLINUX_JOYSTICK_IS_PRESENT=1 -DTUX_AQFH_DATADIR=\"/usr/local/share/games/tux_aqfh\"  -I. -I$(srcdir) 
 CPPFLAGS = 
 LDFLAGS = 
-LIBS = -lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lglut -lGLU -lGL   -L/usr/X11R6/lib  -lSM -lICE -lX11 -lXi -lXext -lXmu  -lm
+LIBS = -lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lglut -lGLU -lGL -lplibul   -L/usr/X11R6/lib  -lSM -lICE -lX11 -lXi -lXext -lXmu  -lm
 X_CFLAGS =  -I/usr/X11R6/include
 X_LIBS =  -L/usr/X11R6/lib
 X_EXTRA_LIBS = 
@@ -106,7 +106,7 @@ DIST_COMMON =  Makefile.am Makefile.in
 
 DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
 
-TAR = gtar
+TAR = tar
 GZIP_ENV = --best
 DEP_FILES =  .deps/camera.P .deps/components.P .deps/fade_out.P \
 .deps/feature.P .deps/gfx.P .deps/globalstate.P .deps/gui.P \

@@ -70,16 +70,15 @@ SUBDIRS = src wavs images data penguin models mods fonts slamcode doc contrib
 
 EXTRA_DIST = CHANGES LICENSE acsite.m4
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+mkinstalldirs = $(SHELL) $(top_srcdir)/../mkinstalldirs
 CONFIG_CLEAN_FILES = 
 DIST_COMMON =  README AUTHORS COPYING ChangeLog INSTALL Makefile.am \
-Makefile.in NEWS acinclude.m4 aclocal.m4 configure configure.in \
-install-sh missing mkinstalldirs
+Makefile.in NEWS acinclude.m4 aclocal.m4 configure configure.in
 
 
 DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
 
-TAR = gtar
+TAR = tar
 GZIP_ENV = --best
 all: all-redirect
 .SUFFIXES:

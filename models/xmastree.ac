@@ -1,0 +1,28 @@
+AC3Db
+MATERIAL "" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 0  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "xmastree"
+data 17
+@billboard axis=z
+texture "../images/xmastree.rgba"
+texrep 1.1 1.05
+numvert 6
+0.05 0 0
+-2.95 0.5 0
+-3.25 2 0
+0.05 5.8 0
+3.25 2.1 0
+2.65 0.3 0
+numsurf 1
+SURF 0x20
+mat 0
+refs 6
+0 0.507692 0
+1 0.0461538 0.0862069
+2 0 0.344828
+3 0.507692 1
+4 1 0.362069
+5 0.907692 0.0517241
+kids 0

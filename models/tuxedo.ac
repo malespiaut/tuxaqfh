@@ -1,0 +1,4030 @@
+AC3Db
+MATERIAL "" rgb 0 0 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 0 0 0  amb 0 0 0  emis 1 0.533 0  spec 0 0 0  shi 0  trans 0
+MATERIAL "" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 0  trans 0
+OBJECT world
+kids 254
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.113137 0.028 0.2
+1.11759e-08 0 0.25
+0.16 0 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.342865 -0.342865
+1 -0.5 -0.5
+2 -0.277778 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 0.056 0.2
+1.11759e-08 0 0.25
+0.113137 0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.277778
+1 -0.5 -0.5
+2 -0.342865 -0.342865
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.113137 0.028 0.2
+1.11759e-08 0 0.25
+1.11759e-08 0.056 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.657135 -0.342865
+1 -0.5 -0.5
+2 -0.5 -0.277778
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.16 0 0.2
+1.11759e-08 0 0.25
+-0.113137 0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.722222 -0.5
+1 -0.5 -0.5
+2 -0.657135 -0.342865
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.113137 -0.028 0.2
+1.11759e-08 0 0.25
+-0.16 0 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.657135 -0.657135
+1 -0.5 -0.5
+2 -0.722222 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 -0.056 0.2
+1.11759e-08 0 0.25
+-0.113137 -0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.722222
+1 -0.5 -0.5
+2 -0.657135 -0.657135
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.113137 -0.028 0.2
+1.11759e-08 0 0.25
+1.11759e-08 -0.056 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.342865 -0.657135
+1 -0.5 -0.5
+2 -0.5 -0.722222
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.16 0 0.2
+1.11759e-08 0 0.25
+0.113137 -0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.277778 -0.5
+1 -0.5 -0.5
+2 -0.342865 -0.657135
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.16 0 0.2
+0.32 0 -0.25
+0.113137 0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.277778 -0.5
+1 -0.0555556 -0.5
+2 -0.342865 -0.342865
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.226274 0.112 -0.25
+0.113137 0.028 0.2
+0.32 0 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.18573 -0.18573
+1 -0.342865 -0.342865
+2 -0.0555556 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.113137 0.028 0.2
+0.226274 0.112 -0.25
+1.11759e-08 0.056 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.342865 -0.342865
+1 -0.18573 -0.18573
+2 -0.5 -0.277778
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 0.224 -0.25
+1.11759e-08 0.056 0.2
+0.226274 0.112 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.0555556
+1 -0.5 -0.277778
+2 -0.18573 -0.18573
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 0.056 0.2
+1.11759e-08 0.224 -0.25
+-0.113137 0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.277778
+1 -0.5 -0.0555556
+2 -0.657135 -0.342865
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.226274 0.112 -0.25
+-0.113137 0.028 0.2
+1.11759e-08 0.224 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.81427 -0.18573
+1 -0.657135 -0.342865
+2 -0.5 -0.0555556
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.113137 0.028 0.2
+-0.226274 0.112 -0.25
+-0.16 0 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.657135 -0.342865
+1 -0.81427 -0.18573
+2 -0.722222 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.32 0 -0.25
+-0.16 0 0.2
+-0.226274 0.112 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.944444 -0.5
+1 -0.722222 -0.5
+2 -0.81427 -0.18573
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.16 0 0.2
+-0.32 0 -0.25
+-0.113137 -0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.722222 -0.5
+1 -0.944444 -0.5
+2 -0.657135 -0.657135
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.226274 -0.112 -0.25
+-0.113137 -0.028 0.2
+-0.32 0 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.81427 -0.81427
+1 -0.657135 -0.657135
+2 -0.944444 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+-0.113137 -0.028 0.2
+-0.226274 -0.112 -0.25
+1.11759e-08 -0.056 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.657135 -0.657135
+1 -0.81427 -0.81427
+2 -0.5 -0.722222
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 -0.224 -0.25
+1.11759e-08 -0.056 0.2
+-0.226274 -0.112 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.944444
+1 -0.5 -0.722222
+2 -0.81427 -0.81427
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+1.11759e-08 -0.056 0.2
+1.11759e-08 -0.224 -0.25
+0.113137 -0.028 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.5 -0.722222
+1 -0.5 -0.944444
+2 -0.342865 -0.657135
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.226274 -0.112 -0.25
+0.113137 -0.028 0.2
+1.11759e-08 -0.224 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.18573 -0.81427
+1 -0.342865 -0.657135
+2 -0.5 -0.944444
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.113137 -0.028 0.2
+0.226274 -0.112 -0.25
+0.16 0 0.2
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.342865 -0.657135
+1 -0.18573 -0.81427
+2 -0.277778 -0.5
+kids 0
+OBJECT poly
+name "tuxbeak"
+loc -0.05 1.75 0.55
+texture "../penguin/Penguin_beak.rgb"
+numvert 3
+0.32 0 -0.25
+0.16 0 0.2
+0.226274 -0.112 -0.25
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.0555556 -0.5
+1 -0.277778 -0.5
+2 -0.18573 -0.81427
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.21793 1.14 -0.151379
+-0.0176205 1.22 0
+0.262379 1.14 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.0986955 1.14 -0.254697
+-0.0176205 1.22 0
+0.21793 1.14 -0.151379
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0574687 1.14 -0.27715
+-0.0176205 1.22 0
+0.0986955 1.14 -0.254697
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.200981 1.14 -0.21161
+-0.0176205 1.22 0
+-0.0574687 1.14 -0.27715
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286279 1.14 -0.0788851
+-0.0176205 1.22 0
+-0.200981 1.14 -0.21161
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286279 1.14 0.0788851
+-0.0176205 1.22 0
+-0.286279 1.14 -0.0788851
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.614934 0.967213
+1 -0.5 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.200981 1.14 0.21161
+-0.0176205 1.22 0
+-0.286279 1.14 0.0788851
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.578443 0.967213
+1 -0.5 1
+2 -0.614934 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0574687 1.14 0.27715
+-0.0176205 1.22 0
+-0.200981 1.14 0.21161
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.517047 0.967213
+1 -0.5 1
+2 -0.578443 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.0986955 1.14 0.254697
+-0.0176205 1.22 0
+-0.0574687 1.14 0.27715
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.450239 0.967213
+1 -0.5 1
+2 -0.517047 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.21793 1.14 0.151379
+-0.0176205 1.22 0
+0.0986955 1.14 0.254697
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.39923 0.967213
+1 -0.5 1
+2 -0.450239 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.262379 1.14 0
+-0.0176205 1.22 0
+0.21793 1.14 0.151379
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.380214 0.967213
+1 -0.5 1
+2 -0.39923 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.262379 1.14 0
+0.392379 0.95 0
+0.21793 1.14 -0.151379
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.327293 0.95 -0.221663
+0.21793 1.14 -0.151379
+0.392379 0.95 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.21793 1.14 -0.151379
+0.327293 0.95 -0.221663
+0.0986955 1.14 -0.254697
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.1527 0.95 -0.372949
+0.0986955 1.14 -0.254697
+0.327293 0.95 -0.221663
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.0986955 1.14 -0.254697
+0.1527 0.95 -0.372949
+-0.0574687 1.14 -0.27715
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0759696 0.95 -0.405827
+-0.0574687 1.14 -0.27715
+0.1527 0.95 -0.372949
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0574687 1.14 -0.27715
+-0.0759696 0.95 -0.405827
+-0.200981 1.14 -0.21161
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286114 0.95 -0.309857
+-0.200981 1.14 -0.21161
+-0.0759696 0.95 -0.405827
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.200981 1.14 -0.21161
+-0.286114 0.95 -0.309857
+-0.286279 1.14 -0.0788851
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.411013 0.95 -0.11551
+-0.286279 1.14 -0.0788851
+-0.286114 0.95 -0.309857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286279 1.14 -0.0788851
+-0.411013 0.95 -0.11551
+-0.286279 1.14 0.0788851
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -0.614934 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.411013 0.95 0.11551
+-0.286279 1.14 0.0788851
+-0.411013 0.95 -0.11551
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.668296 0.889344
+1 -0.614934 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286279 1.14 0.0788851
+-0.411013 0.95 0.11551
+-0.200981 1.14 0.21161
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.614934 0.967213
+1 -0.668296 0.889344
+2 -0.578443 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286114 0.95 0.309857
+-0.200981 1.14 0.21161
+-0.411013 0.95 0.11551
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.614863 0.889344
+1 -0.578443 0.967213
+2 -0.668296 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.200981 1.14 0.21161
+-0.286114 0.95 0.309857
+-0.0574687 1.14 0.27715
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.578443 0.967213
+1 -0.614863 0.889344
+2 -0.517047 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0759697 0.95 0.405827
+-0.0574687 1.14 0.27715
+-0.286114 0.95 0.309857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.524962 0.889344
+1 -0.517047 0.967213
+2 -0.614863 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0574687 1.14 0.27715
+-0.0759697 0.95 0.405827
+0.0986955 1.14 0.254697
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.517047 0.967213
+1 -0.524962 0.889344
+2 -0.450239 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.1527 0.95 0.372949
+0.0986955 1.14 0.254697
+-0.0759697 0.95 0.405827
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.427136 0.889344
+1 -0.450239 0.967213
+2 -0.524962 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.0986955 1.14 0.254697
+0.1527 0.95 0.372949
+0.21793 1.14 0.151379
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.450239 0.967213
+1 -0.427136 0.889344
+2 -0.39923 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.327293 0.95 0.221663
+0.21793 1.14 0.151379
+0.1527 0.95 0.372949
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.352443 0.889344
+1 -0.39923 0.967213
+2 -0.427136 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.21793 1.14 0.151379
+0.327293 0.95 0.221663
+0.262379 1.14 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.39923 0.967213
+1 -0.352443 0.889344
+2 -0.380214 0.967213
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.392379 0.95 0
+0.262379 1.14 0
+0.327293 0.95 0.221663
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.324599 0.889344
+1 -0.380214 0.967213
+2 -0.352443 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.392379 0.95 0
+0.422379 0.36 0
+0.327293 0.95 -0.221663
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.352531 0.36 -0.237882
+0.327293 0.95 -0.221663
+0.422379 0.36 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.327293 0.95 -0.221663
+0.352531 0.36 -0.237882
+0.1527 0.95 -0.372949
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.165162 0.36 -0.400238
+0.1527 0.95 -0.372949
+0.352531 0.36 -0.237882
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.1527 0.95 -0.372949
+0.165162 0.36 -0.400238
+-0.0759696 0.95 -0.405827
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.080239 0.36 -0.435521
+-0.0759696 0.95 -0.405827
+0.165162 0.36 -0.400238
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0759696 0.95 -0.405827
+-0.080239 0.36 -0.435521
+-0.286114 0.95 -0.309857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.305759 0.36 -0.33253
+-0.286114 0.95 -0.309857
+-0.080239 0.36 -0.435521
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286114 0.95 -0.309857
+-0.305759 0.36 -0.33253
+-0.411013 0.95 -0.11551
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.439797 0.36 -0.123962
+-0.411013 0.95 -0.11551
+-0.305759 0.36 -0.33253
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.411013 0.95 -0.11551
+-0.439797 0.36 -0.123962
+-0.411013 0.95 0.11551
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -0.668296 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.439797 0.36 0.123962
+-0.411013 0.95 0.11551
+-0.439797 0.36 -0.123962
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.68061 0.647541
+1 -0.668296 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.411013 0.95 0.11551
+-0.439797 0.36 0.123962
+-0.286114 0.95 0.309857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.668296 0.889344
+1 -0.68061 0.647541
+2 -0.614863 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.305759 0.36 0.33253
+-0.286114 0.95 0.309857
+-0.439797 0.36 0.123962
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.623268 0.647541
+1 -0.614863 0.889344
+2 -0.68061 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.286114 0.95 0.309857
+-0.305759 0.36 0.33253
+-0.0759697 0.95 0.405827
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.614863 0.889344
+1 -0.623268 0.647541
+2 -0.524962 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0802391 0.36 0.435521
+-0.0759697 0.95 0.405827
+-0.305759 0.36 0.33253
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.526789 0.647541
+1 -0.524962 0.889344
+2 -0.623268 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0759697 0.95 0.405827
+-0.0802391 0.36 0.435521
+0.1527 0.95 0.372949
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.524962 0.889344
+1 -0.526789 0.647541
+2 -0.427136 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.165162 0.36 0.400238
+0.1527 0.95 0.372949
+-0.0802391 0.36 0.435521
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.421804 0.647541
+1 -0.427136 0.889344
+2 -0.526789 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.1527 0.95 0.372949
+0.165162 0.36 0.400238
+0.327293 0.95 0.221663
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.427136 0.889344
+1 -0.421804 0.647541
+2 -0.352443 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.352531 0.36 0.237882
+0.327293 0.95 0.221663
+0.165162 0.36 0.400238
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.341646 0.647541
+1 -0.352443 0.889344
+2 -0.421804 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.327293 0.95 0.221663
+0.352531 0.36 0.237882
+0.392379 0.95 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.352443 0.889344
+1 -0.341646 0.647541
+2 -0.324599 0.889344
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.422379 0.36 0
+0.392379 0.95 0
+0.352531 0.36 0.237882
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.311765 0.647541
+1 -0.324599 0.889344
+2 -0.341646 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.422379 0.36 0
+0.59238 0.11 0
+0.352531 0.36 -0.237882
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.495544 0.11 -0.329791
+0.352531 0.36 -0.237882
+0.59238 0.11 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.352531 0.36 -0.237882
+0.495544 0.11 -0.329791
+0.165162 0.36 -0.400238
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.235783 0.11 -0.554875
+0.165162 0.36 -0.400238
+0.495544 0.11 -0.329791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.165162 0.36 -0.400238
+0.235783 0.11 -0.554875
+-0.080239 0.36 -0.435521
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.104433 0.11 -0.603791
+-0.080239 0.36 -0.435521
+0.235783 0.11 -0.554875
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.080239 0.36 -0.435521
+-0.104433 0.11 -0.603791
+-0.305759 0.36 -0.33253
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.417085 0.11 -0.461007
+-0.305759 0.36 -0.33253
+-0.104433 0.11 -0.603791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.305759 0.36 -0.33253
+-0.417085 0.11 -0.461007
+-0.439797 0.36 -0.123962
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.602912 0.11 -0.171857
+-0.439797 0.36 -0.123962
+-0.417085 0.11 -0.461007
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.439797 0.36 -0.123962
+-0.602912 0.11 -0.171857
+-0.439797 0.36 0.123962
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -0.68061 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.602912 0.11 0.171857
+-0.439797 0.36 0.123962
+-0.602912 0.11 -0.171857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.750392 0.545082
+1 -0.68061 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.439797 0.36 0.123962
+-0.602912 0.11 0.171857
+-0.305759 0.36 0.33253
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.68061 0.647541
+1 -0.750392 0.545082
+2 -0.623268 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.417085 0.11 0.461007
+-0.305759 0.36 0.33253
+-0.602912 0.11 0.171857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.670894 0.545082
+1 -0.623268 0.647541
+2 -0.750392 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.305759 0.36 0.33253
+-0.417085 0.11 0.461007
+-0.0802391 0.36 0.435521
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.623268 0.647541
+1 -0.670894 0.545082
+2 -0.526789 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.104433 0.11 0.603791
+-0.0802391 0.36 0.435521
+-0.417085 0.11 0.461007
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.537139 0.545082
+1 -0.526789 0.647541
+2 -0.670894 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0802391 0.36 0.435521
+-0.104433 0.11 0.603791
+0.165162 0.36 0.400238
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.526789 0.647541
+1 -0.537139 0.545082
+2 -0.421804 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.235783 0.11 0.554875
+0.165162 0.36 0.400238
+-0.104433 0.11 0.603791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.391592 0.545082
+1 -0.421804 0.647541
+2 -0.537139 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.165162 0.36 0.400238
+0.235783 0.11 0.554875
+0.352531 0.36 0.237882
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.421804 0.647541
+1 -0.391592 0.545082
+2 -0.341646 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.495544 0.11 0.329791
+0.352531 0.36 0.237882
+0.235783 0.11 0.554875
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.280464 0.545082
+1 -0.341646 0.647541
+2 -0.391592 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.352531 0.36 0.237882
+0.495544 0.11 0.329791
+0.422379 0.36 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.341646 0.647541
+1 -0.280464 0.545082
+2 -0.311765 0.647541
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.59238 0.11 0
+0.422379 0.36 0
+0.495544 0.11 0.329791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.239037 0.545082
+1 -0.311765 0.647541
+2 -0.280464 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.59238 0.11 0
+0.762379 -0.14 0
+0.495544 0.11 -0.329791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.638557 -0.14 -0.4217
+0.495544 0.11 -0.329791
+0.762379 -0.14 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.495544 0.11 -0.329791
+0.638557 -0.14 -0.4217
+0.235783 0.11 -0.554875
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.306403 -0.14 -0.709513
+0.235783 0.11 -0.554875
+0.638557 -0.14 -0.4217
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.235783 0.11 -0.554875
+0.306403 -0.14 -0.709513
+-0.104433 0.11 -0.603791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.128626 -0.14 -0.772061
+-0.104433 0.11 -0.603791
+0.306403 -0.14 -0.709513
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.104433 0.11 -0.603791
+-0.128626 -0.14 -0.772061
+-0.417085 0.11 -0.461007
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.528412 -0.14 -0.589485
+-0.417085 0.11 -0.461007
+-0.128626 -0.14 -0.772061
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.417085 0.11 -0.461007
+-0.528412 -0.14 -0.589485
+-0.602912 0.11 -0.171857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.766025 -0.14 -0.219751
+-0.602912 0.11 -0.171857
+-0.528412 -0.14 -0.589485
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.602912 0.11 -0.171857
+-0.766025 -0.14 -0.219751
+-0.602912 0.11 0.171857
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -0.750392 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.766025 -0.14 0.219751
+-0.602912 0.11 0.171857
+-0.766025 -0.14 -0.219751
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.820173 0.442623
+1 -0.750392 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.602912 0.11 0.171857
+-0.766025 -0.14 0.219751
+-0.417085 0.11 0.461007
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.750392 0.545082
+1 -0.820173 0.442623
+2 -0.670894 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.528412 -0.14 0.589485
+-0.417085 0.11 0.461007
+-0.766025 -0.14 0.219751
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.71852 0.442623
+1 -0.670894 0.545082
+2 -0.820173 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.417085 0.11 0.461007
+-0.528412 -0.14 0.589485
+-0.104433 0.11 0.603791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.670894 0.545082
+1 -0.71852 0.442623
+2 -0.537139 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.128626 -0.14 0.772061
+-0.104433 0.11 0.603791
+-0.528412 -0.14 0.589485
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.547489 0.442623
+1 -0.537139 0.545082
+2 -0.71852 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.104433 0.11 0.603791
+-0.128626 -0.14 0.772061
+0.235783 0.11 0.554875
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.537139 0.545082
+1 -0.547489 0.442623
+2 -0.391592 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.306403 -0.14 0.709513
+0.235783 0.11 0.554875
+-0.128626 -0.14 0.772061
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.36138 0.442623
+1 -0.391592 0.545082
+2 -0.547489 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.235783 0.11 0.554875
+0.306403 -0.14 0.709513
+0.495544 0.11 0.329791
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.391592 0.545082
+1 -0.36138 0.442623
+2 -0.280464 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.638557 -0.14 0.4217
+0.495544 0.11 0.329791
+0.306403 -0.14 0.709513
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.219282 0.442623
+1 -0.280464 0.545082
+2 -0.36138 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.495544 0.11 0.329791
+0.638557 -0.14 0.4217
+0.59238 0.11 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.280464 0.545082
+1 -0.219282 0.442623
+2 -0.239037 0.545082
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.762379 -0.14 0
+0.59238 0.11 0
+0.638557 -0.14 0.4217
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.16631 0.442623
+1 -0.239037 0.545082
+2 -0.219282 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.762379 -0.14 0
+0.85238 -0.39 0
+0.638557 -0.14 -0.4217
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.71427 -0.39 -0.470358
+0.638557 -0.14 -0.4217
+0.85238 -0.39 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.638557 -0.14 -0.4217
+0.71427 -0.39 -0.470358
+0.306403 -0.14 -0.709513
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.343791 -0.39 -0.79138
+0.306403 -0.14 -0.709513
+0.71427 -0.39 -0.470358
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.306403 -0.14 -0.709513
+0.343791 -0.39 -0.79138
+-0.128626 -0.14 -0.772061
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.141435 -0.39 -0.861145
+-0.128626 -0.14 -0.772061
+0.343791 -0.39 -0.79138
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.128626 -0.14 -0.772061
+-0.141435 -0.39 -0.861145
+-0.528412 -0.14 -0.589485
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.587349 -0.39 -0.657502
+-0.528412 -0.14 -0.589485
+-0.141435 -0.39 -0.861145
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.528412 -0.14 -0.589485
+-0.587349 -0.39 -0.657502
+-0.766025 -0.14 -0.219751
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.85238 -0.39 -0.245107
+-0.766025 -0.14 -0.219751
+-0.587349 -0.39 -0.657502
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.766025 -0.14 -0.219751
+-0.85238 -0.39 -0.245107
+-0.766025 -0.14 0.219751
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -0.820173 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.85238 -0.39 0.245107
+-0.766025 -0.14 0.219751
+-0.85238 -0.39 -0.245107
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.857116 0.340164
+1 -0.820173 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.766025 -0.14 0.219751
+-0.85238 -0.39 0.245107
+-0.528412 -0.14 0.589485
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.820173 0.442623
+1 -0.857116 0.340164
+2 -0.71852 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.587349 -0.39 0.657502
+-0.528412 -0.14 0.589485
+-0.85238 -0.39 0.245107
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.743734 0.340164
+1 -0.71852 0.442623
+2 -0.857116 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.528412 -0.14 0.589485
+-0.587349 -0.39 0.657502
+-0.128626 -0.14 0.772061
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.71852 0.442623
+1 -0.743734 0.340164
+2 -0.547489 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.141435 -0.39 0.861145
+-0.128626 -0.14 0.772061
+-0.587349 -0.39 0.657502
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.552969 0.340164
+1 -0.547489 0.442623
+2 -0.743734 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.128626 -0.14 0.772061
+-0.141435 -0.39 0.861145
+0.306403 -0.14 0.709513
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.547489 0.442623
+1 -0.552969 0.340164
+2 -0.36138 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.343791 -0.39 0.79138
+0.306403 -0.14 0.709513
+-0.141435 -0.39 0.861145
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.345386 0.340164
+1 -0.36138 0.442623
+2 -0.552969 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.306403 -0.14 0.709513
+0.343791 -0.39 0.79138
+0.638557 -0.14 0.4217
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.36138 0.442623
+1 -0.345386 0.340164
+2 -0.219282 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.71427 -0.39 0.470358
+0.638557 -0.14 0.4217
+0.343791 -0.39 0.79138
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.186892 0.340164
+1 -0.219282 0.442623
+2 -0.345386 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.638557 -0.14 0.4217
+0.71427 -0.39 0.470358
+0.762379 -0.14 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.219282 0.442623
+1 -0.186892 0.340164
+2 -0.16631 0.442623
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.85238 -0.39 0
+0.762379 -0.14 0
+0.71427 -0.39 0.470358
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.127807 0.340164
+1 -0.16631 0.442623
+2 -0.186892 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.85238 -0.39 0
+0.84238 -0.63 0
+0.71427 -0.39 -0.470358
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.705858 -0.63 -0.464951
+0.71427 -0.39 -0.470358
+0.84238 -0.63 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.71427 -0.39 -0.470358
+0.705858 -0.63 -0.464951
+0.343791 -0.39 -0.79138
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.339637 -0.63 -0.782283
+0.343791 -0.39 -0.79138
+0.705858 -0.63 -0.464951
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.343791 -0.39 -0.79138
+0.339637 -0.63 -0.782283
+-0.141435 -0.39 -0.861145
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.140012 -0.63 -0.851246
+-0.141435 -0.39 -0.861145
+0.339637 -0.63 -0.782283
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.141435 -0.39 -0.861145
+-0.140012 -0.63 -0.851246
+-0.587349 -0.39 -0.657502
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.580801 -0.63 -0.649945
+-0.587349 -0.39 -0.657502
+-0.140012 -0.63 -0.851246
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.587349 -0.39 -0.657502
+-0.580801 -0.63 -0.649945
+-0.85238 -0.39 -0.245107
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.842785 -0.63 -0.24229
+-0.85238 -0.39 -0.245107
+-0.580801 -0.63 -0.649945
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.85238 -0.39 -0.245107
+-0.842785 -0.63 -0.24229
+-0.85238 -0.39 0.245107
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -0.857116 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.842785 -0.63 0.24229
+-0.85238 -0.39 0.245107
+-0.842785 -0.63 -0.24229
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.853011 0.241803
+1 -0.857116 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.85238 -0.39 0.245107
+-0.842785 -0.63 0.24229
+-0.587349 -0.39 0.657502
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.857116 0.340164
+1 -0.853011 0.241803
+2 -0.743734 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.580801 -0.63 0.649945
+-0.587349 -0.39 0.657502
+-0.842785 -0.63 0.24229
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.740933 0.241803
+1 -0.743734 0.340164
+2 -0.853011 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.587349 -0.39 0.657502
+-0.580801 -0.63 0.649945
+-0.141435 -0.39 0.861145
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.743734 0.340164
+1 -0.740933 0.241803
+2 -0.552969 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.140012 -0.63 0.851246
+-0.141435 -0.39 0.861145
+-0.580801 -0.63 0.649945
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.55236 0.241803
+1 -0.552969 0.340164
+2 -0.740933 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.141435 -0.39 0.861145
+-0.140012 -0.63 0.851246
+0.343791 -0.39 0.79138
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.552969 0.340164
+1 -0.55236 0.241803
+2 -0.345386 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.339637 -0.63 0.782283
+0.343791 -0.39 0.79138
+-0.140012 -0.63 0.851246
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.347163 0.241803
+1 -0.345386 0.340164
+2 -0.55236 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.343791 -0.39 0.79138
+0.339637 -0.63 0.782283
+0.71427 -0.39 0.470358
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.345386 0.340164
+1 -0.347163 0.241803
+2 -0.186892 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.705858 -0.63 0.464951
+0.71427 -0.39 0.470358
+0.339637 -0.63 0.782283
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.190491 0.241803
+1 -0.186892 0.340164
+2 -0.347163 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.71427 -0.39 0.470358
+0.705858 -0.63 0.464951
+0.85238 -0.39 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.186892 0.340164
+1 -0.190491 0.241803
+2 -0.127807 0.340164
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.84238 -0.63 0
+0.85238 -0.39 0
+0.705858 -0.63 0.464951
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.132086 0.241803
+1 -0.127807 0.340164
+2 -0.190491 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.84238 -0.63 0
+0.732379 -1 0
+0.705858 -0.63 -0.464951
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.61332 -1 -0.405481
+0.705858 -0.63 -0.464951
+0.732379 -1 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.705858 -0.63 -0.464951
+0.61332 -1 -0.405481
+0.339637 -0.63 -0.782283
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.29394 -1 -0.682224
+0.339637 -0.63 -0.782283
+0.61332 -1 -0.405481
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.339637 -0.63 -0.782283
+0.29394 -1 -0.682224
+-0.140012 -0.63 -0.851246
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.124357 -1 -0.742366
+-0.140012 -0.63 -0.851246
+0.29394 -1 -0.682224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.140012 -0.63 -0.851246
+-0.124357 -1 -0.742366
+-0.580801 -0.63 -0.649945
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.508766 -1 -0.566812
+-0.580801 -0.63 -0.649945
+-0.124357 -1 -0.742366
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.580801 -0.63 -0.649945
+-0.508766 -1 -0.566812
+-0.842785 -0.63 -0.24229
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.73724 -1 -0.211299
+-0.842785 -0.63 -0.24229
+-0.508766 -1 -0.566812
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.842785 -0.63 -0.24229
+-0.73724 -1 -0.211299
+-0.842785 -0.63 0.24229
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -0.853011 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.73724 -1 0.211299
+-0.842785 -0.63 0.24229
+-0.73724 -1 -0.211299
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.807859 0.0901639
+1 -0.853011 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.842785 -0.63 0.24229
+-0.73724 -1 0.211299
+-0.580801 -0.63 0.649945
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.853011 0.241803
+1 -0.807859 0.0901639
+2 -0.740933 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.508767 -1 0.566812
+-0.580801 -0.63 0.649945
+-0.73724 -1 0.211299
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.710116 0.0901639
+1 -0.740933 0.241803
+2 -0.807859 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.580801 -0.63 0.649945
+-0.508767 -1 0.566812
+-0.140012 -0.63 0.851246
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.740933 0.241803
+1 -0.710116 0.0901639
+2 -0.55236 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.124357 -1 0.742366
+-0.140012 -0.63 0.851246
+-0.508767 -1 0.566812
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.545663 0.0901639
+1 -0.55236 0.241803
+2 -0.710116 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.140012 -0.63 0.851246
+-0.124357 -1 0.742366
+0.339637 -0.63 0.782283
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.55236 0.241803
+1 -0.545663 0.0901639
+2 -0.347163 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.29394 -1 0.682224
+0.339637 -0.63 0.782283
+-0.124357 -1 0.742366
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.366712 0.0901639
+1 -0.347163 0.241803
+2 -0.545663 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.339637 -0.63 0.782283
+0.29394 -1 0.682224
+0.705858 -0.63 0.464951
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.347163 0.241803
+1 -0.366712 0.0901639
+2 -0.190491 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.61332 -1 0.405481
+0.705858 -0.63 0.464951
+0.29394 -1 0.682224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.230079 0.0901639
+1 -0.190491 0.241803
+2 -0.366712 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.705858 -0.63 0.464951
+0.61332 -1 0.405481
+0.84238 -0.63 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.190491 0.241803
+1 -0.230079 0.0901639
+2 -0.132086 0.241803
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.732379 -1 0
+0.84238 -0.63 0
+0.61332 -1 0.405481
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.179144 0.0901639
+1 -0.132086 0.241803
+2 -0.230079 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.732379 -1 0
+0.332379 -1.2 0
+0.61332 -1 -0.405481
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.276818 -1.2 -0.189224
+0.61332 -1 -0.405481
+0.332379 -1.2 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.61332 -1 -0.405481
+0.276818 -1.2 -0.189224
+0.29394 -1 -0.682224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.127774 -1.2 -0.318371
+0.29394 -1 -0.682224
+0.276818 -1.2 -0.189224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.29394 -1 -0.682224
+0.127774 -1.2 -0.318371
+-0.124357 -1 -0.742366
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0674307 -1.2 -0.346438
+-0.124357 -1 -0.742366
+0.127774 -1.2 -0.318371
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.124357 -1 -0.742366
+-0.0674307 -1.2 -0.346438
+-0.508766 -1 -0.566812
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.246822 -1.2 -0.264512
+-0.508766 -1 -0.566812
+-0.0674307 -1.2 -0.346438
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.508766 -1 -0.566812
+-0.246822 -1.2 -0.264512
+-0.73724 -1 -0.211299
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.353444 -1.2 -0.0986064
+-0.73724 -1 -0.211299
+-0.246822 -1.2 -0.264512
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.73724 -1 -0.211299
+-0.353444 -1.2 -0.0986064
+-0.73724 -1 0.211299
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -0.807859 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.353444 -1.2 0.0986064
+-0.73724 -1 0.211299
+-0.353444 -1.2 -0.0986064
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.643667 0.00819672
+1 -0.807859 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.73724 -1 0.211299
+-0.353444 -1.2 0.0986064
+-0.508767 -1 0.566812
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.807859 0.0901639
+1 -0.643667 0.00819672
+2 -0.710116 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.246822 -1.2 0.264512
+-0.508767 -1 0.566812
+-0.353444 -1.2 0.0986064
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.598054 0.00819672
+1 -0.710116 0.0901639
+2 -0.643667 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.508767 -1 0.566812
+-0.246822 -1.2 0.264512
+-0.124357 -1 0.742366
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.710116 0.0901639
+1 -0.598054 0.00819672
+2 -0.545663 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0674308 -1.2 0.346437
+-0.124357 -1 0.742366
+-0.246822 -1.2 0.264512
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.521309 0.00819672
+1 -0.545663 0.0901639
+2 -0.598054 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.124357 -1 0.742366
+-0.0674308 -1.2 0.346437
+0.29394 -1 0.682224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.545663 0.0901639
+1 -0.521309 0.00819672
+2 -0.366712 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.127774 -1.2 0.318371
+0.29394 -1 0.682224
+-0.0674308 -1.2 0.346437
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.437799 0.00819672
+1 -0.366712 0.0901639
+2 -0.521309 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.29394 -1 0.682224
+0.127774 -1.2 0.318371
+0.61332 -1 0.405481
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.366712 0.0901639
+1 -0.437799 0.00819672
+2 -0.230079 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.276818 -1.2 0.189224
+0.61332 -1 0.405481
+0.127774 -1.2 0.318371
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.374037 0.00819672
+1 -0.230079 0.0901639
+2 -0.437799 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.61332 -1 0.405481
+0.276818 -1.2 0.189224
+0.732379 -1 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.230079 0.0901639
+1 -0.374037 0.00819672
+2 -0.179144 0.0901639
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.332379 -1.2 0
+0.732379 -1 0
+0.276818 -1.2 0.189224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.350267 0.00819672
+1 -0.179144 0.0901639
+2 -0.374037 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.332379 -1.2 0
+-0.0176205 -1.22 0
+0.276818 -1.2 -0.189224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.276818 -1.2 -0.189224
+-0.0176205 -1.22 0
+0.127774 -1.2 -0.318371
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.127774 -1.2 -0.318371
+-0.0176205 -1.22 0
+-0.0674307 -1.2 -0.346438
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0674307 -1.2 -0.346438
+-0.0176205 -1.22 0
+-0.246822 -1.2 -0.264512
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.246822 -1.2 -0.264512
+-0.0176205 -1.22 0
+-0.353444 -1.2 -0.0986064
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.353444 -1.2 -0.0986064
+-0.0176205 -1.22 0
+-0.353444 -1.2 0.0986064
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -0.643667 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.353444 -1.2 0.0986064
+-0.0176205 -1.22 0
+-0.246822 -1.2 0.264512
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.643667 0.00819672
+1 -0.5 0
+2 -0.598054 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.246822 -1.2 0.264512
+-0.0176205 -1.22 0
+-0.0674308 -1.2 0.346437
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.598054 0.00819672
+1 -0.5 0
+2 -0.521309 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+-0.0674308 -1.2 0.346437
+-0.0176205 -1.22 0
+0.127774 -1.2 0.318371
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.521309 0.00819672
+1 -0.5 0
+2 -0.437799 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.127774 -1.2 0.318371
+-0.0176205 -1.22 0
+0.276818 -1.2 0.189224
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.437799 0.00819672
+1 -0.5 0
+2 -0.374037 0.00819672
+kids 0
+OBJECT poly
+name "tuxbody"
+loc 0.0176205 1.22 0
+texture "../penguin/Penguin_body.rgb"
+numvert 3
+0.276818 -1.2 0.189224
+-0.0176205 -1.22 0
+0.332379 -1.2 0
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 -0.374037 0.00819672
+1 -0.5 0
+2 -0.350267 0.00819672
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+-0.5 -0.05 0.24
+-0.15 -0.05 -0.4
+0 -0.05 0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.1
+1 0.9 0
+2 0 0.8
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+0.15 -0.05 -0.4
+0 -0.05 0.4
+-0.15 -0.05 -0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 1 0.1
+1 0 0.8
+2 0.9 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+0 -0.05 0.4
+0.15 -0.05 -0.4
+0.5 -0.05 0.24
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.8
+1 1 0.1
+2 0.5 1
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+0.5 -0.05 0.24
+0.15 0.05 -0.4
+0 -0.05 0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.5 1
+1 1 0.1
+2 0 0.8
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+-0.15 0.05 -0.4
+0 -0.05 0.4
+0.15 0.05 -0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.9 0
+1 0 0.8
+2 1 0.1
+kids 0
+OBJECT poly
+name "noname"
+loc 0.407493 0.0428977 0.579776
+numvert 3
+0 -0.05 0.4
+-0.15 0.05 -0.4
+-0.5 -0.05 0.24
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.8
+1 0.9 0
+2 0 0.1
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+-0.5 -0.05 0.24
+-0.15 -0.05 -0.4
+0 -0.05 0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.1
+1 0.9 0
+2 0 0.8
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+0.15 -0.05 -0.4
+0 -0.05 0.4
+-0.15 -0.05 -0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 1 0.1
+1 0 0.8
+2 0.9 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+0 -0.05 0.4
+0.15 -0.05 -0.4
+0.5 -0.05 0.24
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.8
+1 1 0.1
+2 0.5 1
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+0.5 -0.05 0.24
+0.15 0.05 -0.4
+0 -0.05 0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.5 1
+1 1 0.1
+2 0 0.8
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+-0.15 0.05 -0.4
+0 -0.05 0.4
+0.15 0.05 -0.4
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.9 0
+1 0 0.8
+2 1 0.1
+kids 0
+OBJECT poly
+name "noname"
+loc -0.294744 0.05 0.58022
+numvert 3
+0 -0.05 0.4
+-0.15 0.05 -0.4
+-0.5 -0.05 0.24
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0 0.8
+1 0.9 0
+2 0 0.1
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+-0.35 0.35 0.2
+-0.35 0.35 -0.2
+-0.14 0.28 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+-0.14 0.28 -0.2
+-0.14 0.28 0.2
+-0.35 0.35 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+-0.14 0.28 0.2
+-0.14 0.28 -0.2
+0.14 0 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+0.14 0 -0.2
+0.14 0 0.2
+-0.14 0.28 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+0.14 0 0.2
+0.14 0 -0.2
+0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 2
+0.14 0 -0.2
+0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 2
+0.14 0 -0.2
+0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+0.35 -0.35 0
+0.14 0 -0.2
+0.14 0 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+-0.14 0.28 -0.2
+0.14 0 0.2
+0.14 0 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc 0.814247 1.00405 0
+numvert 3
+0.14 0 0.2
+-0.14 0.28 -0.2
+-0.14 0.28 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+0.35 0.35 0.2
+0.35 0.35 -0.2
+0.14 0.28 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+0.14 0.28 -0.2
+0.14 0.28 0.2
+0.35 0.35 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+0.14 0.28 0.2
+0.14 0.28 -0.2
+-0.14 0 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+-0.14 0 -0.2
+-0.14 0 0.2
+0.14 0.28 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+-0.14 0 0.2
+-0.14 0 -0.2
+-0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 2
+-0.14 0 -0.2
+-0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 2
+-0.14 0 -0.2
+-0.35 -0.35 0
+numsurf 1
+SURF 0x10
+mat 0
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+-0.35 -0.35 0
+-0.14 0 -0.2
+-0.14 0 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+0.14 0.28 -0.2
+-0.14 0 0.2
+-0.14 0 -0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "noname"
+loc -0.733242 1.04274 0
+numvert 3
+-0.14 0 0.2
+0.14 0.28 -0.2
+0.14 0.28 0.2
+numsurf 1
+SURF 0x10
+mat 0
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0

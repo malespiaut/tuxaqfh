@@ -1,0 +1,445 @@
+AC3Db
+MATERIAL "" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 1 0 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 1 0.466667 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 1 1 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 0 1 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 0 0 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+MATERIAL "" rgb 0.933333 0.501961 0.933333  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+OBJECT world
+kids 1
+OBJECT group
+name "group"
+loc 0 1.24901 0
+data 13
+@autodcs h=1
+
+kids 28
+OBJECT poly
+name "rect"
+loc 0 2.00791 0
+numvert 4
+-5.8564 1.17128 0
+5.8564 1.17128 0
+5.8564 -1.17128 0
+-5.8564 -1.17128 0
+numsurf 1
+SURF 0x0
+mat 5
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0 2.00791 0
+numvert 4
+0 1.17128 -5.8564
+0 1.17128 5.8564
+0 -1.17128 5.8564
+0 -1.17128 -5.8564
+numsurf 1
+SURF 0x0
+mat 3
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0 2.00791 0
+numvert 4
+5.8564 1.17128 0
+-5.8564 1.17128 0
+-5.8564 -1.17128 0
+5.8564 -1.17128 0
+numsurf 1
+SURF 0x0
+mat 4
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0 2.00791 0
+numvert 4
+0 -1.17128 -5.8564
+0 -1.17128 5.8564
+0 1.17128 5.8564
+0 1.17128 -5.8564
+numsurf 1
+SURF 0x0
+mat 6
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+-5.8564 0 0
+-4.1411 0 4.1411
+0 0 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 1 0.5
+1 0.853553 0.853553
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+-4.1411 0 4.1411
+0 0 5.8564
+0 0 0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.853553 0.853553
+1 0.5 1
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+0 0 5.8564
+4.1411 0 4.1411
+0 0 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 0.5 1
+1 0.146447 0.853553
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+4.1411 0 4.1411
+5.8564 0 7.17181e-16
+0 0 0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.146447 0.853553
+1 0 0.5
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+5.8564 0 7.17181e-16
+4.1411 0 -4.1411
+0 0 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 0 0.5
+1 0.146447 0.146447
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+4.1411 0 -4.1411
+0 0 -5.8564
+0 0 0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.146447 0.146447
+1 0.5 0
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+0 0 -5.8564
+-4.1411 0 -4.1411
+0 0 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 0.5 0
+1 0.853553 0.146447
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "disk"
+loc 0 0.836627 0
+numvert 3
+-4.1411 0 -4.1411
+-5.8564 0 0
+0 0 0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 0.853553 0.146447
+1 1 0.5
+2 0.5 0.5
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+4.1411 1.75692 4.1411
+-3.49068e-07 -1.75692 5.8564
+4.1411 -1.75692 4.1411
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 1 1
+1 0.875 0
+2 1 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+4.1411 1.75692 4.1411
+-3.49068e-07 1.75692 5.8564
+-3.49068e-07 -1.75692 5.8564
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 1 1
+1 0.875 1
+2 0.875 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-3.49068e-07 1.75692 5.8564
+-4.1411 -1.75692 4.1411
+-3.49068e-07 -1.75692 5.8564
+numsurf 1
+SURF 0x10
+mat 1
+refs 3
+0 0.875 1
+1 0.75 0
+2 0.875 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-3.49068e-07 1.75692 5.8564
+-4.1411 1.75692 4.1411
+-4.1411 -1.75692 4.1411
+numsurf 1
+SURF 0x10
+mat 1
+refs 3
+0 0.875 1
+1 0.75 1
+2 0.75 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-4.1411 1.75692 4.1411
+-5.8564 -1.75692 0
+-4.1411 -1.75692 4.1411
+numsurf 1
+SURF 0x10
+mat 4
+refs 3
+0 0.75 1
+1 0.625 0
+2 0.75 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-4.1411 1.75692 4.1411
+-5.8564 1.75692 0
+-5.8564 -1.75692 0
+numsurf 1
+SURF 0x10
+mat 4
+refs 3
+0 0.75 1
+1 0.625 1
+2 0.625 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-5.8564 1.75692 0
+-4.1411 -1.75692 -4.1411
+-5.8564 -1.75692 0
+numsurf 1
+SURF 0x10
+mat 3
+refs 3
+0 0.625 1
+1 0.5 0
+2 0.625 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-5.8564 1.75692 0
+-4.1411 1.75692 -4.1411
+-4.1411 -1.75692 -4.1411
+numsurf 1
+SURF 0x10
+mat 3
+refs 3
+0 0.625 1
+1 0.5 1
+2 0.5 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-4.1411 1.75692 -4.1411
+1.39628e-06 -1.75692 -5.8564
+-4.1411 -1.75692 -4.1411
+numsurf 1
+SURF 0x10
+mat 1
+refs 3
+0 0.5 1
+1 0.375 0
+2 0.5 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+-4.1411 1.75692 -4.1411
+1.39628e-06 1.75692 -5.8564
+1.39628e-06 -1.75692 -5.8564
+numsurf 1
+SURF 0x10
+mat 1
+refs 3
+0 0.5 1
+1 0.375 1
+2 0.375 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+1.39628e-06 1.75692 -5.8564
+4.1411 -1.75692 -4.1411
+1.39628e-06 -1.75692 -5.8564
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 0.375 1
+1 0.25 0
+2 0.375 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+1.39628e-06 1.75692 -5.8564
+4.1411 1.75692 -4.1411
+4.1411 -1.75692 -4.1411
+numsurf 1
+SURF 0x10
+mat 2
+refs 3
+0 0.375 1
+1 0.25 1
+2 0.25 0
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+4.1411 1.75692 4.1411
+5.8564 -1.75692 1.04721e-06
+4.1411 -1.75692 4.1411
+numsurf 1
+SURF 0x10
+mat 4
+refs 3
+2 0.25 0
+1 0.125 0
+0 0.25 1
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+4.1411 1.75692 4.1411
+5.8564 1.75692 1.04721e-06
+5.8564 -1.75692 1.04721e-06
+numsurf 1
+SURF 0x10
+mat 4
+refs 3
+2 0.125 0
+1 0.125 1
+0 0.25 1
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+5.8564 1.75692 1.04721e-06
+4.1411 -1.75692 -4.1411
+5.8564 -1.75692 1.04721e-06
+numsurf 1
+SURF 0x10
+mat 3
+refs 3
+2 0.125 0
+1 0 0
+0 0.125 1
+kids 0
+OBJECT poly
+name "cylinder"
+loc 0 -0.920292 0
+numvert 3
+5.8564 1.75692 1.04721e-06
+4.1411 1.75692 -4.1411
+4.1411 -1.75692 -4.1411
+numsurf 1
+SURF 0x10
+mat 3
+refs 3
+2 0 0
+1 0 1
+0 0.125 1
+kids 0

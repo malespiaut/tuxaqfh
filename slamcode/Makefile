@@ -69,7 +69,7 @@ VERSION = 1.0.12
 pkgdatadir = $(datadir)/games/tux_aqfh/slamcode
 
 pkgdata_DATA = $(wildcard *.slam)
-mkinstalldirs = $(SHELL) $(top_srcdir)/../mkinstalldirs
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
 CONFIG_CLEAN_FILES = 
 DATA =  $(pkgdata_DATA)
 

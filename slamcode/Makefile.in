@@ -69,7 +69,7 @@ VERSION = @VERSION@
 pkgdatadir = $(datadir)/games/@PACKAGE@/slamcode
 
 pkgdata_DATA = $(wildcard *.slam)
-mkinstalldirs = $(SHELL) $(top_srcdir)/../mkinstalldirs
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
 CONFIG_CLEAN_FILES = 
 DATA =  $(pkgdata_DATA)
 

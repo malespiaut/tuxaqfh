@@ -1,40 +1,89 @@
-#"level9.ac" 0.0,0.0,0.0,0.0,0.0,0.0
-MUSIC "mods/anthygo.mod"
-OCEAN
-SKY 0.4,0.7,1.0
-#TUX -170,42
-#LIFE -73,56
-#"tree.ac" -73,40
-#"tree.ac" -93,29
-#"tree.ac" -73,-45
-#"slide9.ac" -60,64,73,90,0,0
-#"floating_island.ac" 31,70,9.3,0,0,0
-#"tree.ac" 40,72
-#"jump_pad.ac"  30,60,14,0,0,0
-#SHERRING 30,60
-#"jump_pad.ac"  30,50,16,0,0,0
-#SHERRING 30,50
-#"tumbling_jump_pad.ac" 30,40,18,0,0,0
-#"jump_pad.ac"  30,30,20,0,0,0
-#SHERRING 30,30
-#"tumbling_jump_pad.ac" 30,20,22,0,0,0
-#"jump_pad.ac"  30,10,24,0,0,0
-#"jump_pad.ac"  34,18,26,0,0,0
-#YHERRING 34,18
-#"jump_pad.ac"  38,26,28,0,0,0
-#LIFE 30,10
-#"jump_pad.ac"  48,26,30,0,0,0
-#"jump_pad.ac"  48,16,32,0,0,0
-#"swinging_platform.ac" 48,5,42,0,0,0
-#"floating_island.ac" 48,-25,38,0,0,0
-#LIFE 48,-25
-#"tube9.ac" 46,-49,42.6,0,0,0
-#"lavapit.ac" 46,-91,40,-90,0,0
-#TELEPORTER 46,-118
-#"floating_island.ac" 22,-212,80,0,0,0
-#TELEPORTER 30,-201
-#EXIT 22,-212,9999
-#YHERRING 22,-201
-#GHERRING -110,0
-"tennisgame.ac" 0,0,0,0,0,0
-TUX 0,0
+"level2.ac" 0.0,0.0,0.0,0.0,0.0,0.0
+MUSIC "mods/mozart.mod"
+ICE
+SKY 0.8,0.9,1.0
+TUX 110.0,56.0,0.0
+"mr_bucket.ac" 250.0,10.0
+#"mr_bucket.ac" 240.0,20.0
+#"mr_bucket.ac" 260.0,30.0
+#
+# Trees
+#
+"xmastree.ac" 5.0,100.0
+"xmastree.ac" 15.0,60.0
+"xmastree.ac" 35.0,207.0
+"xmastree.ac" 49.0,139.0
+"xmastree.ac" 60.0,90.0
+"xmastree.ac" 70.0,210.0
+"xmastree.ac" 70.0,163.0
+"xmastree.ac" 114.0,48.0
+"xmastree.ac" 114.0,224.0
+"xmastree.ac" 115.0,58.0
+"xmastree.ac" 119.0,50.0
+"xmastree.ac" 155.0,194.0
+"xmastree.ac" 160.0,93.0
+"xmastree.ac" 225.0,162.0
+"xmastree.ac" 355.0,51.0
+#
+# Herring
+# Y==Yellow (ie Gold)
+# R==Red
+# S==Silver
+# G==Green
+#
+# Herring effects suffixes are:
+#   ROCKET,GUN,SUPERTUX,PARTYHAT,BOWTIE,SHADES
+#
+SHERRING 45.0,50.0
+SHERRING 50.0,45.0
+SHERRING 55.0,50.0
+SHERRING 50.0,55.0
+#
+YHERRING 210.0,150.0
+#
+YHERRING 46.0,280.0
+#
+RHERRING 290.0,250.0,ROCKET
+RHERRING 400.0,100.0,GUN
+RHERRING 300.0,410.0,SUPERTUX
+RHERRING  50.0,100.0,PARTYHAT
+RHERRING  55.0,100.0,BOWTIE
+RHERRING  65.0,100.0,SHADES
+#
+GHERRING 85.0,85.0
+SHERRING 170.0,120.0
+SHERRING 110.0,130.0
+SHERRING 130.0,140.0
+SHERRING 140.0,160.0
+SHERRING 150.0,110.0
+SHERRING 120.0,190.0
+#
+GHERRING 375.0,85.0
+SHERRING 470.0,20.0
+SHERRING 410.0,130.0
+SHERRING 430.0,40.0
+SHERRING 440.0,160.0
+SHERRING 490.0,210.0
+SHERRING 420.0,90.0
+#
+TELEPORTER 50.0,50.0
+TELEPORTER 339.0,128.0
+TELEPORTER 425.0,400.0
+#
+EXIT 450.0,400.0,9
+#
+"snowman.ac" 368.0,117.0
+"snowman.ac" 105.0,224.0
+"snowman.ac" 115.0,65.0
+"snowman.ac" 115.0,235.0
+#
+"small_gift.ac" 107.0,53.0
+"small_gift.ac" 102.0,53.0
+"small_gift.ac" 105.0,56.0
+"med_gift.ac" 102.0,52.0
+"med_gift.ac" 105.0,50.0
+"large_gift.ac" 105.0,52.0
+"large_gift.ac" 115.0,52.0
+"candycane.ac" 115.0,50.0
+"candycane.ac" 115.0,46.0
+"candycane.ac" 115.0,42.0

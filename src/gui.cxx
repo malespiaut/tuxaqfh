@@ -145,7 +145,6 @@ GUI::GUI ()
   glutMotionFunc        ( motionfn  ) ;
   glutPassiveMotionFunc ( motionfn  ) ;
  
-  ssgInit () ;
   puInit () ;
 
   font = new fntTexFont ;

@@ -1,0 +1,47 @@
+AC3Db
+MATERIAL "" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "noname"
+texture "../penguin/Gown_body.rgb"
+numvert 7
+0.00114635 -0.00152838 0.19839
+0.00305635 -0.00152838 -0.19839
+0.211222 -0.0690064 0.19839
+0.213133 -0.0690064 -0.19839
+0.49191 -0.351528 0.173253
+0.49191 -0.351528 -0.16179
+0.70191 -0.701528 0
+numsurf 5
+SURF 0x30
+mat 0
+refs 3
+2 0 0
+1 0.1 0
+0 0.1 0.1
+SURF 0x30
+mat 0
+refs 3
+1 0 0
+2 0.1 0
+3 0.1 0.1
+SURF 0x30
+mat 0
+refs 3
+4 0 0
+3 0.1 0
+2 0.1 0.1
+SURF 0x30
+mat 0
+refs 3
+3 0 0
+4 0.1 0
+5 0.1 0.1
+SURF 0x30
+mat 0
+refs 3
+6 0 0
+5 0.1 0
+4 0.1 0.1
+kids 0

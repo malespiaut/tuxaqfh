@@ -64,7 +64,7 @@ CXXCPP = c++ -E
 MAKEINFO = makeinfo
 PACKAGE = tux_aqfh
 RANLIB = ranlib
-VERSION = 1.0.12
+VERSION = 1.0.13
 
 pkgdatadir = $(datadir)/games/tux_aqfh/slamcode
 

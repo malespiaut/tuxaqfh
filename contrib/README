@@ -1,0 +1,25 @@
+
+Contributions:
+~~~~~~~~~~~~~~
+
+============================================================================
+
+From Andreas Umbach:
+
+  For anyone with a 3dfx card who has a little trouble with that fullscreen
+  & environment thing I put the tux_3dfx.sh script into the tux_aqfh
+  directory (in my case: /usr/local/src/tux_aqfh-1.0.6/). Then you can
+  start tux with
+
+    cd /usr/local/src/tux_aqfh-1.0.6      (or whereever you put it)
+    sh tux_3dfx.sh                        (or whatever you named it)
+
+Steve Says:
+
+  I edit the script to include the 'cd <wherever tux is installed>' into
+  the script, then I can put the script into /usr/local/tux and start
+  the game just by typing 'tux' or 'tux -g'.
+
+============================================================================
+
+

@@ -1,0 +1,33 @@
+
+x = 0 ;
+y = 0 ;
+z = 0 ;
+
+while ( 1 )
+{
+  while ( x < 10 )
+  {
+    x = x + 0.10 ;
+    settrans ( x, y, z, 0, 0, 0 ) ;
+    pause ;
+  }
+  while ( y < 10 )
+  {
+    y = y + 0.10 ;
+    settrans ( x, y, z, 0, 0, 0 ) ;
+    pause ;
+  }
+  while ( x > -10 )
+  {
+    x = x - 0.10 ;
+    settrans ( x, y, z, 0, 0, 0 ) ;
+    pause ;
+  }
+  while ( y > -10 )
+  {
+    y = y - 0.10 ;
+    settrans ( x, y, z, 0, 0, 0 ) ;
+    pause ;
+  }
+}
+

@@ -19,8 +19,8 @@ Rocket::Rocket ()
   rocket -> clrTraversalMaskBits ( SSGTRAV_ISECT|SSGTRAV_HOT ) ;
   all_switch     = new ssgSelector () ;
   exhaust_switch = new ssgSelector () ;
-  ssgEntity *rr  = ssgLoadAC ( "rocket.ac", process_userdata ) ;
-  ssgEntity *re  = ssgLoadAC ( "exhaust.ac", process_userdata ) ;
+  ssgEntity *rr  = ssgLoad ( "rocket.ac", loader_opts ) ;
+  ssgEntity *re  = ssgLoad ( "exhaust.ac", loader_opts ) ;
   ssgBranch *rg  = new ssgBranch () ;
 
   rg -> addKid ( rr ) ; ssgFlatten ( rr ) ;

@@ -2,6 +2,15 @@
 TUX-AQFH Change Log.
 ====================
 
+TUX-AQFH v1.0.12 (Jul 12th 2001)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Updated to use PLIB 1.4.1
+
+  * Changed ssgLoadAC's to ssgLoad's so now you can
+    make models using any supported file format.
+
+  * Fixed a new bug that appeared in the water model.
+
 TUX-AQFH v1.0.11 (Jul 12th 2000)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   * Configure file fixed for PLIB 1.3

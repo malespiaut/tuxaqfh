@@ -171,6 +171,15 @@ void GFX::update ()
 
 void GFX::done ()
 {
+  static ulClock frame_rate_limiter ;
+
+  frame_rate_limiter . update () ;
+
+  float delta = frame_rate_limiter . getDeltaTime () ;
+
+  if ( delta < 1.0f / 60.0f )
+    usleep ( (int)((1.0f/60.0f - delta) * 1000000.0f) ) ;     
+
   glutPostRedisplay () ;
   glutSwapBuffers () ;
 }

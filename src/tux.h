@@ -47,6 +47,7 @@ extern GFX         *gfx        ;
 extern Ocean       *ocean      ;
 extern int        play_as_gown ;
 extern ssgRoot     *scene      ;
+extern ssgLoaderOptions *loader_opts ;
 extern char  *tux_aqfh_datadir ;
 
 #include "slam.h"
@@ -76,6 +77,7 @@ extern char  *tux_aqfh_datadir ;
 int  getClock    () ;
 void tuxMainLoop () ;
 ssgBranch *process_userdata ( char *data ) ;
+ssgState *getAppState ( char *fname ) ;
 
 #define MAX_GOLD_HERRING 32
 extern int herring_collected [] ;

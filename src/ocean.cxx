@@ -87,7 +87,8 @@ Ocean::Ocean ( OceanType t )
   {
     case OCEAN_WATER : wgs -> setState ( water_gst ) ;
                        sgSetVec4 ( wclist [ 0 ],  1.0f, 1.0f, 1.0f, 0.7f ) ;
-                       wgs -> clrTraversalMaskBits ( SSGTRAV_ISECT|SSGTRAV_HOT ) ;
+fprintf(stderr,"Zapping traversal masks!\n" ) ;
+                       ocean -> clrTraversalMaskBits ( SSGTRAV_ISECT|SSGTRAV_HOT ) ;
                        break ;
     case OCEAN_LAVA  : wgs -> setState ( lava_gst ) ;
                        sgSetVec4 ( wclist [ 0 ],  1.0f, 1.0f, 1.0f, 1.0f ) ;

@@ -1,5 +1,6 @@
 
 #include "tux.h"
+#include "GL/glut.h"
 #include "plib/pu.h"
 
 static jsJoystick *joystick ;

@@ -654,6 +654,10 @@ fprintf ( stderr, "ML=%f,%f,%f\n",
   over_water = ( ocean != NULL &&
                  hot < 0.0f &&
                  ocean -> getType() == OCEAN_WATER ) ;
+if ( ocean!=NULL)
+  fprintf(stderr,"OW=%d, hot=%f\n",
+    over_water, hot);
+
 
   in_blackhole = ( ocean != NULL &&
                  end[2] < -20.0f &&

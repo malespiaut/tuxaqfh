@@ -346,50 +346,50 @@ Penguin::Penguin ( int be_gown )
   ssgEntity *geodeDz, *geodeSH, *geodeB, *geodeBh, *geodeBo ;
   ssgEntity *lfgeode, *rfgeode, *lgeode, *rgeode  ;
 
-/*  geodeGP = ssgLoadAC ( "gold_penguin.ac", process_userdata ) ;*/
+/*  geodeGP = ssgLoad ( "gold_penguin.ac", loader_opts ) ;*/
 
   if ( gown )
   {
-    geodeP  = ssgLoadAC ( "gown_body.ac", process_userdata ) ;
-    geodeS  = ssgLoadAC ( "supergown_body.ac", process_userdata ) ;
-    geodePS = ssgLoadAC ( "gown_slide.ac", process_userdata ) ;
+    geodeP  = ssgLoad ( "gown_body.ac", loader_opts ) ;
+    geodeS  = ssgLoad ( "supergown_body.ac", loader_opts ) ;
+    geodePS = ssgLoad ( "gown_slide.ac", loader_opts ) ;
 
-    geodeH0 = ssgLoadAC ( "gown_head.ac"     , process_userdata ) ;
-    geodeH1 = ssgLoadAC ( "gown_halfblink.ac", process_userdata ) ;
-    geodeH2 = ssgLoadAC ( "gown_blink.ac"    , process_userdata ) ;
-    geodeDz = ssgLoadAC ( "gown_dizzy.ac"    , process_userdata ) ;
-    geodeSH = ssgLoadAC ( "gown_bubble.ac"   , process_userdata ) ;
+    geodeH0 = ssgLoad ( "gown_head.ac"     , loader_opts ) ;
+    geodeH1 = ssgLoad ( "gown_halfblink.ac", loader_opts ) ;
+    geodeH2 = ssgLoad ( "gown_blink.ac"    , loader_opts ) ;
+    geodeDz = ssgLoad ( "gown_dizzy.ac"    , loader_opts ) ;
+    geodeSH = ssgLoad ( "gown_bubble.ac"   , loader_opts ) ;
 
-    geodeB  = ssgLoadAC ( "gown_beak.ac", process_userdata ) ;
-    geodeBh = ssgLoadAC ( "gown_beak_halfopen.ac", process_userdata ) ;
-    geodeBo = ssgLoadAC ( "gown_beak_open.ac", process_userdata ) ;
+    geodeB  = ssgLoad ( "gown_beak.ac", loader_opts ) ;
+    geodeBh = ssgLoad ( "gown_beak_halfopen.ac", loader_opts ) ;
+    geodeBo = ssgLoad ( "gown_beak_open.ac", loader_opts ) ;
 
-    lfgeode = ssgLoadAC ( "gown_lflipper.ac", process_userdata ) ;
-    rfgeode = ssgLoadAC ( "gown_rflipper.ac", process_userdata ) ;
-    lgeode  = ssgLoadAC ( "gown_lfoot.ac", process_userdata ) ;
-    rgeode  = ssgLoadAC ( "gown_rfoot.ac", process_userdata ) ;
+    lfgeode = ssgLoad ( "gown_lflipper.ac", loader_opts ) ;
+    rfgeode = ssgLoad ( "gown_rflipper.ac", loader_opts ) ;
+    lgeode  = ssgLoad ( "gown_lfoot.ac", loader_opts ) ;
+    rgeode  = ssgLoad ( "gown_rfoot.ac", loader_opts ) ;
   }
   else
   {
-    geodeP  = ssgLoadAC ( "penguin_body.ac", process_userdata ) ;
-/*  geodeGP = ssgLoadAC ( "gold_penguin.ac", process_userdata ) ;*/
-    geodeS  = ssgLoadAC ( "superpenguin_body.ac", process_userdata ) ;
-    geodePS = ssgLoadAC ( "penguin_slide.ac", process_userdata ) ;
+    geodeP  = ssgLoad ( "penguin_body.ac", loader_opts ) ;
+/*  geodeGP = ssgLoad ( "gold_penguin.ac", loader_opts ) ;*/
+    geodeS  = ssgLoad ( "superpenguin_body.ac", loader_opts ) ;
+    geodePS = ssgLoad ( "penguin_slide.ac", loader_opts ) ;
 
-    geodeH0 = ssgLoadAC ( "penguin_head.ac"     , process_userdata ) ;
-    geodeH1 = ssgLoadAC ( "penguin_halfblink.ac", process_userdata ) ;
-    geodeH2 = ssgLoadAC ( "penguin_blink.ac"    , process_userdata ) ;
-    geodeDz = ssgLoadAC ( "penguin_dizzy.ac"    , process_userdata ) ;
-    geodeSH = ssgLoadAC ( "penguin_bubble.ac"   , process_userdata ) ;
+    geodeH0 = ssgLoad ( "penguin_head.ac"     , loader_opts ) ;
+    geodeH1 = ssgLoad ( "penguin_halfblink.ac", loader_opts ) ;
+    geodeH2 = ssgLoad ( "penguin_blink.ac"    , loader_opts ) ;
+    geodeDz = ssgLoad ( "penguin_dizzy.ac"    , loader_opts ) ;
+    geodeSH = ssgLoad ( "penguin_bubble.ac"   , loader_opts ) ;
 
-    geodeB  = ssgLoadAC ( "penguin_beak.ac", process_userdata ) ;
-    geodeBh = ssgLoadAC ( "penguin_beak_halfopen.ac", process_userdata ) ;
-    geodeBo = ssgLoadAC ( "penguin_beak_open.ac", process_userdata ) ;
+    geodeB  = ssgLoad ( "penguin_beak.ac", loader_opts ) ;
+    geodeBh = ssgLoad ( "penguin_beak_halfopen.ac", loader_opts ) ;
+    geodeBo = ssgLoad ( "penguin_beak_open.ac", loader_opts ) ;
 
-    lfgeode = ssgLoadAC ( "penguin_lflipper.ac", process_userdata ) ;
-    rfgeode = ssgLoadAC ( "penguin_rflipper.ac", process_userdata ) ;
-    lgeode  = ssgLoadAC ( "penguin_lfoot.ac", process_userdata ) ;
-    rgeode  = ssgLoadAC ( "penguin_rfoot.ac", process_userdata ) ;
+    lfgeode = ssgLoad ( "penguin_lflipper.ac", loader_opts ) ;
+    rfgeode = ssgLoad ( "penguin_rflipper.ac", loader_opts ) ;
+    lgeode  = ssgLoad ( "penguin_lfoot.ac", loader_opts ) ;
+    rgeode  = ssgLoad ( "penguin_rfoot.ac", loader_opts ) ;
   }
 
   beak = new ssgSelector  ;

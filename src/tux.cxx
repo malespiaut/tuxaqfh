@@ -9,6 +9,8 @@
 #define chdir  _chdir
 #endif
 
+ssgLoaderOptions *loader_opts = NULL ;                                          
+
 TuxState     *tuxState = NULL ;
 WhaleState *whaleState = NULL ;
 GlobalState *currState = NULL ;
@@ -160,6 +162,15 @@ int main ( int argc, char **argv )
   }
 
   banner () ;
+
+  if ( loader_opts == NULL )
+  {
+    loader_opts = new ssgLoaderOptions () ;
+    loader_opts -> setCreateStateCallback ( getAppState ) ;
+    loader_opts -> setCreateBranchCallback ( process_userdata ) ;
+    ssgSetCurrentOptions ( loader_opts ) ;
+  }                                                                             
+
   init_hooks () ;
   parse_tuxrc ( & start_level ) ;
 

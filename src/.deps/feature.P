@@ -25,7 +25,8 @@ feature.o: feature.cxx tux.h /usr/include/stdio.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/sys/param.h \
  /usr/include/linux/param.h /usr/include/asm/param.h \
- /usr/include/GL/gl.h /usr/include/GL/glu.h /usr/include/plib/sg.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/GL/glu.h \
+ /usr/include/plib/sg.h /usr/include/plib/ssgconf.h \
  /usr/include/GL/glut.h /usr/include/plib/ssgKeyFlier.h \
  /usr/include/plib/sl.h /usr/include/plib/slPortability.h \
  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
@@ -94,8 +95,10 @@ tux.h :
 /usr/include/linux/param.h :
 /usr/include/asm/param.h :
 /usr/include/GL/gl.h :
+/usr/include/GL/glext.h :
 /usr/include/GL/glu.h :
 /usr/include/plib/sg.h :
+/usr/include/plib/ssgconf.h :
 /usr/include/GL/glut.h :
 /usr/include/plib/ssgKeyFlier.h :
 /usr/include/plib/sl.h :

@@ -261,9 +261,9 @@ Steve:
 
   Hook *h = (Hook *) (ent -> getUserData ()) ;
 
-  if ( ent -> isAKindOf ( SSG_TYPE_BASETRANSFORM ) )
+  if ( ent -> isAKindOf ( ssgTypeBaseTransform() ) )
   {
-    if ( ent -> isAKindOf ( SSG_TYPE_TEXTRANS ) )
+    if ( ent -> isAKindOf ( ssgTypeTexTrans() ) )
     {
     }
     else
@@ -647,7 +647,7 @@ static void exit_command ( LevelLoaderStatus *stat, char *s, char *str )
 
   ssgTransform *tf = new ssgTransform ( & c ) ;
 
-  ssgEntity *obj = ssgLoadAC ( "folly.ac", process_userdata ) ;
+  ssgEntity *obj = ssgLoad ( "folly.ac", loader_opts ) ;
   tf -> addKid   ( obj ) ;
   ssgFlatten     ( obj ) ;
   ssgStripify    ( tf ) ;
@@ -783,7 +783,7 @@ int parseDBaseString ( LevelLoaderStatus *stat, FILE *lfd )
 
   ssgTransform *tf = new ssgTransform ( & c ) ;
 
-  ssgEntity *obj = ssgLoadAC ( str+1, process_userdata ) ;
+  ssgEntity *obj = ssgLoad ( str+1, loader_opts ) ;
   tf -> addKid ( obj ) ;
   ssgFlatten  ( obj ) ;
   ssgStripify ( tf ) ;

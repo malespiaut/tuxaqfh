@@ -2,11 +2,11 @@
 #include "tux.h"
 #ifdef WIN32
 #include <windows.h>
-#include <time.h>
 #else
-#include <sys/time.h>
 #include <unistd.h>
 #endif
+#include <time.h>
+#include <sys/time.h>
 #include <stdarg.h>
 
 #define MAX_STRING          30

@@ -2,6 +2,10 @@
 TUX-AQFH Change Log.
 ====================
 
+TUX-AQFH v1.0.14 (Sept 2nd 2002)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  * Updated to use PLIB 1.6.0
+
 TUX-AQFH v1.0.12 (Jul 12th 2001)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   * Updated to use PLIB 1.4.1

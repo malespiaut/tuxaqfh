@@ -109,12 +109,12 @@ if test "x$ac_cv_header_windows_h" != "xyes" ; then
     CFLAGS="$CFLAGS -I/usr/local/include -L/usr/local/lib"
     CXXFLAGS="$CXXFLAGS -I/usr/local/include -L/usr/local/lib"
   else
-    CFLAGS="$CFLAGS -O6 -Wall"
-    CXXFLAGS="$CXXFLAGS -O6 -Wall"
+    CFLAGS="$CFLAGS"
+    CXXFLAGS="$CXXFLAGS"
   fi
 else
-  CFLAGS="$CFLAGS -O6 -Wall $MACH -malign-double -I/usr/local/include -L/usr/local/lib"
-  CXXFLAGS="$CXXFLAGS -O6 -Wall $MACH -malign-double -I/usr/local/include -L/usr/local/lib"
+  CFLAGS="$CFLAGS $MACH -malign-double -I/usr/local/include -L/usr/local/lib"
+  CXXFLAGS="$CXXFLAGS $MACH -malign-double -I/usr/local/include -L/usr/local/lib"
 fi
 
 MY_EXPAND_DIR(tux_aqfh_datadir, "$datadir/games/$PACKAGE")

@@ -834,8 +834,8 @@ void switchDatabase ( int new_level )
     the sound system as often as possible.  It seems to work OK.
   */
 
-  sound -> setSafetyMargin ( 2.0f ) ;
-  sound -> update () ;
+  //sound -> setSafetyMargin ( 2.0f ) ;
+  //sound -> update () ;
 
   if ( scene )
   { 
@@ -928,8 +928,8 @@ void switchDatabase ( int new_level )
            (float)(ssgGetNumTexelsLoaded()/1049)/1000.0f ) ;
 #endif
 
-  sound -> setSafetyMargin () ;
-  sound -> update () ;
+  //sound -> setSafetyMargin () ;
+  //sound -> update () ;
 }
 
 

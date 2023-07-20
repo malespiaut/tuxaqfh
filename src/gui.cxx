@@ -168,10 +168,11 @@ GUI::GUI ()
 
   main_menu_bar -> close () ;
   main_menu_bar -> hide  () ;
-  
-  joystick = new jsJoystick ( 0 ) ;
-  joystick -> setDeadBand ( 0, 0.1 ) ;
-  joystick -> setDeadBand ( 1, 0.1 ) ;
+
+  //TODO: Fix undefined reference to `jsJoystick::jsJoystick(int)'
+  //joystick = new jsJoystick ( 0 ) ;
+  //joystick -> setDeadBand ( 0, 0.1 ) ;
+  //joystick -> setDeadBand ( 1, 0.1 ) ;
 }
 
 
@@ -237,18 +238,18 @@ void GUI::update ()
 
 void GUI::joystickInput ()
 {
+  /*
   static JoyInfo ji ;
 
   if ( isHidden() && ( joystick->notWorking() || ! prefer_joystick ) )
   {
     float mscale = 100.0f ;
 
-    /*
-      If he just pressed or just released the right
-      mouse button then he toggled between moving tux
-      and moving the camera - so we need to zero the
-      accumulated mouse motion.
-    */
+    //
+    //  If he just pressed or just released the right
+    //  mouse button then he toggled between moving tux
+    //  and moving the camera - so we need to zero the
+    //  accumulated mouse motion.
 
     if ( ( ji.buttons & 0x04 ) != ( mouse_buttons & 0x04 ) )
     {
@@ -273,12 +274,13 @@ void GUI::joystickInput ()
     mouse_dx = mouse_dy = 0 ;
     mouse_buttons = 0 ;
 
-    joystick -> read ( & ji.buttons, ji.data ) ;
+    //TODO: Fix undefined reference to `jsJoystick::read(int*, float*)'
+    //joystick -> read ( & ji.buttons, ji.data ) ;
   }
 
   if ( CD_hack )
   {
-    ji.buttons |= 4 + 8 ;  /* Set the C+D buttons - kludhe a 'ROLL'. */
+    ji.buttons |= 4 + 8 ;  // Set the C+D buttons - kludhe a 'ROLL'.
     CD_hack = FALSE ;
   }
 
@@ -296,6 +298,7 @@ void GUI::joystickInput ()
     hide_status () ;
 
   tuxState -> joystickInput ( &ji ) ;
+  */
 }
 
 

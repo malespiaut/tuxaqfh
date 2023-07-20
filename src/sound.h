@@ -34,10 +34,12 @@ public:
   void update () ;
   void playSfx ( int sound ) ;
 
+  /*
   void setSafetyMargin ( float t = 0.25 )
   {
     sched -> setSafetyMargin ( t ) ;
   }
+  */
 
   void  change_track ( char *fname ) ;
   void disable_music () ;

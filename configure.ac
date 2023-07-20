@@ -11,7 +11,18 @@ AC_PROG_CXXCPP
 AC_PROG_INSTALL
 AC_PROG_RANLIB
 
-plib_suffix="-lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lplibul"
+AC_CHECK_FUNCS([floor])
+AC_CHECK_FUNCS([gettimeofday])
+AC_CHECK_FUNCS([pow])
+AC_CHECK_FUNCS([select])
+AC_CHECK_FUNCS([sqrt])
+AC_CHECK_FUNCS([strtol])
+AC_CHECK_HEADERS([sys/time.h])
+AC_CHECK_HEADERS([unistd.h])
+AC_C_INLINE
+AC_FUNC_STRTOD
+
+AC_PREREQplib_suffix="-lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lplibul"
 
 dnl Checks for library functions.
 dnl check for OpenGL related libraries

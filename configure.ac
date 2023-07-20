@@ -1,7 +1,8 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT(src/tux.cxx)
-AM_INIT_AUTOMAKE(tux_aqfh, 1.0.14)
+AC_INIT([tux_aqfh], [1.0.14])
+AC_CONFIG_SRCDIR([src/tux.cxx])
+AM_INIT_AUTOMAKE([1.16])
 
 dnl Checks for programs.
 AC_PROG_CC
@@ -84,8 +85,6 @@ fi
 
 dnl Checks for header files.
 
-AC_HEADER_STDC
-
 AC_CHECK_HEADERS(GL/gl.h GL/glu.h GL/glut.h)
 
 AC_CHECK_HEADER(windows.h, AC_DEFINE(WIN32))
@@ -121,7 +120,7 @@ fi
 MY_EXPAND_DIR(tux_aqfh_datadir, "$datadir/games/$PACKAGE")
 AC_DEFINE_UNQUOTED(TUX_AQFH_DATADIR, "$tux_aqfh_datadir")
 
-AC_OUTPUT( Makefile          \
+AC_CONFIG_FILES([Makefile          \
            contrib/Makefile  \
            data/Makefile     \
            doc/Makefile     \
@@ -133,5 +132,6 @@ AC_OUTPUT( Makefile          \
            slamcode/Makefile \
            src/Makefile      \
            wavs/Makefile     \
-          )
+          ])
+AC_OUTPUT
 

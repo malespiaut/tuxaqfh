@@ -1,0 +1,4007 @@
+AC3Db
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 1.000000 1.000000 1.000000 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 1.000000 1.000000 1.000000 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 1.000000 1.000000 1.000000 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 0.500000 0.500000 0.500000 shi 10  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 0.000000 0.000000 0.000000 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 0.000000 0.000000 0.000000 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 0.498039 0.498039 0.498039 shi 0  trans 0.000000
+MATERIAL "NoName" rgb 1.000000 1.000000 1.000000 amb 1.000000 1.000000 1.000000 emis 0.000000 0.000000 0.000000 spec 0.498039 0.498039 0.498039 shi 0  trans 0.000000
+OBJECT world
+kids 1
+OBJECT group
+kids 7
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 143
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.395741 1.57201 -0
+0.565742 1.32201 -0
+0.325893 1.57201 -0.237882
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.468906 1.32201 -0.329791
+0.325893 1.57201 -0.237882
+0.565742 1.32201 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.325893 1.57201 -0.237882
+0.468906 1.32201 -0.329791
+0.138524 1.57201 -0.400238
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.209145 1.32201 -0.554875
+0.138524 1.57201 -0.400238
+0.468906 1.32201 -0.329791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.138524 1.57201 -0.400238
+0.209145 1.32201 -0.554875
+-0.106877 1.57201 -0.435521
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.131071 1.32201 -0.603791
+-0.106877 1.57201 -0.435521
+0.209145 1.32201 -0.554875
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.106877 1.57201 -0.435521
+-0.131071 1.32201 -0.603791
+-0.332397 1.57201 -0.33253
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.443723 1.32201 -0.461007
+-0.332397 1.57201 -0.33253
+-0.131071 1.32201 -0.603791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.332397 1.57201 -0.33253
+-0.443723 1.32201 -0.461007
+-0.466435 1.57201 -0.123962
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.62955 1.32201 -0.171857
+-0.466435 1.57201 -0.123962
+-0.443723 1.32201 -0.461007
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.466435 1.57201 -0.123962
+-0.62955 1.32201 -0.171857
+-0.466435 1.57201 0.123962
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.647541
+1 -1 0.545082
+2 -0.68061 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.62955 1.32201 0.171857
+-0.466435 1.57201 0.123962
+-0.62955 1.32201 -0.171857
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.750392 0.545082
+1 -0.68061 0.647541
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.466435 1.57201 0.123962
+-0.62955 1.32201 0.171857
+-0.332397 1.57201 0.33253
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.68061 0.647541
+1 -0.750392 0.545082
+2 -0.623268 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.443723 1.32201 0.461007
+-0.332397 1.57201 0.33253
+-0.62955 1.32201 0.171857
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.670894 0.545082
+1 -0.623268 0.647541
+2 -0.750392 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.332397 1.57201 0.33253
+-0.443723 1.32201 0.461007
+-0.106877 1.57201 0.435521
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.623268 0.647541
+1 -0.670894 0.545082
+2 -0.526789 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.131071 1.32201 0.603791
+-0.106877 1.57201 0.435521
+-0.443723 1.32201 0.461007
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.537139 0.545082
+1 -0.526789 0.647541
+2 -0.670894 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.106877 1.57201 0.435521
+-0.131071 1.32201 0.603791
+0.138524 1.57201 0.400238
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.526789 0.647541
+1 -0.537139 0.545082
+2 -0.421804 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.209145 1.32201 0.554875
+0.138524 1.57201 0.400238
+-0.131071 1.32201 0.603791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.391592 0.545082
+1 -0.421804 0.647541
+2 -0.537139 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.138524 1.57201 0.400238
+0.209145 1.32201 0.554875
+0.325893 1.57201 0.237882
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.421804 0.647541
+1 -0.391592 0.545082
+2 -0.341646 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.468906 1.32201 0.329791
+0.325893 1.57201 0.237882
+0.209145 1.32201 0.554875
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.280464 0.545082
+1 -0.341646 0.647541
+2 -0.391592 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.325893 1.57201 0.237882
+0.468906 1.32201 0.329791
+0.395741 1.57201 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.341646 0.647541
+1 -0.280464 0.545082
+2 -0.311765 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.565742 1.32201 -0
+0.395741 1.57201 -0
+0.468906 1.32201 0.329791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.239037 0.545082
+1 -0.311765 0.647541
+2 -0.280464 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.565742 1.32201 -0
+0.735741 1.07201 -0
+0.468906 1.32201 -0.329791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.611919 1.07201 -0.4217
+0.468906 1.32201 -0.329791
+0.735741 1.07201 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.468906 1.32201 -0.329791
+0.611919 1.07201 -0.4217
+0.209145 1.32201 -0.554875
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.279765 1.07201 -0.709513
+0.209145 1.32201 -0.554875
+0.611919 1.07201 -0.4217
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.209145 1.32201 -0.554875
+0.279765 1.07201 -0.709513
+-0.131071 1.32201 -0.603791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.155264 1.07201 -0.772061
+-0.131071 1.32201 -0.603791
+0.279765 1.07201 -0.709513
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.131071 1.32201 -0.603791
+-0.155264 1.07201 -0.772061
+-0.443723 1.32201 -0.461007
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.55505 1.07201 -0.589485
+-0.443723 1.32201 -0.461007
+-0.155264 1.07201 -0.772061
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.443723 1.32201 -0.461007
+-0.55505 1.07201 -0.589485
+-0.62955 1.32201 -0.171857
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -1 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.792663 1.07201 -0.219751
+-0.62955 1.32201 -0.171857
+-0.55505 1.07201 -0.589485
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.62955 1.32201 -0.171857
+-0.792663 1.07201 -0.219751
+-0.62955 1.32201 0.171857
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.545082
+1 -1 0.442623
+2 -0.750392 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.792663 1.07201 0.219751
+-0.62955 1.32201 0.171857
+-0.792663 1.07201 -0.219751
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.820173 0.442623
+1 -0.750392 0.545082
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.62955 1.32201 0.171857
+-0.792663 1.07201 0.219751
+-0.443723 1.32201 0.461007
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.750392 0.545082
+1 -0.820173 0.442623
+2 -0.670894 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.55505 1.07201 0.589485
+-0.443723 1.32201 0.461007
+-0.792663 1.07201 0.219751
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.71852 0.442623
+1 -0.670894 0.545082
+2 -0.820173 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.443723 1.32201 0.461007
+-0.55505 1.07201 0.589485
+-0.131071 1.32201 0.603791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.670894 0.545082
+1 -0.71852 0.442623
+2 -0.537139 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.155264 1.07201 0.772061
+-0.131071 1.32201 0.603791
+-0.55505 1.07201 0.589485
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.547489 0.442623
+1 -0.537139 0.545082
+2 -0.71852 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.131071 1.32201 0.603791
+-0.155264 1.07201 0.772061
+0.209145 1.32201 0.554875
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.537139 0.545082
+1 -0.547489 0.442623
+2 -0.391592 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.279765 1.07201 0.709513
+0.209145 1.32201 0.554875
+-0.155264 1.07201 0.772061
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.36138 0.442623
+1 -0.391592 0.545082
+2 -0.547489 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.209145 1.32201 0.554875
+0.279765 1.07201 0.709513
+0.468906 1.32201 0.329791
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.391592 0.545082
+1 -0.36138 0.442623
+2 -0.280464 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.611919 1.07201 0.4217
+0.468906 1.32201 0.329791
+0.279765 1.07201 0.709513
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.219282 0.442623
+1 -0.280464 0.545082
+2 -0.36138 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.468906 1.32201 0.329791
+0.611919 1.07201 0.4217
+0.565742 1.32201 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.280464 0.545082
+1 -0.219282 0.442623
+2 -0.239037 0.545082
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.735741 1.07201 -0
+0.565742 1.32201 -0
+0.611919 1.07201 0.4217
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.16631 0.442623
+1 -0.239037 0.545082
+2 -0.219282 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.735741 1.07201 -0
+0.825742 0.822009 -0
+0.611919 1.07201 -0.4217
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.687632 0.822009 -0.470358
+0.611919 1.07201 -0.4217
+0.825742 0.822009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.611919 1.07201 -0.4217
+0.687632 0.822009 -0.470358
+0.279765 1.07201 -0.709513
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.317153 0.822009 -0.79138
+0.279765 1.07201 -0.709513
+0.687632 0.822009 -0.470358
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.279765 1.07201 -0.709513
+0.317153 0.822009 -0.79138
+-0.155264 1.07201 -0.772061
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.168073 0.722009 -0.861145
+-0.155264 1.07201 -0.772061
+0.317153 0.822009 -0.79138
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.155264 1.07201 -0.772061
+-0.168073 0.722009 -0.861145
+-0.55505 1.07201 -0.589485
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.613987 0.822009 -0.657502
+-0.55505 1.07201 -0.589485
+-0.168073 0.722009 -0.861145
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.55505 1.07201 -0.589485
+-0.613987 0.822009 -0.657502
+-0.792663 1.07201 -0.219751
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -1 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.879018 0.822009 -0.245107
+-0.792663 1.07201 -0.219751
+-0.613987 0.822009 -0.657502
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.792663 1.07201 -0.219751
+-0.879018 0.822009 -0.245107
+-0.792663 1.07201 0.219751
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.442623
+1 -1 0.340164
+2 -0.820173 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.879018 0.822009 0.245107
+-0.792663 1.07201 0.219751
+-0.879018 0.822009 -0.245107
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.857116 0.340164
+1 -0.820173 0.442623
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.792663 1.07201 0.219751
+-0.879018 0.822009 0.245107
+-0.55505 1.07201 0.589485
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.820173 0.442623
+1 -0.857116 0.340164
+2 -0.71852 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.613987 0.822009 0.657502
+-0.55505 1.07201 0.589485
+-0.879018 0.822009 0.245107
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.743734 0.340164
+1 -0.71852 0.442623
+2 -0.857116 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.55505 1.07201 0.589485
+-0.613987 0.822009 0.657502
+-0.155264 1.07201 0.772061
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.71852 0.442623
+1 -0.743734 0.340164
+2 -0.547489 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.168073 0.822009 0.861145
+-0.155264 1.07201 0.772061
+-0.613987 0.822009 0.657502
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.552969 0.340164
+1 -0.547489 0.442623
+2 -0.743734 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.155264 1.07201 0.772061
+-0.168073 0.822009 0.861145
+0.279765 1.07201 0.709513
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.547489 0.442623
+1 -0.552969 0.340164
+2 -0.36138 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.317153 0.822009 0.79138
+0.279765 1.07201 0.709513
+-0.168073 0.822009 0.861145
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.345386 0.340164
+1 -0.36138 0.442623
+2 -0.552969 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.279765 1.07201 0.709513
+0.317153 0.822009 0.79138
+0.611919 1.07201 0.4217
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.36138 0.442623
+1 -0.345386 0.340164
+2 -0.219282 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.687632 0.822009 0.470358
+0.611919 1.07201 0.4217
+0.317153 0.822009 0.79138
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.186892 0.340164
+1 -0.219282 0.442623
+2 -0.345386 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.611919 1.07201 0.4217
+0.687632 0.822009 0.470358
+0.735741 1.07201 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.219282 0.442623
+1 -0.186892 0.340164
+2 -0.16631 0.442623
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.825742 0.822009 -0
+0.735741 1.07201 -0
+0.687632 0.822009 0.470358
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.127807 0.340164
+1 -0.16631 0.442623
+2 -0.186892 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.825742 0.822009 -0
+0.815742 0.582009 -0
+0.687632 0.822009 -0.470358
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.67922 0.582009 -0.464951
+0.687632 0.822009 -0.470358
+0.815742 0.582009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.687632 0.822009 -0.470358
+0.67922 0.582009 -0.464951
+0.317153 0.822009 -0.79138
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.312999 0.582009 -0.782283
+0.317153 0.822009 -0.79138
+0.67922 0.582009 -0.464951
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.317153 0.822009 -0.79138
+0.312999 0.582009 -0.782283
+-0.168073 0.722009 -0.861145
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.16665 0.382009 -0.951246
+-0.168073 0.722009 -0.861145
+0.312999 0.582009 -0.782283
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.168073 0.722009 -0.861145
+-0.16665 0.382009 -0.951246
+-0.613987 0.822009 -0.657502
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.607439 0.582009 -0.649945
+-0.613987 0.822009 -0.657502
+-0.16665 0.382009 -0.951246
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.613987 0.822009 -0.657502
+-0.607439 0.582009 -0.649945
+-0.879018 0.822009 -0.245107
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -1 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.869423 0.582009 -0.24229
+-0.879018 0.822009 -0.245107
+-0.607439 0.582009 -0.649945
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.879018 0.822009 -0.245107
+-0.869423 0.582009 -0.24229
+-0.879018 0.822009 0.245107
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.340164
+1 -1 0.241803
+2 -0.857116 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.869423 0.582009 0.24229
+-0.879018 0.822009 0.245107
+-0.869423 0.582009 -0.24229
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.853011 0.241803
+1 -0.857116 0.340164
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.879018 0.822009 0.245107
+-0.869423 0.582009 0.24229
+-0.613987 0.822009 0.657502
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.857116 0.340164
+1 -0.853011 0.241803
+2 -0.743734 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.607439 0.582009 0.649945
+-0.613987 0.822009 0.657502
+-0.869423 0.582009 0.24229
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.740933 0.241803
+1 -0.743734 0.340164
+2 -0.853011 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.613987 0.822009 0.657502
+-0.607439 0.582009 0.649945
+-0.168073 0.822009 0.861145
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.743734 0.340164
+1 -0.740933 0.241803
+2 -0.552969 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.16665 0.582009 0.851246
+-0.168073 0.822009 0.861145
+-0.607439 0.582009 0.649945
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.55236 0.241803
+1 -0.552969 0.340164
+2 -0.740933 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.168073 0.822009 0.861145
+-0.16665 0.582009 0.851246
+0.317153 0.822009 0.79138
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.552969 0.340164
+1 -0.55236 0.241803
+2 -0.345386 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.312999 0.582009 0.782283
+0.317153 0.822009 0.79138
+-0.16665 0.582009 0.851246
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.347163 0.241803
+1 -0.345386 0.340164
+2 -0.55236 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.317153 0.822009 0.79138
+0.312999 0.582009 0.782283
+0.687632 0.822009 0.470358
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.345386 0.340164
+1 -0.347163 0.241803
+2 -0.186892 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.67922 0.582009 0.464951
+0.687632 0.822009 0.470358
+0.312999 0.582009 0.782283
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.190491 0.241803
+1 -0.186892 0.340164
+2 -0.347163 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.687632 0.822009 0.470358
+0.67922 0.582009 0.464951
+0.825742 0.822009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.186892 0.340164
+1 -0.190491 0.241803
+2 -0.127807 0.340164
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.815742 0.582009 -0
+0.825742 0.822009 -0
+0.67922 0.582009 0.464951
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.132086 0.241803
+1 -0.127807 0.340164
+2 -0.190491 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.815742 0.582009 -0
+0.705741 0.212009 -0
+0.67922 0.582009 -0.464951
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.586682 0.212009 -0.405481
+0.67922 0.582009 -0.464951
+0.705741 0.212009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.67922 0.582009 -0.464951
+0.586682 0.212009 -0.405481
+0.312999 0.582009 -0.782283
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.167302 0.212009 -0.882224
+0.312999 0.582009 -0.782283
+0.586682 0.212009 -0.405481
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.312999 0.582009 -0.782283
+0.167302 0.212009 -0.882224
+-0.16665 0.382009 -0.951246
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.150995 0.112009 -1.14237
+-0.16665 0.382009 -0.951246
+0.167302 0.212009 -0.882224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.16665 0.382009 -0.951246
+-0.150995 0.112009 -1.14237
+-0.607439 0.582009 -0.649945
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.535404 0.212009 -0.566812
+-0.607439 0.582009 -0.649945
+-0.150995 0.112009 -1.14237
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.607439 0.582009 -0.649945
+-0.535404 0.212009 -0.566812
+-0.869423 0.582009 -0.24229
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -1 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.763878 0.212009 -0.211299
+-0.869423 0.582009 -0.24229
+-0.535404 0.212009 -0.566812
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.869423 0.582009 -0.24229
+-0.763878 0.212009 -0.211299
+-0.869423 0.582009 0.24229
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.241803
+1 -1 0.0901639
+2 -0.853011 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.763878 0.212009 0.211299
+-0.869423 0.582009 0.24229
+-0.763878 0.212009 -0.211299
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.807859 0.0901639
+1 -0.853011 0.241803
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.869423 0.582009 0.24229
+-0.763878 0.212009 0.211299
+-0.607439 0.582009 0.649945
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.853011 0.241803
+1 -0.807859 0.0901639
+2 -0.740933 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.535405 0.212009 0.566812
+-0.607439 0.582009 0.649945
+-0.763878 0.212009 0.211299
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.710116 0.0901639
+1 -0.740933 0.241803
+2 -0.807859 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.607439 0.582009 0.649945
+-0.535405 0.212009 0.566812
+-0.16665 0.582009 0.851246
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.740933 0.241803
+1 -0.710116 0.0901639
+2 -0.55236 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.150995 0.212009 0.742366
+-0.16665 0.582009 0.851246
+-0.535405 0.212009 0.566812
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.545663 0.0901639
+1 -0.55236 0.241803
+2 -0.710116 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.16665 0.582009 0.851246
+-0.150995 0.212009 0.742366
+0.312999 0.582009 0.782283
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.55236 0.241803
+1 -0.545663 0.0901639
+2 -0.347163 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.267302 0.212009 0.682224
+0.312999 0.582009 0.782283
+-0.150995 0.212009 0.742366
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.366712 0.0901639
+1 -0.347163 0.241803
+2 -0.545663 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.312999 0.582009 0.782283
+0.267302 0.212009 0.682224
+0.67922 0.582009 0.464951
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.347163 0.241803
+1 -0.366712 0.0901639
+2 -0.190491 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.586682 0.212009 0.405481
+0.67922 0.582009 0.464951
+0.267302 0.212009 0.682224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.230079 0.0901639
+1 -0.190491 0.241803
+2 -0.366712 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.67922 0.582009 0.464951
+0.586682 0.212009 0.405481
+0.815742 0.582009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.190491 0.241803
+1 -0.230079 0.0901639
+2 -0.132086 0.241803
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.705741 0.212009 -0
+0.815742 0.582009 -0
+0.586682 0.212009 0.405481
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.179144 0.0901639
+1 -0.132086 0.241803
+2 -0.230079 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.705741 0.212009 -0
+0.305741 0.0120087 -0
+0.586682 0.212009 -0.405481
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.25018 0.0120087 -0.189224
+0.586682 0.212009 -0.405481
+0.305741 0.0120087 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.586682 0.212009 -0.405481
+0.25018 0.0120087 -0.189224
+0.167302 0.212009 -0.882224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.101136 0.0120087 -0.318371
+0.167302 0.212009 -0.882224
+0.25018 0.0120087 -0.189224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.167302 0.212009 -0.882224
+0.101136 0.0120087 -0.318371
+-0.150995 0.112009 -1.14237
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0940683 0.0120087 -0.346438
+-0.150995 0.112009 -1.14237
+0.101136 0.0120087 -0.318371
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.150995 0.112009 -1.14237
+-0.0940683 0.0120087 -0.346438
+-0.535404 0.212009 -0.566812
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.27346 0.0120087 -0.264512
+-0.535404 0.212009 -0.566812
+-0.0940683 0.0120087 -0.346438
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.535404 0.212009 -0.566812
+-0.27346 0.0120087 -0.264512
+-0.763878 0.212009 -0.211299
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -1 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.380082 0.0120087 -0.0986064
+-0.763878 0.212009 -0.211299
+-0.27346 0.0120087 -0.264512
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.763878 0.212009 -0.211299
+-0.380082 0.0120087 -0.0986064
+-0.763878 0.212009 0.211299
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.0901639
+1 -1 0.00819672
+2 -0.807859 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.380082 0.0120087 0.0986064
+-0.763878 0.212009 0.211299
+-0.380082 0.0120087 -0.0986064
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.643667 0.00819672
+1 -0.807859 0.0901639
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.763878 0.212009 0.211299
+-0.380082 0.0120087 0.0986064
+-0.535405 0.212009 0.566812
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.807859 0.0901639
+1 -0.643667 0.00819672
+2 -0.710116 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.27346 0.0120087 0.264512
+-0.535405 0.212009 0.566812
+-0.380082 0.0120087 0.0986064
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.598054 0.00819672
+1 -0.710116 0.0901639
+2 -0.643667 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.535405 0.212009 0.566812
+-0.27346 0.0120087 0.264512
+-0.150995 0.212009 0.742366
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.710116 0.0901639
+1 -0.598054 0.00819672
+2 -0.545663 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0940684 0.0120087 0.346437
+-0.150995 0.212009 0.742366
+-0.27346 0.0120087 0.264512
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.521309 0.00819672
+1 -0.545663 0.0901639
+2 -0.598054 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.150995 0.212009 0.742366
+-0.0940684 0.0120087 0.346437
+0.267302 0.212009 0.682224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.545663 0.0901639
+1 -0.521309 0.00819672
+2 -0.366712 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.101136 0.0120087 0.318371
+0.267302 0.212009 0.682224
+-0.0940684 0.0120087 0.346437
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.437799 0.00819672
+1 -0.366712 0.0901639
+2 -0.521309 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.267302 0.212009 0.682224
+0.101136 0.0120087 0.318371
+0.586682 0.212009 0.405481
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.366712 0.0901639
+1 -0.437799 0.00819672
+2 -0.230079 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.25018 0.0120087 0.189224
+0.586682 0.212009 0.405481
+0.101136 0.0120087 0.318371
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.374037 0.00819672
+1 -0.230079 0.0901639
+2 -0.437799 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.586682 0.212009 0.405481
+0.25018 0.0120087 0.189224
+0.705741 0.212009 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.230079 0.0901639
+1 -0.374037 0.00819672
+2 -0.179144 0.0901639
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.305741 0.0120087 -0
+0.705741 0.212009 -0
+0.25018 0.0120087 0.189224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.350267 0.00819672
+1 -0.179144 0.0901639
+2 -0.374037 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.305741 0.0120087 -0
+-0.0442581 -0.00799131 -0
+0.25018 0.0120087 -0.189224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.25018 0.0120087 -0.189224
+-0.0442581 -0.00799131 -0
+0.101136 0.0120087 -0.318371
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.101136 0.0120087 -0.318371
+-0.0442581 -0.00799131 -0
+-0.0940683 0.0120087 -0.346438
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0940683 0.0120087 -0.346438
+-0.0442581 -0.00799131 -0
+-0.27346 0.0120087 -0.264512
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.27346 0.0120087 -0.264512
+-0.0442581 -0.00799131 -0
+-0.380082 0.0120087 -0.0986064
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -1 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.380082 0.0120087 -0.0986064
+-0.0442581 -0.00799131 -0
+-0.380082 0.0120087 0.0986064
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -1 0.00819672
+1 -1 0
+2 -0.643667 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.380082 0.0120087 0.0986064
+-0.0442581 -0.00799131 -0
+-0.27346 0.0120087 0.264512
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.643667 0.00819672
+1 -0.5 0
+2 -0.598054 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.27346 0.0120087 0.264512
+-0.0442581 -0.00799131 -0
+-0.0940684 0.0120087 0.346437
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.598054 0.00819672
+1 -0.5 0
+2 -0.521309 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0940684 0.0120087 0.346437
+-0.0442581 -0.00799131 -0
+0.101136 0.0120087 0.318371
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.521309 0.00819672
+1 -0.5 0
+2 -0.437799 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.101136 0.0120087 0.318371
+-0.0442581 -0.00799131 -0
+0.25018 0.0120087 0.189224
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.437799 0.00819672
+1 -0.5 0
+2 -0.374037 0.00819672
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.25018 0.0120087 0.189224
+-0.0442581 -0.00799131 -0
+0.305741 0.0120087 -0
+numsurf 1
+SURF 0x0
+mat 0
+refs 3
+0 -0.374037 0.00819672
+1 -0.5 0
+2 -0.350267 0.00819672
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 55
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.191292 2.35201 -0.151379
+-0.0442581 2.43201 -0
+0.235741 2.35201 -0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.0720579 2.35201 -0.254697
+-0.0442581 2.43201 -0
+0.191292 2.35201 -0.151379
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0841063 2.35201 -0.27715
+-0.0442581 2.43201 -0
+0.0720579 2.35201 -0.254697
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.227619 2.35201 -0.21161
+-0.0442581 2.43201 -0
+-0.0841063 2.35201 -0.27715
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312917 2.35201 -0.0788851
+-0.0442581 2.43201 -0
+-0.227619 2.35201 -0.21161
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312917 2.35201 0.0788851
+-0.0442581 2.43201 -0
+-0.312917 2.35201 -0.0788851
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.614934 0.967213
+1 -0.5 1
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.227619 2.35201 0.21161
+-0.0442581 2.43201 -0
+-0.312917 2.35201 0.0788851
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.578443 0.967213
+1 -0.5 1
+2 -0.614934 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0841063 2.35201 0.27715
+-0.0442581 2.43201 -0
+-0.227619 2.35201 0.21161
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.517047 0.967213
+1 -0.5 1
+2 -0.578443 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.0720579 2.35201 0.254697
+-0.0442581 2.43201 -0
+-0.0841063 2.35201 0.27715
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.450239 0.967213
+1 -0.5 1
+2 -0.517047 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.191292 2.35201 0.151379
+-0.0442581 2.43201 -0
+0.0720579 2.35201 0.254697
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.39923 0.967213
+1 -0.5 1
+2 -0.450239 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.235741 2.35201 -0
+-0.0442581 2.43201 -0
+0.191292 2.35201 0.151379
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.380214 0.967213
+1 -0.5 1
+2 -0.39923 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.235741 2.35201 -0
+0.365741 2.16201 -0
+0.191292 2.35201 -0.151379
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.300655 2.16201 -0.221663
+0.191292 2.35201 -0.151379
+0.365741 2.16201 -0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.191292 2.35201 -0.151379
+0.300655 2.16201 -0.221663
+0.0720579 2.35201 -0.254697
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.126062 2.16201 -0.372949
+0.0720579 2.35201 -0.254697
+0.300655 2.16201 -0.221663
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.0720579 2.35201 -0.254697
+0.126062 2.16201 -0.372949
+-0.0841063 2.35201 -0.27715
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.102607 2.16201 -0.405827
+-0.0841063 2.35201 -0.27715
+0.126062 2.16201 -0.372949
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0841063 2.35201 -0.27715
+-0.102607 2.16201 -0.405827
+-0.227619 2.35201 -0.21161
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312752 2.16201 -0.309857
+-0.227619 2.35201 -0.21161
+-0.102607 2.16201 -0.405827
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.227619 2.35201 -0.21161
+-0.312752 2.16201 -0.309857
+-0.312917 2.35201 -0.0788851
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -1 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.437651 2.16201 -0.11551
+-0.312917 2.35201 -0.0788851
+-0.312752 2.16201 -0.309857
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312917 2.35201 -0.0788851
+-0.437651 2.16201 -0.11551
+-0.312917 2.35201 0.0788851
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.967213
+1 -1 0.889344
+2 -0.614934 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.437651 2.16201 0.11551
+-0.312917 2.35201 0.0788851
+-0.437651 2.16201 -0.11551
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.668296 0.889344
+1 -0.614934 0.967213
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312917 2.35201 0.0788851
+-0.437651 2.16201 0.11551
+-0.227619 2.35201 0.21161
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.614934 0.967213
+1 -0.668296 0.889344
+2 -0.578443 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312752 2.16201 0.309857
+-0.227619 2.35201 0.21161
+-0.437651 2.16201 0.11551
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.614863 0.889344
+1 -0.578443 0.967213
+2 -0.668296 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.227619 2.35201 0.21161
+-0.312752 2.16201 0.309857
+-0.0841063 2.35201 0.27715
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.578443 0.967213
+1 -0.614863 0.889344
+2 -0.517047 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.102607 2.16201 0.405827
+-0.0841063 2.35201 0.27715
+-0.312752 2.16201 0.309857
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.524962 0.889344
+1 -0.517047 0.967213
+2 -0.614863 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.0841063 2.35201 0.27715
+-0.102607 2.16201 0.405827
+0.0720579 2.35201 0.254697
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.517047 0.967213
+1 -0.524962 0.889344
+2 -0.450239 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.126062 2.16201 0.372949
+0.0720579 2.35201 0.254697
+-0.102607 2.16201 0.405827
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.427136 0.889344
+1 -0.450239 0.967213
+2 -0.524962 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.0720579 2.35201 0.254697
+0.126062 2.16201 0.372949
+0.191292 2.35201 0.151379
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.450239 0.967213
+1 -0.427136 0.889344
+2 -0.39923 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.300655 2.16201 0.221663
+0.191292 2.35201 0.151379
+0.126062 2.16201 0.372949
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.352443 0.889344
+1 -0.39923 0.967213
+2 -0.427136 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.191292 2.35201 0.151379
+0.300655 2.16201 0.221663
+0.235741 2.35201 -0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.39923 0.967213
+1 -0.352443 0.889344
+2 -0.380214 0.967213
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.365741 2.16201 -0
+0.235741 2.35201 -0
+0.300655 2.16201 0.221663
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.324599 0.889344
+1 -0.380214 0.967213
+2 -0.352443 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.365741 2.16201 -0
+0.395741 1.53516 -0
+0.300655 2.16201 -0.221663
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.325893 1.53516 -0.237882
+0.300655 2.16201 -0.221663
+0.395741 1.53516 -0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.300655 2.16201 -0.221663
+0.325893 1.53516 -0.237882
+0.126062 2.16201 -0.372949
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.138524 1.53516 -0.400238
+0.126062 2.16201 -0.372949
+0.325893 1.53516 -0.237882
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.126062 2.16201 -0.372949
+0.138524 1.53516 -0.400238
+-0.102607 2.16201 -0.405827
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.106877 1.53516 -0.435521
+-0.102607 2.16201 -0.405827
+0.138524 1.53516 -0.400238
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.102607 2.16201 -0.405827
+-0.106877 1.53516 -0.435521
+-0.312752 2.16201 -0.309857
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.332397 1.53516 -0.33253
+-0.312752 2.16201 -0.309857
+-0.106877 1.53516 -0.435521
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312752 2.16201 -0.309857
+-0.332397 1.53516 -0.33253
+-0.437651 2.16201 -0.11551
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -1 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.466435 1.53516 -0.123962
+-0.437651 2.16201 -0.11551
+-0.332397 1.53516 -0.33253
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.647541
+1 -1 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.437651 2.16201 -0.11551
+-0.466435 1.53516 -0.123962
+-0.437651 2.16201 0.11551
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -1 0.889344
+1 -1 0.647541
+2 -0.668296 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.466435 1.53516 0.123962
+-0.437651 2.16201 0.11551
+-0.466435 1.53516 -0.123962
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.68061 0.647541
+1 -0.668296 0.889344
+2 -1 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.437651 2.16201 0.11551
+-0.466435 1.53516 0.123962
+-0.312752 2.16201 0.309857
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.668296 0.889344
+1 -0.68061 0.647541
+2 -0.614863 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.332397 1.53516 0.33253
+-0.312752 2.16201 0.309857
+-0.466435 1.53516 0.123962
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.623268 0.647541
+1 -0.614863 0.889344
+2 -0.68061 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.312752 2.16201 0.309857
+-0.332397 1.53516 0.33253
+-0.102607 2.16201 0.405827
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.614863 0.889344
+1 -0.623268 0.647541
+2 -0.524962 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.106877 1.53516 0.435521
+-0.102607 2.16201 0.405827
+-0.332397 1.53516 0.33253
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.526789 0.647541
+1 -0.524962 0.889344
+2 -0.623268 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.102607 2.16201 0.405827
+-0.106877 1.53516 0.435521
+0.126062 2.16201 0.372949
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.524962 0.889344
+1 -0.526789 0.647541
+2 -0.427136 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.138524 1.53516 0.400238
+0.126062 2.16201 0.372949
+-0.106877 1.53516 0.435521
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.421804 0.647541
+1 -0.427136 0.889344
+2 -0.526789 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.126062 2.16201 0.372949
+0.138524 1.53516 0.400238
+0.300655 2.16201 0.221663
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.427136 0.889344
+1 -0.421804 0.647541
+2 -0.352443 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.325893 1.53516 0.237882
+0.300655 2.16201 0.221663
+0.138524 1.53516 0.400238
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.341646 0.647541
+1 -0.352443 0.889344
+2 -0.421804 0.647541
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.300655 2.16201 0.221663
+0.325893 1.53516 0.237882
+0.365741 2.16201 -0
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.352443 0.889344
+1 -0.341646 0.647541
+2 -0.324599 0.889344
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.395741 1.53516 -0
+0.365741 2.16201 -0
+0.325893 1.53516 0.237882
+numsurf 1
+SURF 0x0
+mat 1
+refs 3
+0 -0.311765 0.647541
+1 -0.324599 0.889344
+2 -0.341646 0.647541
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 4
+OBJECT group
+kids 14
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.264196 1.48644 0.755468
+-0.107449 1.50572 0.809641
+-0.268672 1.516 0.760683
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.179286 0.236445
+1 0.328444 0.27802
+2 0.171928 0.303494
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.109487 1.47049 0.752657
+-0.107449 1.50572 0.809641
+-0.264196 1.48644 0.755468
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.325093 0.178494
+1 0.328444 0.27802
+2 0.179286 0.236445
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0219907 1.51011 0.759643
+-0.107449 1.50572 0.809641
+-0.109487 1.47049 0.752657
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.649815 0.29012
+1 0.328444 0.27802
+2 0.325093 0.178494
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0321728 1.53691 0.761886
+-0.107449 1.50572 0.809641
+0.0219907 1.51011 0.759643
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.763049 0.377184
+1 0.328444 0.27802
+2 0.649815 0.29012
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.268672 1.516 0.760683
+-0.373243 1.64526 0.333736
+-0.264196 1.48644 0.755468
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.171928 0.303494
+1 0 0.419942
+2 0.179286 0.236445
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.313753 1.57056 0.313359
+-0.264196 1.48644 0.755468
+-0.373243 1.64526 0.333736
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.0978096 0.25
+1 0.179286 0.236445
+2 0 0.419942
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.264196 1.48644 0.755468
+-0.313753 1.57056 0.313359
+-0.109487 1.47049 0.752657
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.179286 0.236445
+1 0.0978096 0.25
+2 0.325093 0.178494
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.0874781 1.46025 0.29391
+-0.109487 1.47049 0.752657
+-0.313753 1.57056 0.313359
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.469834 0
+1 0.325093 0.178494
+2 0.0978096 0.25
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.109487 1.47049 0.752657
+-0.0874781 1.46025 0.29391
+0.0219907 1.51011 0.759643
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.325093 0.178494
+1 0.469834 0
+2 0.649815 0.29012
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.200746 1.65002 0.32737
+0.0219907 1.51011 0.759643
+-0.0874781 1.46025 0.29391
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 1 0.43559
+1 0.649815 0.29012
+2 0.469834 0
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0219907 1.51011 0.759643
+0.200746 1.65002 0.32737
+0.0321728 1.53691 0.761886
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.649815 0.29012
+1 1 0.43559
+2 0.763049 0.377184
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0321728 1.53691 0.761886
+0.198694 1.75749 0.338637
+0.0252512 1.55763 0.768023
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.763049 0.377184
+1 0.984563 0.672853
+2 0.655176 0.397835
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.198694 1.75749 0.338637
+0.0321728 1.53691 0.761886
+0.200746 1.65002 0.32737
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.984563 0.672853
+1 0.763049 0.377184
+2 1 0.43559
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0252512 1.55763 0.768023
+-0.107449 1.50572 0.809641
+0.0321728 1.53691 0.761886
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.655176 0.397835
+1 0.328444 0.27802
+2 0.763049 0.377184
+kids 0
+OBJECT group
+kids 10
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.0874781 1.73854 0.786026
+-0.107449 1.59288 0.836026
+0.0252512 1.63677 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.469834 0.625
+1 0.328444 0.27802
+2 0.655176 0.397835
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.200615 1.71054 0.786026
+-0.107449 1.59288 0.836026
+-0.0874781 1.73854 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.283822 0.5625
+1 0.328444 0.27802
+2 0.469834 0.625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.268672 1.59451 0.786026
+-0.107449 1.59288 0.836026
+-0.200615 1.71054 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.171928 0.303494
+1 0.328444 0.27802
+2 0.283822 0.5625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.138796 1.79454 0.336026
+0.0252512 1.63677 0.786026
+0.198694 1.75894 0.343582
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.841857 0.75
+1 0.655176 0.397835
+2 0.984563 0.672853
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+0.0252512 1.63677 0.786026
+0.138796 1.79454 0.336026
+-0.0874781 1.73854 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.655176 0.397835
+1 0.841857 0.75
+2 0.469834 0.625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.0874781 1.90654 0.336026
+-0.0874781 1.73854 0.786026
+0.138796 1.79454 0.336026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.469834 1
+1 0.469834 0.625
+2 0.841857 0.75
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.0874781 1.73854 0.786026
+-0.0874781 1.90654 0.336026
+-0.200615 1.71054 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.469834 0.625
+1 0.469834 1
+2 0.283822 0.5625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.313752 1.79454 0.336026
+-0.200615 1.71054 0.786026
+-0.0874781 1.90654 0.336026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.0978096 0.75
+1 0.283822 0.5625
+2 0.469834 1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.200615 1.71054 0.786026
+-0.313752 1.79454 0.336026
+-0.268672 1.59451 0.786026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0.283822 0.5625
+1 0.0978096 0.75
+2 0.171928 0.303494
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_beak.rgb"
+numvert 3
+-0.373242 1.64757 0.328919
+-0.268672 1.59451 0.786026
+-0.313752 1.79454 0.336026
+numsurf 1
+SURF 0x0
+mat 2
+refs 3
+0 0 0.419942
+1 0.171928 0.303494
+2 0.0978096 0.75
+kids 0
+OBJECT group
+kids 6
+OBJECT poly
+name "NoName"
+numvert 3
+-0.268 1.51533 0.759762
+0.025 1.55713 0.767147
+0.198 1.7565 0.338139
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.373 1.64462 0.33287
+-0.268 1.51533 0.759762
+0.198 1.7565 0.338139
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.107 1.50557 0.8088
+-0.373 1.64462 0.33287
+0.198 1.7565 0.338139
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.025 1.55713 0.767147
+-0.107 1.50557 0.8088
+0.198 1.7565 0.338139
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.268 1.51533 0.759762
+-0.373 1.64462 0.33287
+-0.107 1.50557 0.8088
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.025 1.55713 0.767147
+-0.268 1.51533 0.759762
+-0.107 1.50557 0.8088
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT group
+kids 10
+OBJECT poly
+name "NoName"
+numvert 3
+0.197 1.758 0.342
+0.198 1.758 0.343
+-0.107 1.592 0.836
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.197 1.758 0.342
+-0.107 1.592 0.836
+-0.372 1.646 0.328
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.268 1.594 0.786
+-0.373 1.647 0.328
+-0.372 1.646 0.328
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.107 1.592 0.836
+-0.268 1.594 0.786
+-0.372 1.646 0.328
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.373 1.647 0.328
+0.197 1.758 0.342
+-0.372 1.646 0.328
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.198 1.758 0.343
+0.197 1.758 0.342
+-0.268 1.594 0.786
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.025 1.636 0.786
+0.198 1.758 0.343
+-0.268 1.594 0.786
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+-0.107 1.592 0.836
+0.025 1.636 0.786
+-0.268 1.594 0.786
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.197 1.758 0.342
+-0.373 1.647 0.328
+-0.268 1.594 0.786
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "NoName"
+numvert 3
+0.198 1.758 0.343
+0.025 1.636 0.786
+-0.107 1.592 0.836
+numsurf 1
+SURF 0x0
+mat 3
+refs 3
+0 0 0
+1 0 0
+2 0 0
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 8
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.480518 -0.00421143 0.164529
+-1.16802 -0.00421143 0.670529
+-0.635205 -0.00421143 0.208529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.546875 -0.0625
+1 -0.078125 0.65625
+2 0.40625 0
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.652393 -0.00421143 0.934529
+-1.16802 -0.00421143 0.670529
+-0.480518 -0.00421143 0.164529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.390625 1.03125
+1 -0.078125 0.65625
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.18833 -0.00421143 0.263529
+-0.652393 -0.00421143 0.934529
+-0.480518 -0.00421143 0.164529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.8125 0.078125
+1 0.390625 1.03125
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.0179202 -0.00421143 0.857529
+-0.652393 -0.00421143 0.934529
+-0.18833 -0.00421143 0.263529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 1 0.921875
+1 0.390625 1.03125
+2 0.8125 0.078125
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.635205 -0.00421143 0.208529
+-1.16802 -0.00421143 0.670529
+-0.480518 0.160789 0.164529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.40625 0
+1 -0.078125 0.65625
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.480518 0.160789 0.164529
+-1.16802 -0.00421143 0.670529
+-0.652393 -0.00421143 0.934529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.546875 -0.0625
+1 -0.078125 0.65625
+2 0.390625 1.03125
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.480518 0.160789 0.164529
+-0.652393 -0.00421143 0.934529
+-0.18833 -0.00421143 0.263529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.546875 -0.0625
+1 0.390625 1.03125
+2 0.8125 0.078125
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.18833 -0.00421143 0.263529
+-0.652393 -0.00421143 0.934529
+0.0179202 -0.00421143 0.857529
+numsurf 1
+SURF 0x0
+mat 4
+refs 3
+0 0.8125 0.078125
+1 0.390625 1.03125
+2 1 0.921875
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 8
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.611297 -0.00421143 0.243365
+1.14411 -0.00421143 0.705365
+0.456609 -0.00421143 0.199365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.40625 0
+1 -0.078125 0.65625
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.456609 -0.00421143 0.199365
+1.14411 -0.00421143 0.705365
+0.628485 -0.00421143 0.969365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.546875 -0.0625
+1 -0.078125 0.65625
+2 0.390625 1.03125
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.456609 -0.00421143 0.199365
+0.628485 -0.00421143 0.969365
+0.164422 -0.00421143 0.298365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.546875 -0.0625
+1 0.390625 1.03125
+2 0.8125 0.078125
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.164422 -0.00421143 0.298365
+0.628485 -0.00421143 0.969365
+-0.041828 -0.00421143 0.892365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.8125 0.078125
+1 0.390625 1.03125
+2 1 0.921875
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.456609 0.160789 0.199365
+1.14411 -0.00421143 0.705365
+0.611297 -0.00421143 0.243365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.546875 -0.0625
+1 -0.078125 0.65625
+2 0.40625 0
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.628485 -0.00421143 0.969365
+1.14411 -0.00421143 0.705365
+0.456609 0.160789 0.199365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.390625 1.03125
+1 -0.078125 0.65625
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+0.164422 -0.00421143 0.298365
+0.628485 -0.00421143 0.969365
+0.456609 0.160789 0.199365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 0.8125 0.078125
+1 0.390625 1.03125
+2 0.546875 -0.0625
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_foot.rgba"
+numvert 3
+-0.041828 -0.00421143 0.892365
+0.628485 -0.00421143 0.969365
+0.164422 -0.00421143 0.298365
+numsurf 1
+SURF 0x0
+mat 5
+refs 3
+0 1 0.921875
+1 0.390625 1.03125
+2 0.8125 0.078125
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 5
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.781771 1.20957 0.19839
+0.573605 1.27705 -0.19839
+0.571695 1.27705 0.19839
+numsurf 1
+SURF 0x0
+mat 6
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.573605 1.27705 -0.19839
+0.781771 1.20957 0.19839
+0.783682 1.20957 -0.19839
+numsurf 1
+SURF 0x0
+mat 6
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+1.06246 0.927052 0.173253
+0.783682 1.20957 -0.19839
+0.781771 1.20957 0.19839
+numsurf 1
+SURF 0x0
+mat 6
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+0.783682 1.20957 -0.19839
+1.06246 0.927052 0.173253
+1.06246 0.927052 -0.16179
+numsurf 1
+SURF 0x0
+mat 6
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+1.27246 0.577052 -0
+1.06246 0.927052 -0.16179
+1.06246 0.927052 0.173253
+numsurf 1
+SURF 0x0
+mat 6
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT group
+kids 1
+OBJECT group
+kids 1
+OBJECT group
+kids 5
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.866115 1.2105 -0.188463
+-0.65795 1.27798 0.208317
+-0.65604 1.27798 -0.188463
+numsurf 1
+SURF 0x0
+mat 7
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.65795 1.27798 0.208317
+-0.866115 1.2105 -0.188463
+-0.868026 1.2105 0.208317
+numsurf 1
+SURF 0x0
+mat 7
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-1.1468 0.927979 -0.163326
+-0.868026 1.2105 0.208317
+-0.866115 1.2105 -0.188463
+numsurf 1
+SURF 0x0
+mat 7
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-0.868026 1.2105 0.208317
+-1.1468 0.927979 -0.163326
+-1.1468 0.927979 0.171717
+numsurf 1
+SURF 0x0
+mat 7
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0
+OBJECT poly
+name "NoName"
+texture "Penguin_body.rgb"
+numvert 3
+-1.3568 0.577979 0.00992715
+-1.1468 0.927979 0.171717
+-1.1468 0.927979 -0.163326
+numsurf 1
+SURF 0x0
+mat 7
+refs 3
+0 0 0
+1 0.1 0
+2 0.1 0.1
+kids 0

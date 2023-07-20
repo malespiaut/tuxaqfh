@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT([tux_aqfh], [1.0.14])
+AC_INIT([tux_aqfh],[1.0.14])
 AC_CONFIG_SRCDIR([src/tux.cxx])
 AM_INIT_AUTOMAKE([1.16])
 
@@ -23,7 +23,7 @@ AC_CHECK_HEADERS([unistd.h])
 AC_C_INLINE
 AC_FUNC_STRTOD
 
-AC_PREREQplib_suffix="-lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lplibul"
+plib_suffix="-lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lplibul"
 
 dnl Checks for library functions.
 dnl check for OpenGL related libraries

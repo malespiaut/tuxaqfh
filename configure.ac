@@ -25,6 +25,32 @@ AC_FUNC_STRTOD
 
 plib_suffix="-lplibsl -lplibssg -lplibpu -lplibfnt -lplibsg -lplibul"
 
+AC_PREREQ([2.71])
+
+dnl List files of a given extension in a given directory
+file_list() {
+  for f in $top_srcdir/$1/*.$2; do
+    echo $(basename $f)
+  done
+}
+
+dnl # Create the list of files
+AC_SUBST([DAT_FILES], [$(file_list data dat)])
+AC_SUBST([HTML_FILES], [$(file_list doc html)])
+AC_SUBST([PNG_FILES], [$(file_list doc png)])
+AC_SUBST([TXF_FILES], [$(file_list fonts txf)])
+AC_SUBST([RGB_FILES], [$(file_list images rgb)])
+AC_SUBST([RGBA_FILES], [$(file_list images rgba)])
+AC_SUBST([INT_FILES], [$(file_list images int)])
+AC_SUBST([INTA_FILES], [$(file_list images inta)])
+AC_SUBST([AC_FILES], [$(file_list models ac)])
+AC_SUBST([MOD_FILES], [$(file_list mods mod)])
+AC_SUBST([WAV_FILES], [$(file_list wavs wav)])
+AC_SUBST([PENGUIN_AC_FILES], [$(file_list penguin ac)])
+AC_SUBST([PENGUIN_RGB_FILES], [$(file_list penguin rgb)])
+AC_SUBST([PENGUIN_RGBA_FILES], [$(file_list penguin rgba)])
+AC_SUBST([SLAM_FILES], [$(file_list slamcode slam)])
+
 dnl Checks for library functions.
 dnl check for OpenGL related libraries
 

@@ -2,4 +2,4 @@
 
 pkgdatadir = $(datadir)/games/@PACKAGE@/slamcode
 
-pkgdata_DATA = $(wildcard *.slam)
+pkgdata_DATA = @SLAM_FILES@

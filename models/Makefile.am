@@ -2,6 +2,6 @@
 
 pkgdatadir = $(datadir)/games/@PACKAGE@/models
 
-pkgdata_DATA = $(wildcard *.ac)
+pkgdata_DATA = @AC_FILES@
 
 EXTRA_DIST = $(pkgdata_DATA)
